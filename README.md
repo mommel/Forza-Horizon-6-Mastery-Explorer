@@ -38,3 +38,8 @@ All files are developed in `src/` folder. By running the python script everythin
 ```
 python build_single_file.py
 ```
+
+## Disclaimer
+
+Forza Horizon 6 is a registered trademark and property of Microsoft Corporation and Playground Games. This project is a non-commercial, fan-made tool created solely for the community to explore car mastery trees. It is not affiliated with, authorized, endorsed, or in any way officially connected to Playground Games, Microsoft Corporation, or the Forza Horizon franchise.
+
