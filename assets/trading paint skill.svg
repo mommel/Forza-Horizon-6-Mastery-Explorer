@@ -1,0 +1,42 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <mask id="window-mask">
+      <!-- Everything white in the mask is kept -->
+      <rect x="0" y="0" width="1024" height="1024" fill="#FFFFFF" />
+      <!-- Everything black in the mask is cut out (made transparent) -->
+      <!-- Left car windows -->
+      <rect x="300" y="320" width="100" height="160" rx="10" fill="#000000" />
+      <!-- Right car windows -->
+      <rect x="570" y="400" width="100" height="160" rx="10" fill="#000000" />
+    </mask>
+  </defs>
+
+  <!-- Group of all black elements with mask applied -->
+  <g fill="#000000" mask="url(#window-mask)">
+    <!-- Left car body -->
+    <rect x="250" y="200" width="200" height="450" rx="45" />
+    
+    <!-- Left car wheels -->
+    <rect x="220" y="250" width="30" height="80" rx="8" />
+    <rect x="450" y="250" width="30" height="80" rx="8" />
+    <rect x="220" y="500" width="30" height="80" rx="8" />
+    <rect x="450" y="500" width="30" height="80" rx="8" />
+
+    <!-- Right car body -->
+    <rect x="520" y="280" width="200" height="450" rx="45" />
+    
+    <!-- Right car wheels -->
+    <rect x="490" y="330" width="30" height="80" rx="8" />
+    <rect x="720" y="330" width="30" height="80" rx="8" />
+    <rect x="490" y="580" width="30" height="80" rx="8" />
+    <rect x="720" y="580" width="30" height="80" rx="8" />
+    
+    <!-- Sparks/stars in the gap -->
+    <!-- Star 1 -->
+    <path d="M 485,350 L 491,365 L 506,365 L 494,374 L 498,389 L 485,380 L 472,389 L 476,374 L 464,365 L 479,365 Z" />
+    <!-- Star 2 -->
+    <path d="M 485,450 L 493,470 L 513,470 L 497,482 L 502,502 L 485,490 L 468,502 L 473,482 L 457,470 L 477,470 Z" />
+    <!-- Star 3 -->
+    <path d="M 485,550 L 491,565 L 506,565 L 494,574 L 498,589 L 485,580 L 472,589 L 476,574 L 464,565 L 479,565 Z" />
+  </g>
+</svg>
