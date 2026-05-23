@@ -16,6 +16,9 @@ A web-based interactive tool created to provide a comprehensive, high-fidelity o
 - **Visual Mastery Trees**: Every car displays its full 4x4 mastery tree layout, with active filters highlighted dynamically.
 - **SVG Icon Backdrops**: Specially customized backdrops ensure that transparent mastery vector icons are clearly visible.
 
+The project automatically deployes the latest version to github pages so that you can use it straight away. https://mommel.github.io/Forza-Horizon-6-Mastery-Explorer/
+I update the cars data by taking a screenshot and running automated processes over the screenshot to extract the mastery data. Sometimmes there might be a typo in a cars name, just create an issue so that i will update the name in the process that updates the mastery data json.
+
 ## Project Structure
 
 - `src/`: Source files containing development code
@@ -26,6 +29,8 @@ A web-based interactive tool created to provide a comprehensive, high-fidelity o
 - `assets/`: Vector SVGs of the mastery perks and icons.
 - `build_single_file.py`: A Python compiler script that bundles all assets, styles, and logic from `src/` into a single standalone `index.html` file at the root.
 - `index.html` (root): The compiled standalone distribution build of the web app.
+- `.github/workflows/deploy.yml`: GitHub Actions workflow to deploy the project to [GitHub Pages](https://mommel.github.io/Forza-Horizon-6-Mastery-Explorer/).
+
 
 ## Running Locally
 
