@@ -1,0 +1,8 @@
+# Ignore all files in the assets directory
+assets/*
+
+# Do not ignore SVG files under assets or any subdirectory
+!assets/*.svg
+assets/_*.svg
+__pycache__
+*.txt
