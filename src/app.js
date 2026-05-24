@@ -165,9 +165,14 @@ function handleAssetError(event) {
 
 function createAssetImage(key, alt, className = "") {
   const image = document.createElement("img");
-  const svgPath = getSVGPath(key);
 
-  image.src = svgPath;
+  if (window.__MASTERY_SVGS__ && window.__MASTERY_SVGS__[key]) {
+    image.src = window.__MASTERY_SVGS__[key];
+  } else {
+    const svgPath = getSVGPath(key);
+    image.src = svgPath;
+  }
+
   image.alt = alt;
   image.loading = "lazy";
   image.decoding = "async";
