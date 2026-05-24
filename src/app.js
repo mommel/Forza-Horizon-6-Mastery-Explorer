@@ -156,21 +156,8 @@ function getSVGPath(key) {
   return `${assetBasePath}/${filename}.svg`;
 }
 
-function getPNGPath(key) {
-  // Fallbacks PNGs are located in the old/ directory under assets
-  return `${assetBasePath}/old/${key}.png`;
-}
-
 function handleAssetError(event) {
   const image = event.currentTarget;
-  const fallbackSrc = image.dataset.fallbackSrc;
-
-  // Prevent infinite loop if fallback PNG also fails
-  if (fallbackSrc && !image.dataset.fallbackApplied) {
-    image.dataset.fallbackApplied = "true";
-    image.src = fallbackSrc;
-    return;
-  }
 
   image.classList.add("asset-missing");
   image.style.opacity = "0.15"; // Dim failed assets to look locked/placeholder
@@ -179,13 +166,11 @@ function handleAssetError(event) {
 function createAssetImage(key, alt, className = "") {
   const image = document.createElement("img");
   const svgPath = getSVGPath(key);
-  const pngPath = getPNGPath(key);
 
   image.src = svgPath;
   image.alt = alt;
   image.loading = "lazy";
   image.decoding = "async";
-  image.dataset.fallbackSrc = pngPath;
   image.addEventListener("error", handleAssetError);
 
   if (className) {
@@ -262,10 +247,10 @@ function renderActiveFilters() {
     const chip = document.createElement("button");
     chip.type = "button";
     chip.className = "filter-chip active-chip search-chip";
-    
+
     const label = document.createElement("span");
     label.innerHTML = `Search: <strong>${state.searchQuery}</strong>`;
-    
+
     const removeBtn = document.createElement("span");
     removeBtn.className = "remove-filter-btn";
     removeBtn.innerHTML = "&times;";
@@ -286,7 +271,7 @@ function renderActiveFilters() {
       const chip = document.createElement("button");
       chip.type = "button";
       chip.className = "filter-chip active-chip";
-      
+
       const label = document.createElement("span");
       label.textContent = formatLabel(key);
 
@@ -321,7 +306,7 @@ function buildCard(entry) {
 
     if (mastery) {
       slot.classList.add("occupied");
-      
+
       const isActive = state.selected.has(mastery);
       if (isActive) {
         slot.classList.add("active");
