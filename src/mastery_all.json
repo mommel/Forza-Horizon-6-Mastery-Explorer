@@ -230,6 +230,29 @@
     ]
   },
   {
+    "Manufacturer": "ASTON MARTIN",
+    "Year": "2022",
+    "Carname": "VALKYRIE AMR PRO",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      "instant_super_wheel_spin",
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
     "Manufacturer": "AUDI",
     "Year": "2021",
     "Carname": "RS E-TRON GT",
@@ -645,6 +668,29 @@
   },
   {
     "Manufacturer": "CHEVROLET",
+    "Year": "1967",
+    "Carname": "CORVETTE STINGRAY 427",
+    "Mastery": [
+      null,
+      "faster_multiplier",
+      null,
+      "street_racing_events",
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "CHEVROLET",
     "Year": "1995",
     "Carname": "CORVETTE ZR-1",
     "Mastery": [
@@ -967,11 +1013,57 @@
   },
   {
     "Manufacturer": "FERRARI",
+    "Year": "1987",
+    "Carname": "F40",
+    "Mastery": [
+      "road_racing_events",
+      "faster_multiplier",
+      "instant_credits",
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FERRARI",
     "Year": "1992",
     "Carname": "512 TR",
     "Mastery": [
       "dirtracing_events",
       "skillsong",
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FERRARI",
+    "Year": "2017",
+    "Carname": "J50",
+    "Mastery": [
+      "road_racing_events",
+      null,
       null,
       null,
       "slingshot_skills",
@@ -1422,6 +1514,29 @@
       "XP",
       "near_miss",
       "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORD",
+    "Year": "2017",
+    "Carname": "GT",
+    "Mastery": [
+      "road_racing_events",
+      "skillsong",
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
       "break_skillchains_twice"
     ]
   },
@@ -2485,6 +2600,29 @@
   },
   {
     "Manufacturer": "LAMBORGHINI",
+    "Year": "2023",
+    "Carname": "HURACAN STERRATO",
+    "Mastery": [
+      "skillchain_ends_later",
+      "head-to-head_races",
+      "event_finish_score",
+      null,
+      "dirtracing_events",
+      "combo_skills",
+      null,
+      "ultimate_skillchain_scores",
+      "air_skills",
+      "speed_skills",
+      "multiplier_goes_up_to",
+      "instant_wheel_spins",
+      "XP",
+      "drift_edrift_skills",
+      "sideswipes_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "LAMBORGHINI",
     "Year": "2024",
     "Carname": "REVUELTO",
     "Mastery": [
@@ -3169,6 +3307,29 @@
       "crash_landing_skills",
       "XP",
       "wreckage_skills",
+      "air_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MINI",
+    "Year": "2018",
+    "Carname": "X-RAID JOHN COOPER WORKS BUGGY",
+    "Mastery": [
+      "cross_country_events",
+      "combo_skills",
+      null,
+      null,
+      "wrecking_ball_skills",
+      null,
+      "tripple_pass_skills",
+      "event_finish_score",
+      "wreckage_skills",
+      "crash_landing_skills",
+      "pass_skills",
+      "airborne_pass_skills",
+      "XP",
+      "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
     ]
@@ -4026,6 +4187,29 @@
   },
   {
     "Manufacturer": "PAGANI",
+    "Year": "2009",
+    "Carname": "ZONDA R",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      "instant_super_wheel_spin",
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "PAGANI",
     "Year": "2021",
     "Carname": "HUAYRA R",
     "Mastery": [
@@ -4343,6 +4527,29 @@
       "XP",
       "road_racing_events",
       "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "PORSCHE",
+    "Year": "2018",
+    "Carname": "718 CAYMAN GTS",
+    "Mastery": [
+      null,
+      null,
+      "ultimate_skillchain_scores",
+      "road_racing_events",
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
       "break_skillchains_twice"
     ]
   },
