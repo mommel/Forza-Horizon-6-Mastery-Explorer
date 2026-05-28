@@ -93,6 +93,29 @@
   },
   {
     "Manufacturer": "ALFA ROMEO",
+    "Year": "2007",
+    "Carname": "8C COMPETIZIONE",
+    "Mastery": [
+      null,
+      null,
+      "event_finish_score",
+      "faster_multiplier",
+      "convoy_skills",
+      null,
+      "showoff_skills",
+      "road_racing_events",
+      "clean_racing_skills",
+      "head-to-head_races",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "XP",
+      "speed_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "ALFA ROMEO",
     "Year": "2017",
     "Carname": "GIULIA QUADRIFOGLIO",
     "Mastery": [
@@ -4757,6 +4780,29 @@
       "XP",
       "road_racing_events",
       "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "PORSCHE",
+    "Year": "1973",
+    "Carname": "911 CARRERA RS",
+    "Mastery": [
+      "instant_credits",
+      "road_racing_events",
+      "instant_super_wheel_spin",
+      null,
+      "skillchain_ends_later",
+      "daredevil_skills",
+      null,
+      "skillsong",
+      "event_finish_score",
+      "near_miss",
+      "showoff_skills",
+      "instant_wheel_spins",
+      "XP",
+      "clean_racing_skills",
+      "drift_edrift_skills",
       "break_skillchains_twice"
     ]
   },
