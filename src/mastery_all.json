@@ -484,6 +484,29 @@
   },
   {
     "Manufacturer": "BMW",
+    "Year": "2011",
+    "Carname": "X5 M",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "kangaroo_skills",
+      "event_finish_score",
+      "ultimate_skillchain_scores",
+      null,
+      "air_skills",
+      "stuntman_skills",
+      "wrecking_ball_skills",
+      "landscaping_skills",
+      "XP",
+      "near_miss",
+      "wreckage_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "BMW",
     "Year": "2016",
     "Carname": "M4 GTS",
     "Mastery": [
@@ -644,6 +667,29 @@
     ]
   },
   {
+    "Manufacturer": "CADILLAC",
+    "Year": "2016",
+    "Carname": "CTS-V SEDAN",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
     "Manufacturer": "CAN-AM",
     "Year": "2018",
     "Carname": "MAVERICK X RS TURBO R",
@@ -668,6 +714,29 @@
   },
   {
     "Manufacturer": "CHEVROLET",
+    "Year": "1964",
+    "Carname": "IMPALA SUPER SPORT 409",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "tripple_pass_skills",
+      "drag_meet_events",
+      null,
+      "convoy_skills",
+      "pass_skills",
+      "burnout_skills",
+      "hard_charger_skills",
+      "link_skill_skills",
+      "XP",
+      "speed_skills",
+      "event_finish_score",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "CHEVROLET",
     "Year": "1967",
     "Carname": "CORVETTE STINGRAY 427",
     "Mastery": [
@@ -675,6 +744,29 @@
       "faster_multiplier",
       null,
       "street_racing_events",
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "CHEVROLET",
+    "Year": "1969",
+    "Carname": "NOVA SUPER SPORT 396",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
       "hard_charger_skills",
       "sideswipes_skills",
       null,
@@ -916,6 +1008,52 @@
       "XP",
       "link_skill_skills",
       "air_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "DODGE",
+    "Year": "2015",
+    "Carname": "CHALLENGER SRT HELLCAT",
+    "Mastery": [
+      null,
+      null,
+      null,
+      "street_racing_events",
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "DODGE",
+    "Year": "2015",
+    "Carname": "CHARGER SRT HELLCAT",
+    "Mastery": [
+      null,
+      null,
+      null,
+      "street_racing_events",
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
       "break_skillchains_twice"
     ]
   },
@@ -1497,6 +1635,29 @@
   {
     "Manufacturer": "FORD",
     "Year": "2017",
+    "Carname": "BROCKY ULTRA4 BRONCO RTR_2",
+    "Mastery": [
+      "cross_country_events",
+      "combo_skills",
+      null,
+      null,
+      "wrecking_ball_skills",
+      null,
+      "tripple_pass_skills",
+      "event_finish_score",
+      "wreckage_skills",
+      "crash_landing_skills",
+      "pass_skills",
+      "airborne_pass_skills",
+      "XP",
+      "link_skill_skills",
+      "air_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORD",
+    "Year": "2017",
     "Carname": "FOCUS RS",
     "Mastery": [
       null,
@@ -1675,6 +1836,52 @@
       "XP",
       "speed_skills",
       "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORD",
+    "Year": "2024",
+    "Carname": "MUSTANG GT",
+    "Mastery": [
+      null,
+      "faster_multiplier",
+      null,
+      "street_racing_events",
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORMULA DRIFT",
+    "Year": "1997",
+    "Carname": "#777 NISSAN MOSX",
+    "Mastery": [
+      "link_skill_skills",
+      "skillchain_ends_later",
+      null,
+      null,
+      "lucky_escape_skills",
+      "sideswipes_skills",
+      "combo_skills",
+      null,
+      "near_miss",
+      "drift_tap_skills",
+      "freeroam",
+      "skillsong",
+      "XP",
+      "drift_edrift_skills",
+      "convoy_skills",
       "break_skillchains_twice"
     ]
   },
@@ -1910,6 +2117,29 @@
   },
   {
     "Manufacturer": "HONDA",
+    "Year": "1984",
+    "Carname": "CIVIC CRX MUGEN",
+    "Mastery": [
+      null,
+      null,
+      "ultimate_skillchain_scores",
+      "road_racing_events",
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "HONDA",
     "Year": "1986",
     "Carname": "CIVIC SI",
     "Mastery": [
@@ -2027,6 +2257,29 @@
     "Manufacturer": "HONDA",
     "Year": "1994",
     "Carname": "PRELUDE SI",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      "XP",
+      "near_miss",
+      "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "HONDA",
+    "Year": "1997",
+    "Carname": "CIVIC TYPE R",
     "Mastery": [
       null,
       null,
@@ -2324,6 +2577,29 @@
   },
   {
     "Manufacturer": "HYUNDAI",
+    "Year": "2022",
+    "Carname": "N VISION 74",
+    "Mastery": [
+      "touge_events",
+      null,
+      null,
+      null,
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "HYUNDAI",
     "Year": "2023",
     "Carname": "IONIQ 5 N",
     "Mastery": [
@@ -2472,6 +2748,29 @@
       "slingshot_skills",
       "tripple_pass_skills",
       "hard_charger_skills",
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "LAMBORGHINI",
+    "Year": "2010",
+    "Carname": "MURCIELAGO LP 670-4 SV",
+    "Mastery": [
+      "road_racing_events",
+      "skillsong",
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
       "drag_meet_events",
       "drafting_skills",
       "pass_skills",
@@ -2710,6 +3009,29 @@
       "XP",
       "road_racing_events",
       "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "LEXUS",
+    "Year": "2021",
+    "Carname": "LC 500",
+    "Mastery": [
+      null,
+      null,
+      "event_finish_score",
+      null,
+      "convoy_skills",
+      null,
+      "showoff_skills",
+      "road_racing_events",
+      "clean_racing_skills",
+      "head-to-head_races",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "XP",
+      "speed_skills",
+      "pass_skills",
       "break_skillchains_twice"
     ]
   },
@@ -3016,6 +3338,29 @@
     "Manufacturer": "MAZDA",
     "Year": "2022",
     "Carname": "MX-5 MIATA RF",
+    "Mastery": [
+      null,
+      null,
+      "ultimate_skillchain_scores",
+      "road_racing_events",
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MAZDA",
+    "Year": "2022",
+    "Carname": "MX-5 MIATA RF_2",
     "Mastery": [
       null,
       null,
@@ -4118,6 +4463,52 @@
   },
   {
     "Manufacturer": "NISSAN",
+    "Year": "2012",
+    "Carname": "GT-R BLACK EDITION 835",
+    "Mastery": [
+      "road_racing_events",
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "NISSAN",
+    "Year": "2012",
+    "Carname": "GT-R BLACK EDITION 835 FORZA EDITION",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      "instant_credits",
+      "instant_super_wheel_spin",
+      "link_skill_skills",
+      "faster_multiplier",
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "instant_wheel_spins",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "NISSAN",
     "Year": "2017",
     "Carname": "GT-R 835",
     "Mastery": [
@@ -4555,6 +4946,29 @@
   },
   {
     "Manufacturer": "PORSCHE",
+    "Year": "2018",
+    "Carname": "CAYENNE TURBO",
+    "Mastery": [
+      "cross_country_events",
+      null,
+      "skillchain_ends_later",
+      null,
+      "kangaroo_skills",
+      "event_finish_score",
+      "ultimate_skillchain_scores",
+      null,
+      "air_skills",
+      "stuntman_skills",
+      "wrecking_ball_skills",
+      "landscaping_skills",
+      "XP",
+      "near_miss",
+      "wreckage_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "PORSCHE",
     "Year": "2019",
     "Carname": "911 CARRERA S",
     "Mastery": [
@@ -4872,6 +5286,29 @@
       "XP",
       "wreckage_skills",
       "air_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "SUBARU",
+    "Year": "2004",
+    "Carname": "IMPREZA WRX STI",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "dirtracing_events",
+      "air_skills",
+      "slingshot_skills",
+      "skillchain_ends_later",
+      "showoff_skills",
+      "pass_skills",
+      "drafting_skills",
+      "XP",
+      "drift_edrift_skills",
+      "touge_events",
       "break_skillchains_twice"
     ]
   },
@@ -5201,6 +5638,29 @@
     "Manufacturer": "TOYOTA",
     "Year": "1997",
     "Carname": "CHASER 2.5 TOURER V",
+    "Mastery": [
+      null,
+      "threading_the_needle_skills",
+      null,
+      null,
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "TOYOTA",
+    "Year": "1997",
+    "Carname": "CHASER TOURER V",
     "Mastery": [
       null,
       "threading_the_needle_skills",
