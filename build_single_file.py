@@ -1,4 +1,5 @@
 import base64
+from datetime import datetime
 import json
 from pathlib import Path
 
@@ -59,6 +60,10 @@ def main() -> None:
 
     html = html.replace(CSS_TAG, inline_css, 1)
     html = html.replace(JS_TAG, f"{inline_svgs}\n  {inline_data}\n  {inline_js}", 1)
+
+    # Replace last update timestamp
+    last_update = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    html = html.replace("{{LAST_UPDATE}}", last_update)
 
     OUTPUT.write_text(html, encoding="utf-8")
     print(f"Wrote {OUTPUT} (size: {OUTPUT.stat().st_size / 1024 / 1024:.2f} MB)")

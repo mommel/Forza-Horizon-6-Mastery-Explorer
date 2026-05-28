@@ -539,6 +539,11 @@ async function init() {
     updateIconCounts();
     syncButtons();
     render();
+
+    const footerCarCount = document.getElementById("footer-car-count");
+    if (footerCarCount) {
+      footerCarCount.textContent = String(state.data.length);
+    }
   } catch (error) {
     console.error(error);
     results.innerHTML = `
