@@ -26,6 +26,12 @@ def main() -> None:
     js = read_text(SRC / "app.js")
     json_text = read_text(SRC / "mastery_all.json")
 
+    # Load i18n data
+    i18n_data = {}
+    for i18n_file in SRC.glob("i18n_*.json"):
+        lang = i18n_file.stem.split("_")[1]
+        i18n_data[lang] = json.loads(read_text(i18n_file))
+
     # Load and encode all SVG assets
     assets_dir = ROOT / "assets"
     svgs = {}
@@ -56,10 +62,15 @@ def main() -> None:
         f"window.__MASTERY_DATA__ = {escape_script_body(json_text.strip())};\n"
         "</script>"
     )
+    inline_i18n = (
+        "<script>\n"
+        f"window.__I18N_DATA__ = {escape_script_body(json.dumps(i18n_data, indent=2))};\n"
+        "</script>"
+    )
     inline_js = f"<script type=\"module\">\n{escape_script_body(js.rstrip())}\n</script>"
 
     html = html.replace(CSS_TAG, inline_css, 1)
-    html = html.replace(JS_TAG, f"{inline_svgs}\n  {inline_data}\n  {inline_js}", 1)
+    html = html.replace(JS_TAG, f"{inline_svgs}\n  {inline_data}\n  {inline_i18n}\n  {inline_js}", 1)
 
     # Replace last update timestamp
     last_update = datetime.now().strftime("%Y-%m-%d %H:%M:%S")

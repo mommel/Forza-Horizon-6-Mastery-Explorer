@@ -69,65 +69,67 @@ const sortedAssetKeys = [...assetKeys].sort((left, right) => {
   return left.localeCompare(right);
 });
 
-const perkDescriptions = {
-  "near_miss": "extra % from Near Miss Skills",
-  "street_racing_events": "extra XP for the next n Street Racing Events",
-  "break_skillchains_twice": "Skill Chains only break after 2 collisions",
-  "time_attack_events": "extra % XP for completing Time Attack",
-  "trading_paint_skill": "extra % skill score from Trading Paint",
-  "daredevil_skills": "extra % skill score from daredevil skills",
-  "drafting_skills": "extra % from drafting",
-  "slingshot_skills": "extra % from slingshot",
-  "threading_the_needle_skills": "extra % from Threading the needle",
-  "convoy_skills": "extra % from convoy",
-  "touge_events": "extra % XP on next n Touge Events",
-  "road_racing_events": "extra % on next n Road Racing Events",
-  "clean_racing_skills": "extra % from clean racing",
-  "faster_multiplier": "Skill multiplier builds 2.0 times as fast",
-  "link_skill_skills": "extra % from Link Skills",
-  "instant_super_wheel_spin": "instant super wheel spin",
-  "instant_wheel_spins": "get instant wheelspins",
-  "speed_skills": "extra % from speed skills",
-  "drag_meet_events": "extra % from Drag Meet",
-  "pass_skills": "extra % from pass skills",
-  "multiplier_goes_up_to": "Skill multiplier can go to n",
-  "burnout_skills": "extra % from burnout skills",
-  "hard_charger_skills": "extra % from hard charger skills",
-  "tripple_pass_skills": "extra % from tripple pass skills",
-  "freeroam": "extra % XP from skills banked in Freeroam",
-  "air_skills": "extra % from air skills",
-  "airborne_pass_skills": "extra % from airborne pass skills",
-  "crash_landing_skills": "extra % from crash landing skills",
-  "wreckage_skills": "extra % from wreckage skills",
-  "wrecking_ball_skills": "extra % from wrecking ball skills",
-  "skillchain_ends_later": "skill chain ends 1.5 later",
-  "event_finish_score": "extra % increase in event finish XP",
-  "instant_credits": "instand n CR",
-  "combo_skills": "extra % from combo_skills",
-  "cross_country_events": "extra % next n cross country events",
-  "head-to-head_races": "extra credits from head-to-head races",
-  "skillsong": "skill multiplier 3.0 times faster when a skill song is played",
-  "lucky_escape_skills": "extra % from lucky escape skills",
-  "showoff_skills": "extra % from showoff skills",
-  "drift_tap_skills": "extra % from drift tap skills",
-  "drift_edrift_skills": "extra % from drift and e-drift skills",
-  "kangaroo_skills": "extra % from kangaroo skills",
-  "get_a_new_car": "a new car is added to your collection",
-  "ultimate_skillchain_scores": "extra % from ultimate skill chain scores",
-  "sideswipes_skills": "extra % from sideswipes skills",
-  "dirtracing_events": "extra % for next n dirt racing events",
-  "stuntman_skills": "extra % from stuntman skills",
-  "landscaping_skills": "extra % from landscaping skills",
-  "drag_racing_events": "extra % for n drag racing events"
-};
-
 const state = {
   data: [],
   masteryCounts: new Map(),
   selected: new Set(),
   searchQuery: "",
-  filterMode: "any" // "any" or "all"
+  filterMode: "any", // "any" or "all"
+  lang: "en",
+  i18n: {}
 };
+
+async function loadI18n() {
+  if (window.__I18N_DATA__) {
+    state.i18n = window.__I18N_DATA__;
+    return;
+  }
+  const langs = ['en', 'de', 'it', 'jp', 'es', 'cn'];
+  for (const l of langs) {
+    try {
+      const res = await fetch(`./i18n_${l}.json`);
+      if (res.ok) {
+        state.i18n[l] = await res.json();
+      }
+    } catch (e) {
+      console.warn(`Could not load ${l} translation`);
+    }
+  }
+}
+
+function t(key) {
+  const keys = key.split('.');
+  let obj = state.i18n[state.lang] || state.i18n['en'] || {};
+  for (const k of keys) {
+    if (obj && obj[k] !== undefined) {
+      obj = obj[k];
+    } else {
+      let fallback = state.i18n['en'];
+      for (const fk of keys) {
+        if (fallback && fallback[fk] !== undefined) {
+          fallback = fallback[fk];
+        } else {
+          return key;
+        }
+      }
+      return fallback;
+    }
+  }
+  return obj;
+}
+
+function translateDOM() {
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    el.textContent = t(el.getAttribute('data-i18n'));
+  });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+    el.placeholder = t(el.getAttribute('data-i18n-placeholder'));
+  });
+  document.querySelectorAll('[data-i18n-dynamic]').forEach(el => {
+    el.textContent = t(el.getAttribute('data-i18n-dynamic')) || formatLabel(el.getAttribute('data-i18n-dynamic').split('.')[1]);
+  });
+  document.title = t('ui.appTitle') + ' - ' + t('ui.appSubtitle');
+}
 
 // Check if running in the single-file built version or the development src/ version
 const assetBasePath = window.__MASTERY_DATA__ ? "./assets" : "../assets";
@@ -192,7 +194,7 @@ function createIconButton(key, index) {
   button.dataset.key = key;
   button.style.animationDelay = `${Math.min(index * 15, 300)}ms`;
   button.setAttribute("aria-pressed", "false");
-  button.title = perkDescriptions[key] || formatLabel(key);
+  button.title = t('perks.' + key) || formatLabel(key);
 
   button.append(createAssetImage(key, `${formatLabel(key)} icon`));
 
@@ -202,7 +204,8 @@ function createIconButton(key, index) {
   const copyInner = document.createElement("div");
   const title = document.createElement("span");
   title.className = "icon-title";
-  title.textContent = formatLabel(key);
+  title.textContent = t('perkTitles.' + key) || formatLabel(key);
+  title.dataset.i18nDynamic = "perkTitles." + key;
 
   const meta = document.createElement("span");
   meta.className = "icon-meta";
@@ -242,7 +245,7 @@ function renderActiveFilters() {
   if (!state.selected.size && !state.searchQuery) {
     const hint = document.createElement("span");
     hint.className = "filter-chip empty-hint";
-    hint.textContent = "No filters active";
+    hint.textContent = t("ui.noFilters");
     activeFilters.append(hint);
     return;
   }
@@ -254,7 +257,7 @@ function renderActiveFilters() {
     chip.className = "filter-chip active-chip search-chip";
 
     const label = document.createElement("span");
-    label.innerHTML = `Search: <strong>${state.searchQuery}</strong>`;
+    label.innerHTML = `${t("ui.searchPrefix")} <strong>${state.searchQuery}</strong>`;
 
     const removeBtn = document.createElement("span");
     removeBtn.className = "remove-filter-btn";
@@ -278,7 +281,8 @@ function renderActiveFilters() {
       chip.className = "filter-chip active-chip";
 
       const label = document.createElement("span");
-      label.textContent = formatLabel(key);
+      label.textContent = t('perkTitles.' + key) || formatLabel(key);
+      label.dataset.i18nDynamic = "perkTitles." + key;
 
       const removeBtn = document.createElement("span");
       removeBtn.className = "remove-filter-btn";
@@ -318,7 +322,7 @@ function buildCard(entry) {
       }
 
       const img = createAssetImage(mastery, `${formatLabel(mastery)} mastery icon`, "mastery-icon");
-      slot.title = perkDescriptions[mastery] || formatLabel(mastery);
+      slot.title = t('perks.' + mastery) || formatLabel(mastery);
       slot.append(img);
 
       // Interactive shortcut: clicking a perk inside a card toggles it in filters!
@@ -353,9 +357,9 @@ function renderEmptyState() {
           <line x1="12" y1="8" x2="12" y2="12"></line>
           <line x1="12" y1="16" x2="12.01" y2="16"></line>
         </svg>
-        <strong>Find Your Dream Car</strong>
+        <strong>${t('ui.emptyStateTitle')}</strong>
         <p>
-          Type a search term or click mastery perks in the selection panel to explore matching vehicles.
+          ${t('ui.emptyStateDesc')}
         </p>
       </div>
     </div>
@@ -367,7 +371,9 @@ function updateIconCounts() {
   iconGrid.querySelectorAll(".icon-button").forEach((button) => {
     const key = button.dataset.key;
     const count = state.masteryCounts.get(key) || 0;
-    button.querySelector(".icon-meta").textContent = `${count} match${count === 1 ? "" : "es"}`;
+    const matchText = count === 1 ? t("ui.matches") : t("ui.matchesPlural");
+    button.querySelector(".icon-meta").textContent = `${count} ${matchText}`;
+    button.title = t('perks.' + key) || formatLabel(key);
   });
 }
 
@@ -443,8 +449,8 @@ function render() {
     results.innerHTML = `
       <div class="empty-state">
         <div class="empty-state-content">
-          <strong>No matching cars found</strong>
-          <p>Try clearing some perks or typing a different search query.</p>
+          <strong>${t('ui.noCarsTitle')}</strong>
+          <p>${t('ui.noCarsDesc')}</p>
         </div>
       </div>
     `;
@@ -493,6 +499,20 @@ async function loadData() {
 }
 
 async function init() {
+  await loadI18n();
+  translateDOM();
+  
+  const languageSelect = document.querySelector("#language-select");
+  if (languageSelect) {
+    languageSelect.value = state.lang;
+    languageSelect.addEventListener("change", (e) => {
+      state.lang = e.target.value;
+      translateDOM();
+      updateIconCounts();
+      render();
+    });
+  }
+
   totalIcons.textContent = String(sortedAssetKeys.length);
   sortedAssetKeys.forEach((key, index) => {
     iconGrid.append(createIconButton(key, index));
@@ -549,8 +569,8 @@ async function init() {
     results.innerHTML = `
       <div class="empty-state">
         <div class="empty-state-content">
-          <strong>Could not load dataset</strong>
-          <p>Open this site through a local web server so the browser can load <code>mastery_all.json</code>.</p>
+          <strong>${t('ui.errorTitle') || 'Could not load dataset'}</strong>
+          <p>${t('ui.errorDesc') || 'Open this site through a local web server so the browser can load <code>mastery_all.json</code>.'}</p>
         </div>
       </div>
     `;

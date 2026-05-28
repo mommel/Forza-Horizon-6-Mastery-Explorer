@@ -15,12 +15,12 @@
   --neon-pink: #ff007f;
   --neon-pink-rgb: 255, 0, 127;
   --gold: #ffcc00;
-  
+
   --shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
   --neon-glow-cyan: 0 0 15px rgba(0, 240, 255, 0.35);
   --neon-glow-orange: 0 0 15px rgba(255, 95, 0, 0.35);
   --neon-glow-pink: 0 0 15px rgba(255, 0, 127, 0.35);
-  
+
   --radius-xl: 24px;
   --radius-lg: 16px;
   --radius-md: 12px;
@@ -40,7 +40,7 @@
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   background-color: var(--bg);
-  background-image: 
+  background-image:
     radial-gradient(circle at 10% 20%, rgba(255, 0, 127, 0.12) 0%, transparent 40%),
     radial-gradient(circle at 90% 80%, rgba(0, 240, 255, 0.12) 0%, transparent 40%),
     linear-gradient(135deg, #03070d 0%, #08111f 50%, #03070d 100%);
@@ -58,7 +58,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: 
+  background:
     linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
   background-size: 30px 30px;
@@ -94,8 +94,13 @@ body::before {
 }
 
 @keyframes float-glow {
-  0% { transform: translate(0, 0) scale(1); }
-  100% { transform: translate(50px, 30px) scale(1.1); }
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  100% {
+    transform: translate(50px, 30px) scale(1.1);
+  }
 }
 
 /* Main Layout Shell */
@@ -163,7 +168,8 @@ body::before {
   text-shadow: 0 0 8px rgba(255, 0, 127, 0.4);
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: 'Outfit', sans-serif;
   font-weight: 900;
   font-size: 2.2rem;
@@ -221,7 +227,7 @@ h1, h2 {
   transition: color 0.25s ease;
 }
 
-.search-container input:focus + .search-icon {
+.search-container input:focus+.search-icon {
   color: var(--neon-cyan);
   filter: drop-shadow(0 0 4px rgba(0, 240, 255, 0.4));
 }
@@ -442,7 +448,7 @@ h1, h2 {
   width: 100%;
 }
 
-.icon-copy > div {
+.icon-copy>div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -849,6 +855,7 @@ h1, h2 {
     opacity: 0;
     transform: translateY(15px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -903,11 +910,13 @@ h1, h2 {
     padding: 0.75rem;
   }
 
-  .selection-panel, .output-panel {
+  .selection-panel,
+  .output-panel {
     padding: 1.25rem;
   }
 
-  h1, h2 {
+  h1,
+  h2 {
     font-size: 1.8rem;
   }
 
@@ -969,3 +978,19 @@ h1, h2 {
   color: var(--text);
 }
 
+.language-select-container {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 100;
+}
+
+.language-select-container select {
+  background: rgba(20, 20, 25, 0.8);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
