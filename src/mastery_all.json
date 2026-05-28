@@ -1127,6 +1127,29 @@
     ]
   },
   {
+    "Manufacturer": "DODGE",
+    "Year": "2022",
+    "Carname": "CHALLENGER SRT SUPER STOCK",
+    "Mastery": [
+      null,
+      null,
+      null,
+      "street_racing_events",
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
     "Manufacturer": "FERRARI",
     "Year": "1962",
     "Carname": "250 GT BERLINETTA LUSSO",
@@ -2760,6 +2783,29 @@
     ]
   },
   {
+    "Manufacturer": "KOENIGSEGG",
+    "Year": "2024",
+    "Carname": "GEMERA",
+    "Mastery": [
+      "instant_wheel_spins",
+      "freeroam",
+      null,
+      null,
+      "road_racing_events",
+      "tripple_pass_skills",
+      null,
+      "hard_charger_skills",
+      "clean_racing_skills",
+      "pass_skills",
+      "multiplier_goes_up_to",
+      "burnout_skills",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
     "Manufacturer": "LAMBORGHINI",
     "Year": "1997",
     "Carname": "DIABLO SV",
@@ -3308,6 +3354,29 @@
       "XP",
       "drift_edrift_skills",
       "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MAZDA",
+    "Year": "2008",
+    "Carname": "FURAI",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      "instant_super_wheel_spin",
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
       "break_skillchains_twice"
     ]
   },
@@ -4280,6 +4349,29 @@
   {
     "Manufacturer": "NISSAN",
     "Year": "1997",
+    "Carname": "SKYLINE GT-R V-SPEC",
+    "Mastery": [
+      null,
+      null,
+      null,
+      "road_racing_events",
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "NISSAN",
+    "Year": "1997",
     "Carname": "STAGEA RS FOUR V",
     "Mastery": [
       null,
@@ -5194,6 +5286,29 @@
       "XP",
       "near_miss",
       "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "SCHUPPAN",
+    "Year": "1993",
+    "Carname": "962CR",
+    "Mastery": [
+      "road_racing_events",
+      "skillsong",
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
       "break_skillchains_twice"
     ]
   },
