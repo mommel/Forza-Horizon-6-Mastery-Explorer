@@ -644,6 +644,29 @@
     ]
   },
   {
+    "Manufacturer": "BAC",
+    "Year": "2014",
+    "Carname": "MONO",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      null,
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
     "Manufacturer": "BENTLEY",
     "Year": "2016",
     "Carname": "BENTAYGA",
@@ -1243,6 +1266,29 @@
   },
   {
     "Manufacturer": "CHEVROLET",
+    "Year": "1970",
+    "Carname": "CHEVELLE SUPER SPORT 454_2",
+    "Mastery": [
+      null,
+      null,
+      null,
+      "street_racing_events",
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "CHEVROLET",
     "Year": "1995",
     "Carname": "CORVETTE ZR-1",
     "Mastery": [
@@ -1738,11 +1784,34 @@
       null,
       "drag_meet_events",
       "drafting_skills",
-      "street_racing_events",
+      "pass_skills",
       "freeroam",
-      "ultimate_skillchain_scores",
+      "speed_skills",
       "XP",
       "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FERRARI",
+    "Year": "1996",
+    "Carname": "F50 GT",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      "instant_super_wheel_spin",
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
     ]
@@ -1866,6 +1935,29 @@
     "Manufacturer": "FORD",
     "Year": "1932",
     "Carname": "DE LUXE FIVE-WINDOW COUPE",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "tripple_pass_skills",
+      "drag_meet_events",
+      null,
+      "convoy_skills",
+      "pass_skills",
+      "burnout_skills",
+      "hard_charger_skills",
+      "link_skill_skills",
+      "XP",
+      "speed_skills",
+      "event_finish_score",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORD",
+    "Year": "1932",
+    "Carname": "DE LUXE FIVE-WINDOW COUPE_2",
     "Mastery": [
       null,
       null,
@@ -2020,6 +2112,52 @@
       "XP",
       "wreckage_skills",
       "air_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORD",
+    "Year": "1993",
+    "Carname": "MUSTANG SVT COBRA R",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORD",
+    "Year": "1993",
+    "Carname": "MUSTANG SVT COBRA R_2",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
       "break_skillchains_twice"
     ]
   },
@@ -2599,6 +2737,29 @@
     ]
   },
   {
+    "Manufacturer": "FORMULA DRIFT",
+    "Year": "2019",
+    "Carname": "#411 TOYOTA COROLLA HATCHBACK_2",
+    "Mastery": [
+      "link_skill_skills",
+      "skillchain_ends_later",
+      null,
+      null,
+      "lucky_escape_skills",
+      "sideswipes_skills",
+      "combo_skills",
+      null,
+      "near_miss",
+      "drift_tap_skills",
+      "freeroam",
+      "skillsong",
+      "XP",
+      "drift_edrift_skills",
+      "convoy_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
     "Manufacturer": "FUNCO MOTORSPORTS",
     "Year": "2018",
     "Carname": "F9",
@@ -2648,6 +2809,29 @@
     "Manufacturer": "GMC",
     "Year": "1991",
     "Carname": "SYCLONE",
+    "Mastery": [
+      null,
+      null,
+      "event_finish_score",
+      "freeroam",
+      "cross_country_events",
+      "combo_skills",
+      "ultimate_skillchain_scores",
+      null,
+      "crash_landing_skills",
+      "wreckage_skills",
+      "wrecking_ball_skills",
+      "multiplier_goes_up_to",
+      "XP",
+      "air_skills",
+      "kangaroo_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "GMC",
+    "Year": "2022",
+    "Carname": "HUMMER EV PICKUP",
     "Mastery": [
       null,
       null,
@@ -3474,6 +3658,29 @@
   },
   {
     "Manufacturer": "JEEP",
+    "Year": "2018",
+    "Carname": "GRAND CHEROKEE TRACKHAWK",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "kangaroo_skills",
+      "event_finish_score",
+      "ultimate_skillchain_scores",
+      null,
+      "air_skills",
+      "stuntman_skills",
+      "wrecking_ball_skills",
+      "landscaping_skills",
+      "XP",
+      "near_miss",
+      "wreckage_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "JEEP",
     "Year": "2020",
     "Carname": "JT",
     "Mastery": [
@@ -4233,6 +4440,52 @@
   },
   {
     "Manufacturer": "MAZDA",
+    "Year": "2013",
+    "Carname": "MX-5",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MAZDA",
+    "Year": "2013",
+    "Carname": "MX-5_2",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MAZDA",
     "Year": "2016",
     "Carname": "MX-5",
     "Mastery": [
@@ -4532,6 +4785,29 @@
   },
   {
     "Manufacturer": "MERCEDES-BENZ",
+    "Year": "1990",
+    "Carname": "190 E 2.5-16 EVOLUTION II FORZA EDITION_2",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      "instant_credits",
+      "instant_super_wheel_spin",
+      "link_skill_skills",
+      "faster_multiplier",
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "instant_wheel_spins",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MERCEDES-BENZ",
     "Year": "2013",
     "Carname": "A 45 AMG",
     "Mastery": [
@@ -4580,6 +4856,29 @@
     "Manufacturer": "MERCEDES-BENZ",
     "Year": "2014",
     "Carname": "UNIMOG IJ5023",
+    "Mastery": [
+      "cross_country_events",
+      null,
+      null,
+      null,
+      "wrecking_ball_skills",
+      null,
+      "tripple_pass_skills",
+      "event_finish_score",
+      "wreckage_skills",
+      "crash_landing_skills",
+      "pass_skills",
+      "airborne_pass_skills",
+      "XP",
+      "link_skill_skills",
+      "air_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MERCEDES-BENZ",
+    "Year": "2014",
+    "Carname": "UNIMOG IJ5023_2",
     "Mastery": [
       "cross_country_events",
       null,
@@ -5844,6 +6143,29 @@
   {
     "Manufacturer": "POLARIS",
     "Year": "2021",
+    "Carname": "RZR PRO XP FACTORY RACING LIMITED EDITION",
+    "Mastery": [
+      "ultimate_skillchain_scores",
+      null,
+      null,
+      null,
+      "cross_country_events",
+      "pass_skills",
+      "tripple_pass_skills",
+      null,
+      "link_skill_skills",
+      "kangaroo_skills",
+      "airborne_pass_skills",
+      "dirtracing_events",
+      "XP",
+      "air_skills",
+      "crash_landing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "POLARIS",
+    "Year": "2021",
     "Carname": "RZR PRO XP ULTIMATE",
     "Mastery": [
       "ultimate_skillchain_scores",
@@ -6556,6 +6878,29 @@
   },
   {
     "Manufacturer": "SUBARU",
+    "Year": "1980",
+    "Carname": "BRAT GL",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "daredevil_skills",
+      "showoff_skills",
+      "sideswipes_skills",
+      null,
+      "near_miss",
+      "drift_edrift_skills",
+      "wreckage_skills",
+      "landscaping_skills",
+      "XP",
+      "street_racing_events",
+      "ultimate_skillchain_scores",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "SUBARU",
     "Year": "1990",
     "Carname": "LEGACY RS",
     "Mastery": [
@@ -6896,6 +7241,29 @@
       "XP",
       "air_skills",
       "kangaroo_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "TOYOTA",
+    "Year": "1985",
+    "Carname": "SPRINTER TRUENO GT-APEX FORZA EDITION",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      "instant_credits",
+      "instant_super_wheel_spin",
+      "link_skill_skills",
+      "faster_multiplier",
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "instant_wheel_spins",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
       "break_skillchains_twice"
     ]
   },
