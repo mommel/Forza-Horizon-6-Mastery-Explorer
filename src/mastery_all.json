@@ -1128,6 +1128,29 @@
   },
   {
     "Manufacturer": "CHEVROLET",
+    "Year": "1955",
+    "Carname": "150 UTILITY SEDAN",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "tripple_pass_skills",
+      "drag_meet_events",
+      null,
+      "convoy_skills",
+      "pass_skills",
+      "burnout_skills",
+      "hard_charger_skills",
+      "link_skill_skills",
+      "XP",
+      "speed_skills",
+      "event_finish_score",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "CHEVROLET",
     "Year": "1964",
     "Carname": "IMPALA SUPER SPORT 409",
     "Mastery": [
@@ -2487,6 +2510,29 @@
     "Manufacturer": "FORMULA DRIFT",
     "Year": "2007",
     "Carname": "#117 599 GTB FIORANO",
+    "Mastery": [
+      "link_skill_skills",
+      "skillchain_ends_later",
+      null,
+      null,
+      "lucky_escape_skills",
+      "sideswipes_skills",
+      "combo_skills",
+      null,
+      "near_miss",
+      "drift_tap_skills",
+      "freeroam",
+      "skillsong",
+      "XP",
+      "drift_edrift_skills",
+      "convoy_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORMULA DRIFT",
+    "Year": "2019",
+    "Carname": "#411 TOYOTA COROLLA HATCHBACK",
     "Mastery": [
       "link_skill_skills",
       "skillchain_ends_later",
