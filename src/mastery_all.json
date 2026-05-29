@@ -462,6 +462,29 @@
   {
     "Manufacturer": "AUDI",
     "Year": "2013",
+    "Carname": "R8 COUPE VIO PLUS 5.2 QUATTRO",
+    "Mastery": [
+      "road_racing_events",
+      "skillsong",
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "AUDI",
+    "Year": "2013",
     "Carname": "RS 4 AVANT",
     "Mastery": [
       null,
@@ -7034,6 +7057,29 @@
       "XP",
       "drift_edrift_skills",
       "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "TOYOTA",
+    "Year": "2013",
+    "Carname": "86 STORIES",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      "instant_super_wheel_spin",
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
       "break_skillchains_twice"
     ]
   },
