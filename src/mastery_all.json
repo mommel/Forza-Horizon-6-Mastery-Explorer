@@ -208,6 +208,29 @@
   },
   {
     "Manufacturer": "ALFA ROMEO",
+    "Year": "2014",
+    "Carname": "4C",
+    "Mastery": [
+      null,
+      null,
+      "ultimate_skillchain_scores",
+      "road_racing_events",
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "ALFA ROMEO",
     "Year": "2017",
     "Carname": "GIULIA QUADRIFOGLIO",
     "Mastery": [
@@ -393,6 +416,29 @@
   {
     "Manufacturer": "AUDI",
     "Year": "2011",
+    "Carname": "5 COUPE",
+    "Mastery": [
+      null,
+      "threading_the_needle_skills",
+      null,
+      null,
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "AUDI",
+    "Year": "2011",
     "Carname": "RS 3 SPORT BACK",
     "Mastery": [
       null,
@@ -410,6 +456,29 @@
       "XP",
       "near_miss",
       "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "AUDI",
+    "Year": "2013",
+    "Carname": "RS 4 AVANT",
+    "Mastery": [
+      null,
+      "threading_the_needle_skills",
+      null,
+      null,
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
       "break_skillchains_twice"
     ]
   },
@@ -1751,6 +1820,29 @@
     "Manufacturer": "FORD",
     "Year": "1992",
     "Carname": "ESCORT RS COSWORTH",
+    "Mastery": [
+      null,
+      "dirtracing_events",
+      null,
+      null,
+      null,
+      "faster_multiplier",
+      "combo_skills",
+      "link_skill_skills",
+      "drift_edrift_skills",
+      "sideswipes_skills",
+      "airborne_pass_skills",
+      "crash_landing_skills",
+      "XP",
+      "wreckage_skills",
+      "air_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORD",
+    "Year": "1999",
+    "Carname": "RACING PUMA",
     "Mastery": [
       null,
       "dirtracing_events",
@@ -4255,6 +4347,52 @@
     ]
   },
   {
+    "Manufacturer": "MEYERS",
+    "Year": "1971",
+    "Carname": "MANX",
+    "Mastery": [
+      "cross_country_events",
+      null,
+      null,
+      "skillchain_ends_later",
+      "kangaroo_skills",
+      "crash_landing_skills",
+      null,
+      "combo_skills",
+      "air_skills",
+      "wreckage_skills",
+      "wrecking_ball_skills",
+      "link_skill_skills",
+      "XP",
+      "freeroam",
+      "event_finish_score",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MEYERS",
+    "Year": "2023",
+    "Carname": "MANX",
+    "Mastery": [
+      "cross_country_events",
+      null,
+      null,
+      "skillchain_ends_later",
+      "kangaroo_skills",
+      "crash_landing_skills",
+      null,
+      "combo_skills",
+      "air_skills",
+      "wreckage_skills",
+      "wrecking_ball_skills",
+      "link_skill_skills",
+      "XP",
+      "freeroam",
+      "event_finish_score",
+      "break_skillchains_twice"
+    ]
+  },
+  {
     "Manufacturer": "MG",
     "Year": "1986",
     "Carname": "METRO 6R4",
@@ -4538,6 +4676,29 @@
       null,
       null,
       "airborne_pass_skills",
+      "multiplier_goes_up_to",
+      null,
+      "dirtracing_events",
+      "air_skills",
+      "slingshot_skills",
+      "skillchain_ends_later",
+      "showoff_skills",
+      "pass_skills",
+      "drafting_skills",
+      "XP",
+      "drift_edrift_skills",
+      "touge_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MITSUBISHI",
+    "Year": "2008",
+    "Carname": "LANCER EVOLUTION X GSR",
+    "Mastery": [
+      null,
+      null,
+      null,
       "multiplier_goes_up_to",
       null,
       "dirtracing_events",
@@ -5267,6 +5428,29 @@
     ]
   },
   {
+    "Manufacturer": "NOBLE",
+    "Year": "2010",
+    "Carname": "M600",
+    "Mastery": [
+      "road_racing_events",
+      "skillsong",
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
     "Manufacturer": "PAGANI",
     "Year": "2009",
     "Carname": "ZONDA R",
@@ -5447,6 +5631,29 @@
       "XP",
       "air_skills",
       "crash_landing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "PONTIAC",
+    "Year": "1987",
+    "Carname": "FIREBIRD TRANS AM GTA",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
       "break_skillchains_twice"
     ]
   },
@@ -5797,6 +6004,52 @@
   },
   {
     "Manufacturer": "PORSCHE",
+    "Year": "2020",
+    "Carname": "TAYCAN TURBO S",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "PORSCHE",
+    "Year": "2020",
+    "Carname": "TAYCAN TURBO S_2",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "PORSCHE",
     "Year": "2022",
     "Carname": "718 CAYMAN GT4 RS",
     "Mastery": [
@@ -5907,6 +6160,29 @@
       "XP",
       "wreckage_skills",
       "air_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "RENAULT",
+    "Year": "1993",
+    "Carname": "CLIO WILLIAMS",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      "XP",
+      "near_miss",
+      "street_racing_events",
       "break_skillchains_twice"
     ]
   },
