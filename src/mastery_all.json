@@ -2164,9 +2164,9 @@
   {
     "Manufacturer": "FORD",
     "Year": "1994",
-    "Carname": "Supervan 3",
+    "Carname": "SUPERVAN 3",
     "Mastery": [
-      "pass_skills",
+      "touge_events",
       "convoy_skills",
       null,
       "get_a_new_car",
@@ -4785,29 +4785,6 @@
   },
   {
     "Manufacturer": "MERCEDES-BENZ",
-    "Year": "1990",
-    "Carname": "190 E 2.5-16 EVOLUTION II FORZA EDITION_2",
-    "Mastery": [
-      "touge_events",
-      "convoy_skills",
-      "instant_credits",
-      "instant_super_wheel_spin",
-      "link_skill_skills",
-      "faster_multiplier",
-      "slingshot_skills",
-      "time_attack_events",
-      "speed_skills",
-      "pass_skills",
-      "drafting_skills",
-      "instant_wheel_spins",
-      "XP",
-      "road_racing_events",
-      "clean_racing_skills",
-      "break_skillchains_twice"
-    ]
-  },
-  {
-    "Manufacturer": "MERCEDES-BENZ",
     "Year": "2013",
     "Carname": "A 45 AMG",
     "Mastery": [
@@ -4856,29 +4833,6 @@
     "Manufacturer": "MERCEDES-BENZ",
     "Year": "2014",
     "Carname": "UNIMOG IJ5023",
-    "Mastery": [
-      "cross_country_events",
-      null,
-      null,
-      null,
-      "wrecking_ball_skills",
-      null,
-      "tripple_pass_skills",
-      "event_finish_score",
-      "wreckage_skills",
-      "crash_landing_skills",
-      "pass_skills",
-      "airborne_pass_skills",
-      "XP",
-      "link_skill_skills",
-      "air_skills",
-      "break_skillchains_twice"
-    ]
-  },
-  {
-    "Manufacturer": "MERCEDES-BENZ",
-    "Year": "2014",
-    "Carname": "UNIMOG IJ5023_2",
     "Mastery": [
       "cross_country_events",
       null,
