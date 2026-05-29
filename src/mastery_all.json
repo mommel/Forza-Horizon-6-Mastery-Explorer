@@ -1726,6 +1726,29 @@
   },
   {
     "Manufacturer": "FERRARI",
+    "Year": "2020",
+    "Carname": "SF90 STRADALE",
+    "Mastery": [
+      "instant_wheel_spins",
+      "freeroam",
+      "instant_super_wheel_spin",
+      null,
+      "road_racing_events",
+      "tripple_pass_skills",
+      null,
+      "hard_charger_skills",
+      "clean_racing_skills",
+      "pass_skills",
+      "multiplier_goes_up_to",
+      "burnout_skills",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FERRARI",
     "Year": "2022",
     "Carname": "296 GTB",
     "Mastery": [
@@ -6210,6 +6233,29 @@
     ]
   },
   {
+    "Manufacturer": "SHELBY",
+    "Year": "1965",
+    "Carname": "COBRA 427 SIC",
+    "Mastery": [
+      "instant_credits",
+      "road_racing_events",
+      "instant_super_wheel_spin",
+      null,
+      "skillchain_ends_later",
+      "daredevil_skills",
+      null,
+      "skillsong",
+      "event_finish_score",
+      "near_miss",
+      "showoff_skills",
+      "instant_wheel_spins",
+      "XP",
+      "clean_racing_skills",
+      "drift_edrift_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
     "Manufacturer": "SIERRA CARS",
     "Year": "2021",
     "Carname": "TOR",
@@ -6574,6 +6620,29 @@
       "XP",
       "clean_racing_skills",
       "drift_edrift_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "TOYOTA",
+    "Year": "1979",
+    "Carname": "FJ40",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "cross_country_events",
+      "combo_skills",
+      "ultimate_skillchain_scores",
+      null,
+      "crash_landing_skills",
+      "wreckage_skills",
+      "wrecking_ball_skills",
+      "multiplier_goes_up_to",
+      "XP",
+      "air_skills",
+      "kangaroo_skills",
       "break_skillchains_twice"
     ]
   },
