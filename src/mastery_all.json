@@ -416,30 +416,7 @@
   {
     "Manufacturer": "AUDI",
     "Year": "2011",
-    "Carname": "5 COUPE",
-    "Mastery": [
-      null,
-      "threading_the_needle_skills",
-      null,
-      null,
-      null,
-      "trading_paint_skill",
-      "lucky_escape_skills",
-      "drift_tap_skills",
-      "street_racing_events",
-      "near_miss",
-      "showoff_skills",
-      "drift_edrift_skills",
-      "XP",
-      "skillsong",
-      "pass_skills",
-      "break_skillchains_twice"
-    ]
-  },
-  {
-    "Manufacturer": "AUDI",
-    "Year": "2011",
-    "Carname": "RS 3 SPORT BACK",
+    "Carname": "RS 3 SPORTBACK",
     "Mastery": [
       null,
       null,
@@ -456,6 +433,29 @@
       "XP",
       "near_miss",
       "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "AUDI",
+    "Year": "2011",
+    "Carname": "RS 5 COUPE",
+    "Mastery": [
+      null,
+      "threading_the_needle_skills",
+      null,
+      null,
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
       "break_skillchains_twice"
     ]
   },
@@ -485,7 +485,7 @@
   {
     "Manufacturer": "AUDI",
     "Year": "2015",
-    "Carname": "SI",
+    "Carname": "S1",
     "Mastery": [
       null,
       null,
@@ -508,7 +508,7 @@
   {
     "Manufacturer": "AUDI",
     "Year": "2020",
-    "Carname": "R8 VIO PERFORMANCE",
+    "Carname": "R8 V10 PERFORMANCE",
     "Mastery": [
       "road_racing_events",
       null,
@@ -800,6 +800,29 @@
       "drift_edrift_skills",
       "XP",
       "skillsong",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "BMW",
+    "Year": "2008",
+    "Carname": "Z4 M COUPE",
+    "Mastery": [
+      null,
+      null,
+      null,
+      "road_racing_events",
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
     ]
@@ -1197,6 +1220,29 @@
   },
   {
     "Manufacturer": "CHEVROLET",
+    "Year": "2002",
+    "Carname": "CORVETTE Z06",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "CHEVROLET",
     "Year": "2017",
     "Carname": "CAMARO ZLI",
     "Mastery": [
@@ -1543,7 +1589,7 @@
   {
     "Manufacturer": "FERRARI",
     "Year": "1967",
-    "Carname": "FERRARI SPA 330 P4",
+    "Carname": "#24 FERRARI SPA 330 P4",
     "Mastery": [
       "head-to-head_races",
       "road_racing_events",
@@ -2094,54 +2140,8 @@
   },
   {
     "Manufacturer": "FORD",
-    "Year": "2016",
-    "Carname": "MUSTANG SHELBY GT350R_2",
-    "Mastery": [
-      "touge_events",
-      null,
-      null,
-      null,
-      "link_skill_skills",
-      null,
-      "slingshot_skills",
-      "time_attack_events",
-      "speed_skills",
-      "pass_skills",
-      "drafting_skills",
-      "faster_multiplier",
-      "XP",
-      "road_racing_events",
-      "clean_racing_skills",
-      "break_skillchains_twice"
-    ]
-  },
-  {
-    "Manufacturer": "FORD",
     "Year": "2017",
     "Carname": "BROCKY ULTRA4 BRONCO RTR",
-    "Mastery": [
-      "cross_country_events",
-      "combo_skills",
-      null,
-      null,
-      "wrecking_ball_skills",
-      null,
-      "tripple_pass_skills",
-      "event_finish_score",
-      "wreckage_skills",
-      "crash_landing_skills",
-      "pass_skills",
-      "airborne_pass_skills",
-      "XP",
-      "link_skill_skills",
-      "air_skills",
-      "break_skillchains_twice"
-    ]
-  },
-  {
-    "Manufacturer": "FORD",
-    "Year": "2017",
-    "Carname": "BROCKY ULTRA4 BRONCO RTR_2",
     "Mastery": [
       "cross_country_events",
       "combo_skills",
@@ -4510,7 +4510,7 @@
   {
     "Manufacturer": "MITSUBISHI",
     "Year": "1995",
-    "Carname": "LANCER EVOLUTION GSR",
+    "Carname": "LANCER EVOLUTION III GSR",
     "Mastery": [
       "instant_super_wheel_spin",
       "dirtracing_events",
@@ -4579,7 +4579,7 @@
   {
     "Manufacturer": "MITSUBISHI",
     "Year": "2001",
-    "Carname": "LANCER EVOLUTION GSR TM EDITION",
+    "Carname": "LANCER EVOLUTION VI GSR TM EDITION",
     "Mastery": [
       null,
       "dirtracing_events",
@@ -4602,7 +4602,7 @@
   {
     "Manufacturer": "MITSUBISHI",
     "Year": "2004",
-    "Carname": "LANCER EVOLUTION MR",
+    "Carname": "LANCER EVOLUTION VIII MR",
     "Mastery": [
       null,
       null,
@@ -4625,7 +4625,7 @@
   {
     "Manufacturer": "MITSUBISHI",
     "Year": "2004",
-    "Carname": "LANCER EVOLUTION MR WELCOME PACK",
+    "Carname": "LANCER EVOLUTION VIII MR WELCOME PACK",
     "Mastery": [
       null,
       "ultimate_skillchain_scores",
@@ -4648,7 +4648,7 @@
   {
     "Manufacturer": "MITSUBISHI",
     "Year": "2005",
-    "Carname": "SIERRA SIERRA ENTERPRISES LANCER EVOLUTION TIME ATTACK",
+    "Carname": "#1 SIERRA SIERRA ENTERPRISES LANCER EVOLUTION TIME ATTACK",
     "Mastery": [
       "touge_events",
       "convoy_skills",
@@ -4671,7 +4671,7 @@
   {
     "Manufacturer": "MITSUBISHI",
     "Year": "2006",
-    "Carname": "LANCER EVOLUTION MR",
+    "Carname": "LANCER EVOLUTION IX MR",
     "Mastery": [
       null,
       null,
@@ -4740,7 +4740,7 @@
   {
     "Manufacturer": "NISSAN",
     "Year": "1973",
-    "Carname": "SKYLINE HIT 2000GT-R",
+    "Carname": "SKYLINE H-T 2000GT-R",
     "Mastery": [
       null,
       null,
@@ -5131,7 +5131,7 @@
   {
     "Manufacturer": "NISSAN",
     "Year": "1998",
-    "Carname": "PENNZOIL NISMO SKYLINE GT-R",
+    "Carname": "#23 PENNZOIL NISMO SKYLINE GT-R",
     "Mastery": [
       "head-to-head_races",
       "road_racing_events",
@@ -5201,29 +5201,6 @@
     "Manufacturer": "NISSAN",
     "Year": "2000",
     "Carname": "DREAM PROJECT S15 SILVIA WTAC",
-    "Mastery": [
-      "touge_events",
-      "convoy_skills",
-      null,
-      null,
-      "link_skill_skills",
-      null,
-      "slingshot_skills",
-      "time_attack_events",
-      "speed_skills",
-      "pass_skills",
-      "drafting_skills",
-      "faster_multiplier",
-      "XP",
-      "road_racing_events",
-      "clean_racing_skills",
-      "break_skillchains_twice"
-    ]
-  },
-  {
-    "Manufacturer": "NISSAN",
-    "Year": "2000",
-    "Carname": "DREAM PROJECT S15 SILVIA WTAC_2",
     "Mastery": [
       "touge_events",
       "convoy_skills",
@@ -5660,7 +5637,7 @@
   {
     "Manufacturer": "PORSCHE",
     "Year": "1970",
-    "Carname": "917 LH FORZA EDITION",
+    "Carname": "#3 917 LH FORZA EDITION",
     "Mastery": [
       "touge_events",
       "convoy_skills",
@@ -5706,7 +5683,7 @@
   {
     "Manufacturer": "PORSCHE",
     "Year": "1982",
-    "Carname": "911 TURBO",
+    "Carname": "911 TURBO 3.3",
     "Mastery": [
       "road_racing_events",
       "faster_multiplier",
@@ -5867,7 +5844,7 @@
   {
     "Manufacturer": "PORSCHE",
     "Year": "2012",
-    "Carname": "911 GT3 RS",
+    "Carname": "911 GT3 RS 4.0",
     "Mastery": [
       "touge_events",
       "convoy_skills",
@@ -6006,29 +5983,6 @@
     "Manufacturer": "PORSCHE",
     "Year": "2020",
     "Carname": "TAYCAN TURBO S",
-    "Mastery": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      "trading_paint_skill",
-      "lucky_escape_skills",
-      "drift_tap_skills",
-      "street_racing_events",
-      "near_miss",
-      "showoff_skills",
-      "drift_edrift_skills",
-      "XP",
-      "skillsong",
-      "pass_skills",
-      "break_skillchains_twice"
-    ]
-  },
-  {
-    "Manufacturer": "PORSCHE",
-    "Year": "2020",
-    "Carname": "TAYCAN TURBO S_2",
     "Mastery": [
       null,
       null,
@@ -7178,7 +7132,7 @@
   {
     "Manufacturer": "VOLKSWAGEN",
     "Year": "1969",
-    "Carname": "CLASS 51600 BAJA BUG",
+    "Carname": "CLASS 5 1600 BAJA BUG",
     "Mastery": [
       "cross_country_events",
       null,
@@ -7339,7 +7293,7 @@
   {
     "Manufacturer": "VOLKSWAGEN",
     "Year": "2017",
-    "Carname": "ANDRETTI RALLY CROSS BEETLE",
+    "Carname": "#34 ANDRETTI RALLY CROSS BEETLE",
     "Mastery": [
       "skillchain_ends_later",
       "head-to-head_races",
