@@ -2646,6 +2646,29 @@
   },
   {
     "Manufacturer": "HONDA",
+    "Year": "1970",
+    "Carname": "I",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "threading_the_needle_skills",
+      null,
+      "skillchain_ends_later",
+      "multiplier_goes_up_to",
+      "near_miss",
+      "stuntman_skills",
+      "air_skills",
+      "convoy_skills",
+      null,
+      "pass_skills",
+      "event_finish_score",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "HONDA",
     "Year": "1974",
     "Carname": "CIVIC RS",
     "Mastery": [
