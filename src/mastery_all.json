@@ -646,7 +646,7 @@
   {
     "Manufacturer": "BMW",
     "Year": "1981",
-    "Carname": "MI",
+    "Carname": "M1",
     "Mastery": [
       "road_racing_events",
       "faster_multiplier",
@@ -1244,7 +1244,7 @@
   {
     "Manufacturer": "DELOREAN",
     "Year": "1982",
-    "Carname": "DMC-12",
+    "Carname": "DMC12",
     "Mastery": [
       null,
       "event_finish_score",
@@ -1290,7 +1290,7 @@
   {
     "Manufacturer": "DODGE",
     "Year": "1969",
-    "Carname": "CHARGER RIT",
+    "Carname": "CHARGER R T",
     "Mastery": [
       "instant_super_wheel_spin",
       "faster_multiplier",
