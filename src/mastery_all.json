@@ -1680,6 +1680,29 @@
   },
   {
     "Manufacturer": "FERRARI",
+    "Year": "1995",
+    "Carname": "--F50",
+    "Mastery": [
+      null,
+      null,
+      null,
+      "get_a_new_car",
+      null,
+      "tripple_pass_skills",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "Manufacturer": "FERRARI",
     "Year": "2017",
     "Carname": "J50",
     "Mastery": [
