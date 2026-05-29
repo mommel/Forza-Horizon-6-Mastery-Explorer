@@ -76,8 +76,17 @@ const state = {
   searchQuery: "",
   filterMode: "any", // "any" or "all"
   lang: "en",
-  i18n: {}
+  i18n: {},
+  hiddenCars: new Set(JSON.parse(localStorage.getItem('hiddenCars') || '[]'))
 };
+
+function saveHiddenCars() {
+  localStorage.setItem('hiddenCars', JSON.stringify([...state.hiddenCars]));
+}
+
+function getCarKey(entry) {
+  return `${entry.Manufacturer}|${entry.Carname}|${entry.Year}`;
+}
 
 async function loadI18n() {
   if (window.__I18N_DATA__) {
@@ -302,7 +311,26 @@ function renderActiveFilters() {
 function buildCard(entry) {
   const fragment = cardTemplate.content.cloneNode(true);
   fragment.querySelector(".car-name").textContent = entry.Carname;
-  fragment.querySelector(".car-year").textContent = entry.Year;
+  
+  const yearContainer = fragment.querySelector(".car-year");
+  yearContainer.style.display = "flex";
+  yearContainer.style.justifyContent = "space-between";
+  yearContainer.style.alignItems = "center";
+  
+  const hideBtn = document.createElement("button");
+  hideBtn.className = "hide-car-btn";
+  hideBtn.title = t('ui.hideCar') || "Hide Car";
+  hideBtn.innerHTML = `<svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line></svg>`;
+  
+  hideBtn.addEventListener("click", () => {
+    state.hiddenCars.add(getCarKey(entry));
+    saveHiddenCars();
+    render();
+  });
+  
+  const yearText = document.createElement("span");
+  yearText.textContent = entry.Year;
+  yearContainer.append(hideBtn, yearText);
 
   const masteryContainer = fragment.querySelector(".car-masteries");
   masteryContainer.innerHTML = "";
@@ -397,8 +425,8 @@ function render() {
     return;
   }
 
-  // Filter cars based on search input and selected perks
-  let filtered = state.data;
+  // Filter cars based on search input and selected perks, and exclude hidden cars
+  let filtered = state.data.filter(entry => !state.hiddenCars.has(getCarKey(entry)));
 
   // 1. Filter by text search query
   if (state.searchQuery) {
@@ -517,6 +545,81 @@ async function init() {
   sortedAssetKeys.forEach((key, index) => {
     iconGrid.append(createIconButton(key, index));
   });
+
+  // Disabled Cars Panel Logic
+  const showDisabledBtn = document.querySelector("#show-disabled-list");
+  const closeDisabledBtn = document.querySelector("#close-disabled-list");
+  const disabledOverlay = document.querySelector("#disabled-cars-overlay");
+  const disabledPanel = document.querySelector("#disabled-cars-panel");
+  const disabledList = document.querySelector("#disabled-cars-list");
+
+  function renderDisabledPanel() {
+    disabledList.innerHTML = "";
+    if (state.hiddenCars.size === 0) {
+      disabledList.innerHTML = `<p style="color: var(--muted); text-align: center; padding: 1rem;">${t('ui.noDisabledCars') || "No disabled cars."}</p>`;
+      return;
+    }
+    
+    [...state.hiddenCars].sort().forEach(key => {
+      const [manufacturer, carname, year] = key.split('|');
+      
+      const item = document.createElement("div");
+      item.className = "disabled-car-item";
+      
+      const info = document.createElement("div");
+      info.style.flex = "1";
+      info.style.marginLeft = "1rem";
+      
+      const title = document.createElement("div");
+      title.style.fontWeight = "bold";
+      title.style.color = "var(--text)";
+      title.textContent = `${manufacturer} ${carname}`;
+      
+      const subtitle = document.createElement("div");
+      subtitle.style.fontSize = "0.8rem";
+      subtitle.style.color = "var(--muted)";
+      subtitle.textContent = year;
+      
+      info.append(title, subtitle);
+      
+      const unhideBtn = document.createElement("button");
+      unhideBtn.className = "unhide-btn";
+      unhideBtn.title = t('ui.unhideCar') || "Show Car";
+      unhideBtn.innerHTML = `<svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>`;
+      
+      unhideBtn.addEventListener("click", () => {
+        state.hiddenCars.delete(key);
+        saveHiddenCars();
+        render();
+        renderDisabledPanel();
+      });
+      
+      item.append(unhideBtn, info);
+      disabledList.append(item);
+    });
+  }
+
+  if (showDisabledBtn) {
+    showDisabledBtn.addEventListener("click", () => {
+      renderDisabledPanel();
+      disabledOverlay.style.display = "block";
+      disabledPanel.style.display = "flex";
+    });
+  }
+
+  if (closeDisabledBtn) {
+    closeDisabledBtn.addEventListener("click", () => {
+      disabledOverlay.style.display = "none";
+      disabledPanel.style.display = "none";
+    });
+  }
+
+  if (disabledOverlay) {
+    disabledOverlay.addEventListener("click", () => {
+      disabledOverlay.style.display = "none";
+      disabledPanel.style.display = "none";
+    });
+  }
 
   // Controls Event Listeners
   selectAllButton.addEventListener("click", () => {

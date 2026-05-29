@@ -27,7 +27,12 @@
     "noCarsTitle": "Nessuna auto corrispondente trovata",
     "noCarsDesc": "Prova a rimuovere alcuni vantaggi o digita una query di ricerca diversa.",
     "errorTitle": "Impossibile caricare i dati",
-    "errorDesc": "Apri questo sito tramite un server web locale affinché il browser possa caricare <code>mastery_all.json</code>."
+    "errorDesc": "Apri questo sito tramite un server web locale affinché il browser possa caricare <code>mastery_all.json</code>.",
+    "showDisabledList": "Mostra elenco disabilitati",
+    "disabledCars": "Auto disabilitate",
+    "noDisabledCars": "Nessuna auto disabilitata.",
+    "hideCar": "Nascondi auto",
+    "unhideCar": "Mostra auto"
   },
   "perks": {
     "near_miss": "% extra per abilità Mancato di Poco",

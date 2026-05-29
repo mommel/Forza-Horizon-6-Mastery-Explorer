@@ -27,7 +27,12 @@
     "noCarsTitle": "No se encontraron coches coincidentes",
     "noCarsDesc": "Intenta quitar algunas ventajas o escribe una consulta de búsqueda diferente.",
     "errorTitle": "No se pudo cargar el conjunto de datos",
-    "errorDesc": "Abre este sitio a través de un servidor web local para que el navegador pueda cargar <code>mastery_all.json</code>."
+    "errorDesc": "Abre este sitio a través de un servidor web local para que el navegador pueda cargar <code>mastery_all.json</code>.",
+    "showDisabledList": "Mostrar lista de deshabilitados",
+    "disabledCars": "Coches deshabilitados",
+    "noDisabledCars": "No hay coches deshabilitados.",
+    "hideCar": "Ocultar coche",
+    "unhideCar": "Mostrar coche"
   },
   "perks": {
     "near_miss": "% extra por habilidades de Casi Accidente",

@@ -13,6 +13,7 @@
   <div class="background-glow background-glow-right"></div>
 
   <div class="language-select-container">
+    <button id="show-disabled-list" class="toolbar-button-secondary" data-i18n="ui.showDisabledList" style="margin-right: 0.75rem; padding: 0.4rem 0.8rem; border-radius: 4px; font-size: 0.85rem; cursor: pointer; font-family: 'Outfit', sans-serif; font-weight: 600;">Show disabled list</button>
     <select id="language-select" aria-label="Select language">
       <option value="en">English (EN)</option>
       <option value="de">Deutsch (DE)</option>
@@ -90,6 +91,18 @@
       <div id="results" class="results-grid"></div>
     </section>
   </main>
+
+  <div id="disabled-cars-overlay" class="panel-overlay" style="display: none;"></div>
+  <div id="disabled-cars-panel" class="panel selection-panel" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 101; max-height: 80vh; overflow-y: auto; width: 500px; box-shadow: var(--shadow);">
+    <div class="panel-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+      <div>
+        <p class="eyebrow" data-i18n="ui.appTitle">Forza Horizon 6</p>
+        <h2 data-i18n="ui.disabledCars" style="font-size: 1.5rem;">Disabled Cars</h2>
+      </div>
+      <button id="close-disabled-list" style="background: none; border: none; color: var(--muted); font-size: 2rem; cursor: pointer; transition: color 0.2s ease;">&times;</button>
+    </div>
+    <div id="disabled-cars-list" style="display: flex; flex-direction: column; gap: 0.5rem;"></div>
+  </div>
 
   <template id="car-card-template">
     <article class="car-card">

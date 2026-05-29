@@ -993,3 +993,13 @@ h2 {
   font-size: 0.9rem;
   cursor: pointer;
 }
+/* Disabled Cars Overlay */
+.panel-overlay { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.6); backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); z-index: 100; }
+
+/* Hide Car Button */
+.hide-car-btn { background: none; border: none; color: var(--muted); cursor: pointer; padding: 0.2rem; display: flex; align-items: center; justify-content: center; transition: all 0.2s ease; }
+.hide-car-btn:hover { color: var(--neon-pink); transform: scale(1.1); }
+
+.disabled-car-item { display: flex; align-items: center; justify-content: space-between; padding: 0.75rem 1rem; background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: var(--radius-sm); }
+.disabled-car-item .unhide-btn { background: none; border: none; color: var(--muted); cursor: pointer; padding: 0.3rem; display: flex; align-items: center; justify-content: center; transition: all 0.2s ease; }
+.disabled-car-item .unhide-btn:hover { color: var(--neon-cyan); transform: scale(1.1); }
