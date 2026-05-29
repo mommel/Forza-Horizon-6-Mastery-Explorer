@@ -1,6 +1,29 @@
 [
   {
     "Manufacturer": "ABARTH",
+    "Year": "1980",
+    "Carname": "FIAT 131",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "faster_multiplier",
+      "combo_skills",
+      "link_skill_skills",
+      "drift_edrift_skills",
+      "sideswipes_skills",
+      "airborne_pass_skills",
+      "crash_landing_skills",
+      "XP",
+      "wreckage_skills",
+      "air_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "ABARTH",
     "Year": "2016",
     "Carname": "695 BIPOSTO",
     "Mastery": [
@@ -1726,6 +1749,52 @@
   },
   {
     "Manufacturer": "FORD",
+    "Year": "2016",
+    "Carname": "MUSTANG SHELBY GT350R",
+    "Mastery": [
+      "touge_events",
+      null,
+      null,
+      null,
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORD",
+    "Year": "2016",
+    "Carname": "MUSTANG SHELBY GT350R_2",
+    "Mastery": [
+      "touge_events",
+      null,
+      null,
+      null,
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORD",
     "Year": "2017",
     "Carname": "BROCKY ULTRA4 BRONCO RTR",
     "Mastery": [
@@ -2326,6 +2395,29 @@
     "Manufacturer": "HONDA",
     "Year": "1991",
     "Carname": "CR-X SIR",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      "XP",
+      "near_miss",
+      "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "HONDA",
+    "Year": "1991",
+    "Carname": "CR-X SIR_2",
     "Mastery": [
       null,
       null,
@@ -3193,6 +3285,29 @@
       "XP",
       "road_racing_events",
       "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "LEXUS",
+    "Year": "2015",
+    "Carname": "RCF",
+    "Mastery": [
+      null,
+      "threading_the_needle_skills",
+      null,
+      null,
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
       "break_skillchains_twice"
     ]
   },
@@ -4205,6 +4320,29 @@
       "XP",
       "air_skills",
       "kangaroo_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "NISSAN",
+    "Year": "1987",
+    "Carname": "BE-1",
+    "Mastery": [
+      "street_racing_events",
+      "combo_skills",
+      null,
+      null,
+      "lucky_escape_skills",
+      "daredevil_skills",
+      null,
+      "freeroam",
+      "near_miss",
+      "speed_skills",
+      "threading_the_needle_skills",
+      "faster_multiplier",
+      "XP",
+      "drafting_skills",
+      "touge_events",
       "break_skillchains_twice"
     ]
   },
@@ -6574,6 +6712,29 @@
       "XP",
       "street_racing_events",
       "ultimate_skillchain_scores",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "WULING",
+    "Year": "2020",
+    "Carname": "SUNSHINE S FORZA EDITION",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      "instant_credits",
+      "instant_super_wheel_spin",
+      "link_skill_skills",
+      "faster_multiplier",
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "instant_wheel_spins",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
       "break_skillchains_twice"
     ]
   },
