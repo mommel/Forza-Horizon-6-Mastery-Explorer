@@ -485,7 +485,7 @@
   {
     "Manufacturer": "BMW",
     "Year": "1981",
-    "Carname": "M1",
+    "Carname": "MI",
     "Mastery": [
       "road_racing_events",
       "faster_multiplier",
@@ -755,6 +755,29 @@
       "XP",
       "skillsong",
       "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "CADILLAC",
+    "Year": "2016",
+    "Carname": "ATS-V",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
       "break_skillchains_twice"
     ]
   },
@@ -3175,6 +3198,29 @@
   },
   {
     "Manufacturer": "LAMBORGHINI",
+    "Year": "2022",
+    "Carname": "HURACAN TECNICA_2",
+    "Mastery": [
+      "road_racing_events",
+      "faster_multiplier",
+      "instant_credits",
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "LAMBORGHINI",
     "Year": "2023",
     "Carname": "HURACAN STERRATO",
     "Mastery": [
@@ -3354,6 +3400,29 @@
       "XP",
       "speed_skills",
       "event_finish_score",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "LOTUS",
+    "Year": "1997",
+    "Carname": "ELISE GTI",
+    "Mastery": [
+      "road_racing_events",
+      "faster_multiplier",
+      "instant_credits",
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
       "break_skillchains_twice"
     ]
   },
@@ -5038,6 +5107,29 @@
   },
   {
     "Manufacturer": "PEUGEOT",
+    "Year": "1991",
+    "Carname": "205 RALLYE",
+    "Mastery": [
+      null,
+      "touge_events",
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      "XP",
+      "near_miss",
+      "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "PEUGEOT",
     "Year": "2007",
     "Carname": "207 SUPER 2000",
     "Mastery": [
@@ -5263,6 +5355,29 @@
       "XP",
       "drift_edrift_skills",
       "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "PORSCHE",
+    "Year": "1995",
+    "Carname": "911 GT2",
+    "Mastery": [
+      "road_racing_events",
+      "skillsong",
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
       "break_skillchains_twice"
     ]
   },
