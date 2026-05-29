@@ -27,7 +27,12 @@
     "noCarsTitle": "Keine passenden Autos gefunden",
     "noCarsDesc": "Versuche, einige Perks zu löschen oder gib eine andere Suchanfrage ein.",
     "errorTitle": "Datensatz konnte nicht geladen werden",
-    "errorDesc": "Öffne diese Seite über einen lokalen Webserver, damit der Browser <code>mastery_all.json</code> laden kann."
+    "errorDesc": "Öffne diese Seite über einen lokalen Webserver, damit der Browser <code>mastery_all.json</code> laden kann.",
+    "showDisabledList": "Deaktivierte Liste anzeigen",
+    "disabledCars": "Deaktivierte Autos",
+    "noDisabledCars": "Keine deaktivierten Autos.",
+    "hideCar": "Auto ausblenden",
+    "unhideCar": "Auto anzeigen"
   },
   "perks": {
     "near_miss": "zusätzliche % für Beinahe-Treffer-Fähigkeiten",

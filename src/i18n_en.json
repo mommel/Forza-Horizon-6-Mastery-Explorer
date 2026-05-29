@@ -27,7 +27,12 @@
     "noCarsTitle": "No matching cars found",
     "noCarsDesc": "Try clearing some perks or typing a different search query.",
     "errorTitle": "Could not load dataset",
-    "errorDesc": "Open this site through a local web server so the browser can load <code>mastery_all.json</code>."
+    "errorDesc": "Open this site through a local web server so the browser can load <code>mastery_all.json</code>.",
+    "showDisabledList": "Show disabled list",
+    "disabledCars": "Disabled Cars",
+    "noDisabledCars": "No disabled cars.",
+    "hideCar": "Hide Car",
+    "unhideCar": "Show Car"
   },
   "perks": {
     "near_miss": "extra % from Near Miss Skills",

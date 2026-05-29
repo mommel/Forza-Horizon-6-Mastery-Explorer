@@ -27,7 +27,12 @@
     "noCarsTitle": "未找到匹配的汽车",
     "noCarsDesc": "尝试清除一些特性或输入不同的搜索词。",
     "errorTitle": "无法加载数据集",
-    "errorDesc": "请通过本地Web服务器打开此站点，以便浏览器可以加载<code>mastery_all.json</code>。"
+    "errorDesc": "请通过本地Web服务器打开此站点，以便浏览器可以加载<code>mastery_all.json</code>。",
+    "showDisabledList": "显示禁用列表",
+    "disabledCars": "禁用车辆",
+    "noDisabledCars": "没有禁用车辆。",
+    "hideCar": "隐藏车辆",
+    "unhideCar": "显示车辆"
   },
   "perks": {
     "near_miss": "险些错过技能的额外 %",

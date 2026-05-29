@@ -27,7 +27,12 @@
     "noCarsTitle": "一致する車が見つかりません",
     "noCarsDesc": "いくつかのパークをクリアするか、別の検索クエリを入力してみてください。",
     "errorTitle": "データセットを読み込めませんでした",
-    "errorDesc": "ブラウザが<code>mastery_all.json</code>を読み込めるように、ローカルWebサーバー経由でこのサイトを開いてください。"
+    "errorDesc": "ブラウザが<code>mastery_all.json</code>を読み込めるように、ローカルWebサーバー経由でこのサイトを開いてください。",
+    "showDisabledList": "無効なリストを表示",
+    "disabledCars": "無効な車",
+    "noDisabledCars": "無効な車はありません。",
+    "hideCar": "車を隠す",
+    "unhideCar": "車を表示"
   },
   "perks": {
     "near_miss": "ニアミススキルから追加の %",
