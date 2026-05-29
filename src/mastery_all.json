@@ -1661,44 +1661,21 @@
     "Carname": "F50",
     "Mastery": [
       null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ]
-  },
-  {
-    "Manufacturer": "FERRARI",
-    "Year": "1995",
-    "Carname": "--F50",
-    "Mastery": [
-      null,
-      null,
+      "skillsong",
       null,
       "get_a_new_car",
-      null,
+      "slingshot_skills",
       "tripple_pass_skills",
       null,
+      "drag_meet_events",
       null,
       null,
       null,
+      "speed_skills",
+      "XP",
       null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "clean_racing_skills",
+      "break_skillchains_twice"
     ]
   },
   {
@@ -1960,6 +1937,7 @@
     "Carname": "SUPERVAN 3",
     "Mastery": [
       null,
+      "convoy_skills",
       null,
       null,
       null,
@@ -1971,9 +1949,8 @@
       null,
       null,
       null,
-      null,
-      null,
-      null,
+      "road_racing_events",
+      "clean_racing_skills",
       null
     ]
   },
@@ -3194,29 +3171,6 @@
       "near_miss",
       null,
       "break_skillchains_twice"
-    ]
-  },
-  {
-    "Manufacturer": "HONDA",
-    "Year": "2023",
-    "Carname": "CIVIC TYPE R_2",
-    "Mastery": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
     ]
   },
   {
@@ -5987,19 +5941,19 @@
       null,
       null,
       null,
+      "get_a_new_car",
       null,
       null,
       null,
       null,
+      "clean_racing_skills",
+      "pass_skills",
       null,
       null,
+      "XP",
       null,
       null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "break_skillchains_twice"
     ]
   },
   {
