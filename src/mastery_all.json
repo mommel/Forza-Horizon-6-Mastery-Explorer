@@ -1,6 +1,29 @@
 [
   {
     "Manufacturer": "ABARTH",
+    "Year": "1968",
+    "Carname": "595 ESSEESSE",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "threading_the_needle_skills",
+      null,
+      "skillchain_ends_later",
+      "multiplier_goes_up_to",
+      "near_miss",
+      "stuntman_skills",
+      "air_skills",
+      "convoy_skills",
+      "XP",
+      "pass_skills",
+      "event_finish_score",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "ABARTH",
     "Year": "1980",
     "Carname": "FIAT 131",
     "Mastery": [
@@ -134,6 +157,29 @@
       "XP",
       "near_miss",
       "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "ALFA ROMEO",
+    "Year": "1965",
+    "Carname": "GIULIA TZ2",
+    "Mastery": [
+      "head-to-head_races",
+      "road_racing_events",
+      null,
+      "instant_super_wheel_spin",
+      "clean_racing_skills",
+      "showoff_skills",
+      null,
+      "skillchain_ends_later",
+      "speed_skills",
+      "pass_skills",
+      "slingshot_skills",
+      "time_attack_events",
+      "XP",
+      "event_finish_score",
+      "drafting_skills",
       "break_skillchains_twice"
     ]
   },
@@ -346,6 +392,98 @@
   },
   {
     "Manufacturer": "AUDI",
+    "Year": "2011",
+    "Carname": "RS 3 SPORT BACK",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      "XP",
+      "near_miss",
+      "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "AUDI",
+    "Year": "2015",
+    "Carname": "SI",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      "XP",
+      "near_miss",
+      "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "AUDI",
+    "Year": "2020",
+    "Carname": "R8 VIO PERFORMANCE",
+    "Mastery": [
+      "road_racing_events",
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "AUDI",
+    "Year": "2020",
+    "Carname": "RS 3 SEDAN",
+    "Mastery": [
+      null,
+      "threading_the_needle_skills",
+      null,
+      null,
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "AUDI",
     "Year": "2021",
     "Carname": "RS E-TRON GT",
     "Mastery": [
@@ -484,6 +622,29 @@
   },
   {
     "Manufacturer": "BMW",
+    "Year": "1973",
+    "Carname": "2002 TURBO",
+    "Mastery": [
+      null,
+      "event_finish_score",
+      "ultimate_skillchain_scores",
+      "road_racing_events",
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "BMW",
     "Year": "1981",
     "Carname": "MI",
     "Mastery": [
@@ -502,6 +663,29 @@
       "XP",
       "head-to-head_races",
       "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "BMW",
+    "Year": "1997",
+    "Carname": "M3",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
       "break_skillchains_twice"
     ]
   },
@@ -1008,6 +1192,29 @@
       "XP",
       "head-to-head_races",
       "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "DEBERTI",
+    "Year": "2018",
+    "Carname": "JEEP WRANGLER UNLIMITED",
+    "Mastery": [
+      "cross_country_events",
+      "combo_skills",
+      null,
+      null,
+      "wrecking_ball_skills",
+      null,
+      "tripple_pass_skills",
+      "event_finish_score",
+      "wreckage_skills",
+      "crash_landing_skills",
+      "pass_skills",
+      "airborne_pass_skills",
+      "XP",
+      "link_skill_skills",
+      "air_skills",
       "break_skillchains_twice"
     ]
   },
@@ -2830,6 +3037,29 @@
   },
   {
     "Manufacturer": "HYUNDAI",
+    "Year": "2019",
+    "Carname": "VELOSTER N",
+    "Mastery": [
+      null,
+      "touge_events",
+      "skillchain_ends_later",
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      "XP",
+      "near_miss",
+      "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "HYUNDAI",
     "Year": "2022",
     "Carname": "N VISION 74",
     "Mastery": [
@@ -3975,6 +4205,29 @@
       "XP",
       "skillsong",
       "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MERCEDES-BENZ",
+    "Year": "2013",
+    "Carname": "A 45 AMG",
+    "Mastery": [
+      null,
+      "touge_events",
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      "XP",
+      "near_miss",
+      "street_racing_events",
       "break_skillchains_twice"
     ]
   },
@@ -5636,6 +5889,29 @@
   },
   {
     "Manufacturer": "RENAULT",
+    "Year": "1980",
+    "Carname": "5 TURBO",
+    "Mastery": [
+      null,
+      "dirtracing_events",
+      null,
+      null,
+      null,
+      "faster_multiplier",
+      "combo_skills",
+      "link_skill_skills",
+      "drift_edrift_skills",
+      "sideswipes_skills",
+      "airborne_pass_skills",
+      "crash_landing_skills",
+      "XP",
+      "wreckage_skills",
+      "air_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "RENAULT",
     "Year": "2010",
     "Carname": "MEGANE RS 250",
     "Mastery": [
@@ -6717,11 +6993,57 @@
   },
   {
     "Manufacturer": "VOLKSWAGEN",
+    "Year": "2010",
+    "Carname": "GOLF R",
+    "Mastery": [
+      null,
+      "touge_events",
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      "XP",
+      "near_miss",
+      "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "VOLKSWAGEN",
     "Year": "2011",
     "Carname": "SCIROCCO R",
     "Mastery": [
       null,
       "touge_events",
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      "XP",
+      "near_miss",
+      "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "VOLKSWAGEN",
+    "Year": "2014",
+    "Carname": "GOLF R",
+    "Mastery": [
+      null,
+      null,
       null,
       null,
       "slingshot_skills",
