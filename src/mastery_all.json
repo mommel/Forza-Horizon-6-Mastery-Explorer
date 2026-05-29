@@ -1657,6 +1657,29 @@
   },
   {
     "Manufacturer": "FERRARI",
+    "Year": "1995",
+    "Carname": "F50",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "Manufacturer": "FERRARI",
     "Year": "2017",
     "Carname": "J50",
     "Mastery": [
@@ -1906,6 +1929,29 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORD",
+    "Year": "1994",
+    "Carname": "SUPERVAN 3",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -3125,6 +3171,29 @@
       "near_miss",
       null,
       "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "HONDA",
+    "Year": "2023",
+    "Carname": "CIVIC TYPE R_2",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
@@ -5885,6 +5954,29 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "PORSCHE",
+    "Year": "2014",
+    "Carname": "918 SPYDER",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   },
   {
