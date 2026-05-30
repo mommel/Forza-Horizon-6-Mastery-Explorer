@@ -163,6 +163,29 @@
   {
     "Manufacturer": "ALFA ROMEO",
     "Year": "1965",
+    "Carname": "GIULIA SPRINT GTA STRADALE",
+    "Mastery": [
+      null,
+      "road_racing_events",
+      null,
+      null,
+      "skillchain_ends_later",
+      "daredevil_skills",
+      null,
+      "skillsong",
+      "event_finish_score",
+      "near_miss",
+      "showoff_skills",
+      "instant_wheel_spins",
+      "XP",
+      "clean_racing_skills",
+      "drift_edrift_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "ALFA ROMEO",
+    "Year": "1965",
     "Carname": "GIULIA TZ2",
     "Mastery": [
       "head-to-head_races",
@@ -180,6 +203,29 @@
       "XP",
       "event_finish_score",
       "drafting_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "ALFA ROMEO",
+    "Year": "1992",
+    "Carname": "155 Q4",
+    "Mastery": [
+      null,
+      "threading_the_needle_skills",
+      null,
+      "freeroam",
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
       "break_skillchains_twice"
     ]
   },
@@ -249,6 +295,52 @@
       "XP",
       "skillsong",
       "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "ALUMICRAFT",
+    "Year": "2015",
+    "Carname": "CLASS 10 RACE CAR",
+    "Mastery": [
+      "cross_country_events",
+      null,
+      null,
+      "skillchain_ends_later",
+      "kangaroo_skills",
+      "crash_landing_skills",
+      null,
+      "combo_skills",
+      "air_skills",
+      "wreckage_skills",
+      "wrecking_ball_skills",
+      "link_skill_skills",
+      "XP",
+      "freeroam",
+      "event_finish_score",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "ALUMICRAFT",
+    "Year": "2021",
+    "Carname": "#122 CLASS I BUGGY",
+    "Mastery": [
+      "cross_country_events",
+      null,
+      null,
+      "skillchain_ends_later",
+      "kangaroo_skills",
+      "crash_landing_skills",
+      null,
+      "combo_skills",
+      "air_skills",
+      "wreckage_skills",
+      "wrecking_ball_skills",
+      "link_skill_skills",
+      "XP",
+      "freeroam",
+      "event_finish_score",
       "break_skillchains_twice"
     ]
   },
@@ -415,6 +507,121 @@
   },
   {
     "Manufacturer": "AUDI",
+    "Year": "2001",
+    "Carname": "RS 4 AVANT",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "AUDI",
+    "Year": "2003",
+    "Carname": "RS6",
+    "Mastery": [
+      null,
+      "threading_the_needle_skills",
+      null,
+      null,
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "AUDI",
+    "Year": "2006",
+    "Carname": "RS 4",
+    "Mastery": [
+      null,
+      "threading_the_needle_skills",
+      null,
+      null,
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "AUDI",
+    "Year": "2009",
+    "Carname": "RS6",
+    "Mastery": [
+      null,
+      "threading_the_needle_skills",
+      null,
+      "freeroam",
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "AUDI",
+    "Year": "2010",
+    "Carname": "TT COUPE",
+    "Mastery": [
+      null,
+      null,
+      null,
+      "road_racing_events",
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "AUDI",
     "Year": "2011",
     "Carname": "RS 3 SPORTBACK",
     "Mastery": [
@@ -507,6 +714,52 @@
   },
   {
     "Manufacturer": "AUDI",
+    "Year": "2013",
+    "Carname": "RS 7 SPORT BACK",
+    "Mastery": [
+      null,
+      "threading_the_needle_skills",
+      null,
+      "freeroam",
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "AUDI",
+    "Year": "2015",
+    "Carname": "RS 6 AVANT",
+    "Mastery": [
+      null,
+      "threading_the_needle_skills",
+      null,
+      null,
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "AUDI",
     "Year": "2015",
     "Carname": "S1",
     "Mastery": [
@@ -525,6 +778,52 @@
       "XP",
       "near_miss",
       "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "AUDI",
+    "Year": "2016",
+    "Carname": "R8 VIO PLUS",
+    "Mastery": [
+      "road_racing_events",
+      "skillsong",
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "AUDI",
+    "Year": "2018",
+    "Carname": "RS 4 AVANT",
+    "Mastery": [
+      null,
+      "threading_the_needle_skills",
+      null,
+      null,
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
       "break_skillchains_twice"
     ]
   },
@@ -555,6 +854,52 @@
     "Manufacturer": "AUDI",
     "Year": "2020",
     "Carname": "RS 3 SEDAN",
+    "Mastery": [
+      null,
+      "threading_the_needle_skills",
+      null,
+      null,
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "AUDI",
+    "Year": "2021",
+    "Carname": "RS 6 AVANT",
+    "Mastery": [
+      null,
+      "threading_the_needle_skills",
+      null,
+      null,
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "AUDI",
+    "Year": "2021",
+    "Carname": "RS 7 SPORT BACK",
     "Mastery": [
       null,
       "threading_the_needle_skills",
@@ -808,6 +1153,29 @@
     "Manufacturer": "BMW",
     "Year": "2003",
     "Carname": "M5",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "BMW",
+    "Year": "2005",
+    "Carname": "M3",
     "Mastery": [
       null,
       null,
@@ -1426,6 +1794,29 @@
     ]
   },
   {
+    "Manufacturer": "DATSUN",
+    "Year": "1970",
+    "Carname": "510",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
     "Manufacturer": "DEBERTI",
     "Year": "2018",
     "Carname": "JEEP WRANGLER UNLIMITED",
@@ -1529,6 +1920,29 @@
       "hard_charger_skills",
       "sideswipes_skills",
       "head-to-head_races",
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "DODGE",
+    "Year": "1999",
+    "Carname": "VIPER GTS ACR",
+    "Mastery": [
+      null,
+      "faster_multiplier",
+      "instant_credits",
+      null,
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
       "daredevil_skills",
       "burnout_skills",
       "drift_edrift_skills",
@@ -2531,6 +2945,29 @@
   },
   {
     "Manufacturer": "FORD",
+    "Year": "2018",
+    "Carname": "MUSTANG RTR SPEC 5",
+    "Mastery": [
+      null,
+      null,
+      null,
+      "street_racing_events",
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORD",
     "Year": "2020",
     "Carname": "SUPER DUTY F-450 DRW PLATINUM FORZA EDITION",
     "Mastery": [
@@ -2572,6 +3009,29 @@
       "XP",
       "air_skills",
       "kangaroo_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORD",
+    "Year": "2022",
+    "Carname": "SUPERVAN 4",
+    "Mastery": [
+      "touge_events",
+      null,
+      null,
+      null,
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
       "break_skillchains_twice"
     ]
   },
@@ -3543,6 +4003,52 @@
   },
   {
     "Manufacturer": "HYUNDAI",
+    "Year": "2020",
+    "Carname": "130 N",
+    "Mastery": [
+      null,
+      "touge_events",
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      "XP",
+      "near_miss",
+      "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "HYUNDAI",
+    "Year": "2021",
+    "Carname": "120 N",
+    "Mastery": [
+      null,
+      "touge_events",
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      "XP",
+      "near_miss",
+      "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "HYUNDAI",
     "Year": "2022",
     "Carname": "N VISION 74",
     "Mastery": [
@@ -3796,6 +4302,29 @@
   },
   {
     "Manufacturer": "LAMBORGHINI",
+    "Year": "2012",
+    "Carname": "GALLARDO LP570-4 SPYDER PERFORMANTE",
+    "Mastery": [
+      "road_racing_events",
+      "skillsong",
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "LAMBORGHINI",
     "Year": "2014",
     "Carname": "HURACAN LP 610-4",
     "Mastery": [
@@ -3842,6 +4371,29 @@
   },
   {
     "Manufacturer": "LAMBORGHINI",
+    "Year": "2019",
+    "Carname": "URUS",
+    "Mastery": [
+      "cross_country_events",
+      null,
+      null,
+      null,
+      "kangaroo_skills",
+      "event_finish_score",
+      "ultimate_skillchain_scores",
+      null,
+      "air_skills",
+      "stuntman_skills",
+      "wrecking_ball_skills",
+      "crash_landing_skills",
+      "XP",
+      "near_miss",
+      "wreckage_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "LAMBORGHINI",
     "Year": "2020",
     "Carname": "HURACAN",
     "Mastery": [
@@ -3859,6 +4411,29 @@
       "speed_skills",
       "XP",
       "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "LAMBORGHINI",
+    "Year": "2020",
+    "Carname": "HURACAN_2",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      "instant_super_wheel_spin",
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
     ]
@@ -4601,6 +5176,29 @@
   },
   {
     "Manufacturer": "MERCEDES-AMG",
+    "Year": "2015",
+    "Carname": "GT S",
+    "Mastery": [
+      null,
+      null,
+      "event_finish_score",
+      null,
+      "convoy_skills",
+      null,
+      "showoff_skills",
+      "road_racing_events",
+      "clean_racing_skills",
+      "head-to-head_races",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "XP",
+      "speed_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MERCEDES-AMG",
     "Year": "2016",
     "Carname": "C 63 S COUPE",
     "Mastery": [
@@ -4738,6 +5336,29 @@
     ]
   },
   {
+    "Manufacturer": "MERCEDES-AMG",
+    "Year": "2021",
+    "Carname": "SL 63",
+    "Mastery": [
+      null,
+      null,
+      "event_finish_score",
+      null,
+      "convoy_skills",
+      null,
+      "showoff_skills",
+      "road_racing_events",
+      "clean_racing_skills",
+      "head-to-head_races",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "XP",
+      "speed_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
     "Manufacturer": "MERCEDES-BENZ",
     "Year": "1987",
     "Carname": "AMG HAMMER COUPE",
@@ -4780,6 +5401,52 @@
       "XP",
       "road_racing_events",
       "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MERCEDES-BENZ",
+    "Year": "1990",
+    "Carname": "190 E 25-16 EVOLUTION II",
+    "Mastery": [
+      null,
+      "threading_the_needle_skills",
+      null,
+      "freeroam",
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MERCEDES-BENZ",
+    "Year": "2012",
+    "Carname": "C 63 AMG COUPE BLACK SERIES",
+    "Mastery": [
+      null,
+      "threading_the_needle_skills",
+      null,
+      "freeroam",
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
       "break_skillchains_twice"
     ]
   },
@@ -4849,6 +5516,29 @@
       "XP",
       "link_skill_skills",
       "air_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MERCEDES-BENZ",
+    "Year": "2018",
+    "Carname": "X-CLASS",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "cross_country_events",
+      "combo_skills",
+      "ultimate_skillchain_scores",
+      null,
+      "crash_landing_skills",
+      "wreckage_skills",
+      "wrecking_ball_skills",
+      "multiplier_goes_up_to",
+      "XP",
+      "air_skills",
+      "kangaroo_skills",
       "break_skillchains_twice"
     ]
   },
@@ -5890,6 +6580,29 @@
   {
     "Manufacturer": "NISSAN",
     "Year": "2024",
+    "Carname": "GT-R NISMO",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      null,
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "NISSAN",
+    "Year": "2024",
     "Carname": "Z NISMO",
     "Mastery": [
       null,
@@ -6068,6 +6781,29 @@
       "XP",
       "drift_edrift_skills",
       "sideswipes_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "PLYMOUTH",
+    "Year": "1958",
+    "Carname": "FURY",
+    "Mastery": [
+      "drag_racing_events",
+      null,
+      null,
+      null,
+      "tripple_pass_skills",
+      "drag_meet_events",
+      null,
+      "convoy_skills",
+      "pass_skills",
+      "burnout_skills",
+      "hard_charger_skills",
+      "link_skill_skills",
+      "XP",
+      "speed_skills",
+      "event_finish_score",
       "break_skillchains_twice"
     ]
   },
@@ -6556,6 +7292,29 @@
   },
   {
     "Manufacturer": "PORSCHE",
+    "Year": "2021",
+    "Carname": "911 GT3",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      null,
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "PORSCHE",
     "Year": "2022",
     "Carname": "718 CAYMAN GT4 RS",
     "Mastery": [
@@ -6676,6 +7435,29 @@
     "Mastery": [
       null,
       null,
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      "XP",
+      "near_miss",
+      "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "RENAULT",
+    "Year": "2008",
+    "Carname": "MEGANE R26UR",
+    "Mastery": [
+      null,
+      "touge_events",
       null,
       null,
       "slingshot_skills",
@@ -7086,7 +7868,7 @@
   {
     "Manufacturer": "SUBARU",
     "Year": "2018",
-    "Carname": "STI ARX SUPERCAR",
+    "Carname": "WRX STI ARX SUPERCAR",
     "Mastery": [
       "skillchain_ends_later",
       "head-to-head_races",
@@ -7103,6 +7885,29 @@
       "XP",
       "drift_edrift_skills",
       "sideswipes_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "SUBARU",
+    "Year": "2022",
+    "Carname": "BRZ",
+    "Mastery": [
+      null,
+      null,
+      "ultimate_skillchain_scores",
+      "road_racing_events",
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
       "break_skillchains_twice"
     ]
   },
@@ -7890,6 +8695,29 @@
   },
   {
     "Manufacturer": "VOLKSWAGEN",
+    "Year": "1995",
+    "Carname": "CORRADO VR6",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      "XP",
+      "near_miss",
+      "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "VOLKSWAGEN",
     "Year": "2010",
     "Carname": "GOLF R",
     "Mastery": [
@@ -7987,6 +8815,29 @@
     "Mastery": [
       null,
       null,
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      "XP",
+      "near_miss",
+      "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "VOLKSWAGEN",
+    "Year": "2022",
+    "Carname": "GOLF R",
+    "Mastery": [
+      null,
+      "touge_events",
       null,
       null,
       "slingshot_skills",
