@@ -6902,6 +6902,29 @@
   {
     "Manufacturer": "PORSCHE",
     "Year": "1970",
+    "Carname": "#3 917 LH",
+    "Mastery": [
+      "head-to-head_races",
+      "road_racing_events",
+      null,
+      "instant_super_wheel_spin",
+      "clean_racing_skills",
+      "showoff_skills",
+      null,
+      "skillchain_ends_later",
+      "speed_skills",
+      "pass_skills",
+      "slingshot_skills",
+      "time_attack_events",
+      "XP",
+      "event_finish_score",
+      "drafting_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "PORSCHE",
+    "Year": "1970",
     "Carname": "#3 917 LH FORZA EDITION",
     "Mastery": [
       "touge_events",
@@ -6919,29 +6942,6 @@
       "XP",
       "road_racing_events",
       "clean_racing_skills",
-      "break_skillchains_twice"
-    ]
-  },
-  {
-    "Manufacturer": "PORSCHE",
-    "Year": "1970",
-    "Carname": "917 LH",
-    "Mastery": [
-      "head-to-head_races",
-      "road_racing_events",
-      null,
-      "instant_super_wheel_spin",
-      "clean_racing_skills",
-      "showoff_skills",
-      null,
-      "skillchain_ends_later",
-      "speed_skills",
-      "pass_skills",
-      "slingshot_skills",
-      "time_attack_events",
-      "XP",
-      "event_finish_score",
-      "drafting_skills",
       "break_skillchains_twice"
     ]
   },
