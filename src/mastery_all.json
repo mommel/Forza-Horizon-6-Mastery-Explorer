@@ -1657,6 +1657,29 @@
   },
   {
     "Manufacturer": "CHEVROLET",
+    "Year": "1988",
+    "Carname": "MONTE CARLO SUPER SPORT",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "CHEVROLET",
     "Year": "1995",
     "Carname": "CORVETTE ZR-1",
     "Mastery": [
@@ -2279,6 +2302,29 @@
   {
     "Manufacturer": "FERRARI",
     "Year": "2018",
+    "Carname": "FXX-K EVO",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      "instant_super_wheel_spin",
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FERRARI",
+    "Year": "2018",
     "Carname": "FXX-K EVO WELCOME PACK",
     "Mastery": [
       "touge_events",
@@ -2830,6 +2876,29 @@
   },
   {
     "Manufacturer": "FORD",
+    "Year": "2014",
+    "Carname": "FPV LIMITED EDITION PURSUIT UTE",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "daredevil_skills",
+      "showoff_skills",
+      "sideswipes_skills",
+      null,
+      "near_miss",
+      "drift_edrift_skills",
+      "wreckage_skills",
+      "landscaping_skills",
+      "XP",
+      "street_racing_events",
+      "ultimate_skillchain_scores",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORD",
     "Year": "2016",
     "Carname": "MUSTANG SHELBY GT350R",
     "Mastery": [
@@ -3009,6 +3078,29 @@
       "XP",
       "air_skills",
       "kangaroo_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORD",
+    "Year": "2022",
+    "Carname": "FOCUS ST",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      "XP",
+      "near_miss",
+      "street_racing_events",
       "break_skillchains_twice"
     ]
   },
@@ -3979,6 +4071,29 @@
     ]
   },
   {
+    "Manufacturer": "HSV",
+    "Year": "2014",
+    "Carname": "LIMITED EDITION GEN-F GTS MALOO",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "daredevil_skills",
+      "showoff_skills",
+      "sideswipes_skills",
+      null,
+      "near_miss",
+      "drift_edrift_skills",
+      "wreckage_skills",
+      "landscaping_skills",
+      "XP",
+      "street_racing_events",
+      "ultimate_skillchain_scores",
+      "break_skillchains_twice"
+    ]
+  },
+  {
     "Manufacturer": "HYUNDAI",
     "Year": "2019",
     "Carname": "VELOSTER N",
@@ -4279,6 +4394,29 @@
   },
   {
     "Manufacturer": "LAMBORGHINI",
+    "Year": "1999",
+    "Carname": "DIABLO GTR",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      null,
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "LAMBORGHINI",
     "Year": "2010",
     "Carname": "MURCIELAGO LP 670-4 SV",
     "Mastery": [
@@ -4297,6 +4435,29 @@
       "XP",
       "head-to-head_races",
       "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "LAMBORGHINI",
+    "Year": "2012",
+    "Carname": "AVENTADOR LP700-4",
+    "Mastery": [
+      "instant_wheel_spins",
+      "freeroam",
+      null,
+      null,
+      "road_racing_events",
+      "tripple_pass_skills",
+      null,
+      "hard_charger_skills",
+      "clean_racing_skills",
+      "pass_skills",
+      "multiplier_goes_up_to",
+      "burnout_skills",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
       "break_skillchains_twice"
     ]
   },
@@ -4716,6 +4877,29 @@
   },
   {
     "Manufacturer": "LOTUS",
+    "Year": "1999",
+    "Carname": "ELISE SERIES I SPORT 190",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "LOTUS",
     "Year": "2018",
     "Carname": "SCURA MOTORSPORTS EXIGE WTAC",
     "Mastery": [
@@ -4761,6 +4945,29 @@
     ]
   },
   {
+    "Manufacturer": "LUCID",
+    "Year": "2024",
+    "Carname": "AIR SAPPHIRE",
+    "Mastery": [
+      null,
+      "threading_the_needle_skills",
+      null,
+      null,
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
     "Manufacturer": "MASERATI",
     "Year": "1997",
     "Carname": "GHIBLI CUP",
@@ -4780,6 +4987,29 @@
       "XP",
       "drift_edrift_skills",
       "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MASERATI",
+    "Year": "2022",
+    "Carname": "MC20",
+    "Mastery": [
+      "road_racing_events",
+      "skillsong",
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
       "break_skillchains_twice"
     ]
   },
@@ -4969,6 +5199,29 @@
   },
   {
     "Manufacturer": "MAZDA",
+    "Year": "2010",
+    "Carname": "MAZDASPEED 3",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      "XP",
+      "near_miss",
+      "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MAZDA",
     "Year": "2011",
     "Carname": "RX-8 R3",
     "Mastery": [
@@ -5102,6 +5355,29 @@
       "XP",
       "drift_edrift_skills",
       "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MCLAREN",
+    "Year": "2014",
+    "Carname": "650S SPIDER",
+    "Mastery": [
+      "road_racing_events",
+      "skillsong",
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
       "break_skillchains_twice"
     ]
   },
@@ -5959,7 +6235,7 @@
   {
     "Manufacturer": "NISSAN",
     "Year": "1983",
-    "Carname": "TOMICA SKYLINE TURBO SUPER SILHOUETTE",
+    "Carname": "#11 TOMICA SKYLINE TURBO SUPER SILHOUETTE",
     "Mastery": [
       "head-to-head_races",
       "road_racing_events",
@@ -6212,7 +6488,7 @@
   {
     "Manufacturer": "NISSAN",
     "Year": "1993",
-    "Carname": "SKYLINE WTAC XTREME GTR",
+    "Carname": "#32 SKYLINE WTAC XTREME GTR",
     "Mastery": [
       "touge_events",
       "convoy_skills",
@@ -6350,7 +6626,7 @@
   {
     "Manufacturer": "NISSAN",
     "Year": "1998",
-    "Carname": "R390 GTI",
+    "Carname": "R390 (GT1)",
     "Mastery": [
       "road_racing_events",
       "faster_multiplier",
@@ -6396,7 +6672,7 @@
   {
     "Manufacturer": "NISSAN",
     "Year": "2000",
-    "Carname": "DREAM PROJECT S15 SILVIA WTAC",
+    "Carname": "#36 DREAM PROJECT S15 SILVIA WTAC",
     "Mastery": [
       "touge_events",
       "convoy_skills",
@@ -7108,6 +7384,29 @@
   },
   {
     "Manufacturer": "PORSCHE",
+    "Year": "2003",
+    "Carname": "CARRERA GT",
+    "Mastery": [
+      "road_racing_events",
+      "skillsong",
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "PORSCHE",
     "Year": "2004",
     "Carname": "911 GT3",
     "Mastery": [
@@ -7155,7 +7454,7 @@
   {
     "Manufacturer": "PORSCHE",
     "Year": "2014",
-    "Carname": "918 Spyder",
+    "Carname": "918 SPYDER",
     "Mastery": [
       "instant_wheel_spins",
       "freeroam",
@@ -7425,6 +7724,29 @@
       "XP",
       "air_skills",
       "kangaroo_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "RELIANT",
+    "Year": "1972",
+    "Carname": "SUPERVAN III",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "daredevil_skills",
+      "showoff_skills",
+      "sideswipes_skills",
+      null,
+      "near_miss",
+      "drift_edrift_skills",
+      "wreckage_skills",
+      "landscaping_skills",
+      "XP",
+      "street_racing_events",
+      "ultimate_skillchain_scores",
       "break_skillchains_twice"
     ]
   },
@@ -7885,6 +8207,29 @@
       "XP",
       "drift_edrift_skills",
       "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "SUBARU",
+    "Year": "2015",
+    "Carname": "WRX STI",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "dirtracing_events",
+      "air_skills",
+      "slingshot_skills",
+      "skillchain_ends_later",
+      "showoff_skills",
+      "pass_skills",
+      "drafting_skills",
+      "XP",
+      "drift_edrift_skills",
+      "touge_events",
       "break_skillchains_twice"
     ]
   },
