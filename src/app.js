@@ -601,6 +601,15 @@ async function init() {
 
   if (showDisabledBtn) {
     showDisabledBtn.addEventListener("click", () => {
+      const drawer = document.getElementById("mobile-drawer");
+      const drawerOverlay = document.getElementById("mobile-drawer-overlay");
+      if (drawer && drawer.classList.contains("open")) {
+        drawer.classList.remove("open");
+        if (drawerOverlay) {
+          drawerOverlay.classList.remove("open");
+        }
+      }
+
       renderDisabledPanel();
       disabledOverlay.style.display = "block";
       disabledPanel.style.display = "flex";
@@ -679,5 +688,151 @@ async function init() {
     `;
   }
 }
+
+// --- Mobile Layout & Interactions ---
+function initMobileInteractions() {
+  const burgerToggle = document.getElementById("burger-menu-toggle");
+  const drawer = document.getElementById("mobile-drawer");
+  const drawerOverlay = document.getElementById("mobile-drawer-overlay");
+  const closeDrawerBtn = document.getElementById("close-drawer");
+  const drawerContent = document.getElementById("drawer-content");
+  
+  // Elements to move
+  const searchContainer = document.querySelector(".search-container");
+  const toolbarSection = document.querySelector(".toolbar-section");
+  const langSelectContainer = document.querySelector(".language-select-container");
+  const appFooter = document.querySelector(".app-footer");
+  
+  // Save original parents and siblings for restoring
+  const desktopLocations = new Map();
+  function saveLocation(el) {
+    if (el && !desktopLocations.has(el)) {
+      desktopLocations.set(el, { parent: el.parentNode, nextSibling: el.nextSibling });
+    }
+  }
+  [searchContainer, toolbarSection, langSelectContainer, appFooter].forEach(saveLocation);
+  
+  let isMobile = window.innerWidth <= 980;
+  
+  function handleResize() {
+    const currentlyMobile = window.innerWidth <= 980;
+    if (currentlyMobile !== isMobile) {
+      isMobile = currentlyMobile;
+      if (isMobile) {
+        // Move to drawer
+        if (searchContainer) drawerContent.appendChild(searchContainer);
+        if (toolbarSection) drawerContent.appendChild(toolbarSection);
+        if (langSelectContainer) drawerContent.appendChild(langSelectContainer);
+        if (appFooter) drawerContent.appendChild(appFooter);
+        setupAccordion(true);
+      } else {
+        // Restore to desktop
+        [searchContainer, toolbarSection, langSelectContainer, appFooter].forEach(el => {
+          if (el) {
+            const loc = desktopLocations.get(el);
+            if (loc) loc.parent.insertBefore(el, loc.nextSibling);
+          }
+        });
+        drawerOverlay.classList.remove("open");
+        drawer.classList.remove("open");
+        setupAccordion(false);
+      }
+    }
+  }
+  
+  // Initial setup for DOM movement
+  if (isMobile) {
+    if (searchContainer) drawerContent.appendChild(searchContainer);
+    if (toolbarSection) drawerContent.appendChild(toolbarSection);
+    if (langSelectContainer) drawerContent.appendChild(langSelectContainer);
+    if (appFooter) drawerContent.appendChild(appFooter);
+  }
+  
+  window.addEventListener("resize", handleResize);
+  
+  // Drawer Toggle
+  if (burgerToggle) {
+    burgerToggle.addEventListener("click", () => {
+      drawerOverlay.classList.add("open");
+      drawer.classList.add("open");
+    });
+  }
+  if (closeDrawerBtn) {
+    closeDrawerBtn.addEventListener("click", () => {
+      drawerOverlay.classList.remove("open");
+      drawer.classList.remove("open");
+    });
+  }
+  if (drawerOverlay) {
+    drawerOverlay.addEventListener("click", () => {
+      drawerOverlay.classList.remove("open");
+      drawer.classList.remove("open");
+    });
+  }
+  
+  // Accordion Logic
+  const selectionPanel = document.querySelector(".selection-panel");
+  const outputPanel = document.querySelector(".output-panel");
+  const selectionHeader = selectionPanel.querySelector(".panel-header");
+  const outputHeader = outputPanel.querySelector(".panel-header");
+  
+  let activePanel = "selection";
+  
+  function updateAccordionUI() {
+    if (activePanel === "selection") {
+      selectionPanel.classList.add("mobile-expanded");
+      selectionPanel.classList.remove("mobile-collapsed");
+      outputPanel.classList.remove("mobile-expanded");
+      outputPanel.classList.add("mobile-collapsed");
+    } else {
+      outputPanel.classList.add("mobile-expanded");
+      outputPanel.classList.remove("mobile-collapsed");
+      selectionPanel.classList.remove("mobile-expanded");
+      selectionPanel.classList.add("mobile-collapsed");
+    }
+  }
+  
+  function setupAccordion(enable) {
+    if (enable) {
+      updateAccordionUI();
+    } else {
+      selectionPanel.classList.remove("mobile-expanded", "mobile-collapsed");
+      outputPanel.classList.remove("mobile-expanded", "mobile-collapsed");
+    }
+  }
+  
+  const masterySelectionHeader = selectionPanel.querySelector(".mastery-selection-header");
+
+  if (selectionHeader) {
+    selectionHeader.addEventListener("click", () => {
+      if (isMobile && activePanel !== "selection") {
+        activePanel = "selection";
+        updateAccordionUI();
+      }
+    });
+  }
+
+  if (masterySelectionHeader) {
+    masterySelectionHeader.addEventListener("click", () => {
+      if (isMobile && activePanel !== "selection") {
+        activePanel = "selection";
+        updateAccordionUI();
+      }
+    });
+  }
+  
+  if (outputHeader) {
+    outputHeader.addEventListener("click", () => {
+      if (isMobile && activePanel !== "output") {
+        activePanel = "output";
+        updateAccordionUI();
+      }
+    });
+  }
+  
+  setupAccordion(isMobile);
+}
+
+initMobileInteractions();
 
 init();

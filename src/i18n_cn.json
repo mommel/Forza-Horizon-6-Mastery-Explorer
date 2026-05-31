@@ -1,5 +1,7 @@
 {
   "ui": {
+    "menuTitle": "设置",
+    "masterySelection": "精通选择",
     "appTitle": "Forza Horizon 6",
     "appSubtitle": "Mastery Explorer",
     "appDescription": "选择下方的精通特性以动态过滤数据集。",

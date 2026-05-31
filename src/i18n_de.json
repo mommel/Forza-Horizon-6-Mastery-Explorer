@@ -1,5 +1,7 @@
 {
   "ui": {
+    "menuTitle": "Einstellungen",
+    "masterySelection": "Mastery Auswahl",
     "appTitle": "Forza Horizon 6",
     "appSubtitle": "Mastery Explorer",
     "appDescription": "Wähle Mastery-Perks unten aus, um den Datensatz dynamisch zu filtern.",
