@@ -1634,29 +1634,6 @@
   },
   {
     "Manufacturer": "CHEVROLET",
-    "Year": "1970",
-    "Carname": "CHEVELLE SUPER SPORT 454_2",
-    "Mastery": [
-      null,
-      null,
-      null,
-      "street_racing_events",
-      "hard_charger_skills",
-      "sideswipes_skills",
-      null,
-      "daredevil_skills",
-      "burnout_skills",
-      "drift_edrift_skills",
-      "lucky_escape_skills",
-      "near_miss",
-      "XP",
-      "speed_skills",
-      "drag_meet_events",
-      "break_skillchains_twice"
-    ]
-  },
-  {
-    "Manufacturer": "CHEVROLET",
     "Year": "1988",
     "Carname": "MONTE CARLO SUPER SPORT",
     "Mastery": [
@@ -2416,29 +2393,6 @@
   },
   {
     "Manufacturer": "FORD",
-    "Year": "1932",
-    "Carname": "DE LUXE FIVE-WINDOW COUPE_2",
-    "Mastery": [
-      null,
-      null,
-      null,
-      null,
-      "tripple_pass_skills",
-      "drag_meet_events",
-      null,
-      "convoy_skills",
-      "pass_skills",
-      "burnout_skills",
-      "hard_charger_skills",
-      "link_skill_skills",
-      "XP",
-      "speed_skills",
-      "event_finish_score",
-      "break_skillchains_twice"
-    ]
-  },
-  {
-    "Manufacturer": "FORD",
     "Year": "1973",
     "Carname": "CAPRI RS3100",
     "Mastery": [
@@ -2579,29 +2533,6 @@
     "Manufacturer": "FORD",
     "Year": "1993",
     "Carname": "MUSTANG SVT COBRA R",
-    "Mastery": [
-      null,
-      null,
-      null,
-      null,
-      "hard_charger_skills",
-      "sideswipes_skills",
-      null,
-      "daredevil_skills",
-      "burnout_skills",
-      "drift_edrift_skills",
-      "lucky_escape_skills",
-      "near_miss",
-      "XP",
-      "speed_skills",
-      "drag_meet_events",
-      "break_skillchains_twice"
-    ]
-  },
-  {
-    "Manufacturer": "FORD",
-    "Year": "1993",
-    "Carname": "MUSTANG SVT COBRA R_2",
     "Mastery": [
       null,
       null,
@@ -3289,29 +3220,6 @@
     ]
   },
   {
-    "Manufacturer": "FORMULA DRIFT",
-    "Year": "2019",
-    "Carname": "#411 TOYOTA COROLLA HATCHBACK_2",
-    "Mastery": [
-      "link_skill_skills",
-      "skillchain_ends_later",
-      null,
-      null,
-      "lucky_escape_skills",
-      "sideswipes_skills",
-      "combo_skills",
-      null,
-      "near_miss",
-      "drift_tap_skills",
-      "freeroam",
-      "skillsong",
-      "XP",
-      "drift_edrift_skills",
-      "convoy_skills",
-      "break_skillchains_twice"
-    ]
-  },
-  {
     "Manufacturer": "FUNCO MOTORSPORTS",
     "Year": "2018",
     "Carname": "F9",
@@ -3544,29 +3452,6 @@
   {
     "Manufacturer": "HONDA",
     "Year": "1984",
-    "Carname": "CITY E II_2",
-    "Mastery": [
-      "street_racing_events",
-      "combo_skills",
-      null,
-      null,
-      "lucky_escape_skills",
-      "daredevil_skills",
-      null,
-      "freeroam",
-      "near_miss",
-      "speed_skills",
-      "threading_the_needle_skills",
-      "faster_multiplier",
-      "XP",
-      "drafting_skills",
-      "touge_events",
-      "break_skillchains_twice"
-    ]
-  },
-  {
-    "Manufacturer": "HONDA",
-    "Year": "1984",
     "Carname": "CIVIC CRX MUGEN",
     "Mastery": [
       null,
@@ -3660,29 +3545,6 @@
     "Manufacturer": "HONDA",
     "Year": "1991",
     "Carname": "CR-X SIR",
-    "Mastery": [
-      null,
-      null,
-      null,
-      null,
-      "slingshot_skills",
-      "threading_the_needle_skills",
-      null,
-      "convoy_skills",
-      "drafting_skills",
-      "daredevil_skills",
-      "trading_paint_skill",
-      "time_attack_events",
-      "XP",
-      "near_miss",
-      "street_racing_events",
-      "break_skillchains_twice"
-    ]
-  },
-  {
-    "Manufacturer": "HONDA",
-    "Year": "1991",
-    "Carname": "CR-X SIR_2",
     "Mastery": [
       null,
       null,
@@ -5268,29 +5130,6 @@
   },
   {
     "Manufacturer": "MAZDA",
-    "Year": "2013",
-    "Carname": "MX-5_2",
-    "Mastery": [
-      null,
-      null,
-      null,
-      null,
-      "touge_events",
-      null,
-      "skillsong",
-      "link_skill_skills",
-      "drafting_skills",
-      "drift_tap_skills",
-      "showoff_skills",
-      "convoy_skills",
-      "XP",
-      "drift_edrift_skills",
-      "pass_skills",
-      "break_skillchains_twice"
-    ]
-  },
-  {
-    "Manufacturer": "MAZDA",
     "Year": "2016",
     "Carname": "MX-5",
     "Mastery": [
@@ -5316,29 +5155,6 @@
     "Manufacturer": "MAZDA",
     "Year": "2022",
     "Carname": "MX-5 MIATA RF",
-    "Mastery": [
-      null,
-      null,
-      "ultimate_skillchain_scores",
-      "road_racing_events",
-      "touge_events",
-      null,
-      "skillsong",
-      "link_skill_skills",
-      "drafting_skills",
-      "drift_tap_skills",
-      "showoff_skills",
-      "convoy_skills",
-      "XP",
-      "drift_edrift_skills",
-      "pass_skills",
-      "break_skillchains_twice"
-    ]
-  },
-  {
-    "Manufacturer": "MAZDA",
-    "Year": "2022",
-    "Carname": "MX-5 MIATA RF_2",
     "Mastery": [
       null,
       null,
@@ -8559,29 +8375,6 @@
     "Manufacturer": "TOYOTA",
     "Year": "1997",
     "Carname": "SOARER GT-T",
-    "Mastery": [
-      null,
-      null,
-      null,
-      "road_racing_events",
-      "touge_events",
-      null,
-      "skillsong",
-      "link_skill_skills",
-      "drafting_skills",
-      "drift_tap_skills",
-      "showoff_skills",
-      "convoy_skills",
-      "XP",
-      "drift_edrift_skills",
-      "pass_skills",
-      "break_skillchains_twice"
-    ]
-  },
-  {
-    "Manufacturer": "TOYOTA",
-    "Year": "1997",
-    "Carname": "SOARER GT-T_2",
     "Mastery": [
       null,
       null,
