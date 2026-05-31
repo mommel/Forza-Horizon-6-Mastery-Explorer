@@ -1,5 +1,7 @@
 {
   "ui": {
+    "menuTitle": "設定",
+    "masterySelection": "マスタリー選択",
     "appTitle": "Forza Horizon 6",
     "appSubtitle": "Mastery Explorer",
     "appDescription": "以下のマスタリーパークを選択して、データセットを動的にフィルタリングします。",

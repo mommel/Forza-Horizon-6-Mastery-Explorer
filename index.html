@@ -282,10 +282,11 @@ h2 {
   background: transparent;
   border: none;
   color: var(--muted);
-  padding: 0.35rem 0.85rem;
+  padding: 0.7rem 1.2rem;
   font-family: 'Outfit', sans-serif;
   font-weight: 800;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
   letter-spacing: 0.05em;
   border-radius: calc(var(--radius-sm) - 2px);
   cursor: pointer;
@@ -395,6 +396,8 @@ h2 {
   cursor: pointer;
   transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   animation: slide-in-element 0.4s ease both;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .icon-button::before {
@@ -407,14 +410,24 @@ h2 {
   transition: all 0.25s ease;
 }
 
-.icon-button:hover {
-  transform: translateY(-2px);
-  background: rgba(20, 38, 64, 0.35);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+@media (hover: hover) {
+  .icon-button:hover {
+    transform: translateY(-2px);
+    background: rgba(20, 38, 64, 0.35);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  }
+
+  .icon-button:hover::before {
+    border-color: rgba(0, 240, 255, 0.2);
+  }
 }
 
-.icon-button:hover::before {
-  border-color: rgba(0, 240, 255, 0.2);
+.icon-button:active {
+  transform: scale(0.98);
+}
+
+.icon-button:active::before {
+  border-color: rgba(255, 95, 0, 0.5);
 }
 
 /* Active buttons in Left Selection grid */
@@ -438,8 +451,10 @@ h2 {
   transition: transform 0.25s ease;
 }
 
-.icon-button:hover img {
-  transform: scale(1.04);
+@media (hover: hover) {
+  .icon-button:hover img {
+    transform: scale(1.04);
+  }
 }
 
 .icon-button.active img {
@@ -987,19 +1002,41 @@ h2 {
 
 .language-select-container {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 1.5rem;
+  right: 1.5rem;
   z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .language-select-container select {
-  background: rgba(20, 20, 25, 0.8);
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 0.5rem;
-  border-radius: 4px;
-  font-size: 0.9rem;
+  background: rgba(4, 9, 17, 0.6);
+  color: var(--text);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.7rem 1rem;
+  border-radius: var(--radius-md);
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
   cursor: pointer;
+  outline: none;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f0f6ff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1em;
+  padding-right: 2.5rem;
+}
+
+.language-select-container select:focus {
+  border-color: var(--neon-cyan);
+  box-shadow: 0 0 0 1px var(--neon-cyan), 0 0 15px rgba(0, 240, 255, 0.15);
+  background-color: rgba(8, 16, 28, 0.8);
 }
 
 /* Disabled Cars Overlay */
@@ -1058,18 +1095,370 @@ h2 {
 }
 
 .button-show-disabled-list {
-  margin-right: 0.75rem;
-  padding: 0.4rem 0.8rem;
-  border-radius: 4px;
+  padding: 0.7rem 1.2rem;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
   font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border: none;
+  border-radius: var(--radius-md);
   cursor: pointer;
-  font-weight: 600;
+  transition: all 0.2s ease;
   background: linear-gradient(180deg, rgba(19, 71, 241, 0.719), rgba(7, 209, 209, 0.61)), var(--bg-card);
+  color: var(--text);
 }
 
 .button-show-disabled-list:hover {
   background: linear-gradient(180deg, rgba(19, 171, 241, 0.719), rgba(185, 60, 60, 0.61)), var(--bg-card);
-  transform: scale(1.1);
+  transform: translateY(-1.5px);
+  box-shadow: 0 6px 18px rgba(19, 171, 241, 0.35);
+}
+
+/* --- Mobile Improvements --- */
+
+/* Touch Action & Hover Fixes */
+.icon-button, .mastery-slot.occupied, .filter-chip {
+  touch-action: manipulation;
+}
+
+@media (hover: none) {
+  .icon-button:hover {
+    transform: none;
+    background: var(--bg-card);
+    box-shadow: none;
+  }
+  .icon-button:hover::before {
+    border-color: transparent;
+  }
+  .icon-button:hover img {
+    transform: none;
+  }
+  .icon-button:active {
+    transform: scale(0.96);
+  }
+  
+  .mastery-slot.occupied:hover {
+    transform: none;
+    background: rgba(255, 255, 255, 0.85);
+    border-color: rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.5), 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  .mastery-slot.occupied.active:hover {
+    background: #ffd8c2;
+    border-color: var(--neon-orange);
+    box-shadow: 0 0 12px rgba(255, 95, 0, 0.4), inset 0 1px 2px rgba(255, 255, 255, 0.6);
+  }
+  .mastery-slot.occupied:active {
+    transform: scale(0.92);
+  }
+}
+
+/* Mastery Selection Title */
+.mastery-selection-header {
+  position: relative;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+}
+.mastery-selection-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -1.75rem;
+  right: -1.75rem;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--neon-cyan), var(--neon-pink), transparent);
+  pointer-events: none;
+}
+.mastery-selection-title {
+  margin-bottom: 0.75rem;
+}
+
+/* Burger Menu Desktop (Hidden) */
+.burger-menu-toggle {
+  display: none !important;
+}
+.drawer-overlay {
+  display: none !important;
+}
+.mobile-drawer {
+  display: none !important;
+}
+
+/* Mobile Layout Overrides */
+@media (max-width: 980px) {
+  
+  .app-shell {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    gap: 0;
+    overflow: hidden;
+  }
+  
+  .burger-menu-toggle {
+    display: flex !important;
+    position: fixed;
+    top: 1.2rem;
+    right: 1.2rem;
+    z-index: 90;
+    background: var(--bg-panel);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-sm);
+    color: var(--text);
+    padding: 0.5rem;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(10px);
+  }
+  
+  /* Mobile Drawer */
+  .drawer-overlay {
+    display: block !important;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(5px);
+    z-index: 105;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+  .drawer-overlay.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .mobile-drawer {
+    display: flex !important;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 85%;
+    max-width: 350px;
+    background: var(--bg-panel);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 110;
+    transform: translateX(-100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(25px);
+  }
+  .mobile-drawer.open {
+    transform: translateX(0);
+  }
+  
+  .drawer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  .close-drawer-btn {
+    background: none;
+    border: none;
+    color: var(--muted);
+    font-size: 2rem;
+    cursor: pointer;
+    line-height: 1;
+  }
+  .drawer-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .drawer-content .language-select-container {
+    position: relative;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .drawer-content .language-select-container select {
+    width: 100%;
+  }
+  .drawer-content .app-footer {
+    background: transparent;
+    border: none;
+    padding: 0;
+    backdrop-filter: none;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: auto;
+  }
+  .drawer-content .footer-right {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .drawer-content .footer-separator {
+    display: none;
+  }
+  
+  /* Accordion Panel Layout */
+  .panel {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  /* Collapsed panel state */
+  .panel.mobile-collapsed {
+    flex: none;
+    cursor: pointer;
+    background: rgba(8, 16, 28, 0.9);
+  }
+  
+  /* Output Panel Collapsed */
+  .output-panel.mobile-collapsed {
+    height: auto !important;
+    min-height: 0;
+    overflow: hidden;
+  }
+  .output-panel.mobile-collapsed .panel-header {
+    margin-bottom: 0;
+    padding-top: 2rem;
+  }
+  .output-panel.mobile-collapsed .panel-copy,
+  .output-panel.mobile-collapsed #results,
+  #active-filters {
+    display: none !important;
+  }
+  
+  /* Selection Panel Collapsed */
+  .selection-panel.mobile-collapsed {
+    height: auto !important;
+    min-height: 0;
+  }
+  .selection-panel.mobile-collapsed .selection-stats,
+  .selection-panel.mobile-collapsed #icon-grid {
+    display: none;
+  }
+  .selection-panel.mobile-collapsed .mastery-selection-header {
+    margin-bottom: 0;
+    padding-bottom: 1.5rem;
+  }
+  
+  /* Expanded panel state */
+  .panel.mobile-expanded {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  /* Grid sizing */
+  .icon-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+    max-height: none;
+    overflow-y: visible;
+  }
+  
+  .results-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+    max-height: none;
+    overflow-y: visible;
+    overflow-x: hidden;
+    padding-right: 0 !important;
+    width: 100%;
+  }
+  
+  .car-card {
+    width: 100%;
+    max-width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    min-width: 0;
+  }
+  
+  .car-card-info {
+    min-width: 0;
+  }
+  
+  .car-name {
+    white-space: normal !important; /* Allow wrapping so it doesn't force width */
+    word-break: break-word;
+  }
+  
+  .car-masteries-container {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .car-masteries {
+    grid-template-columns: repeat(8, minmax(0, 1fr)) !important;
+    width: 100% !important;
+    max-width: 100%;
+    gap: 2px !important;
+  }
+
+  .mastery-slot {
+    min-width: 0;
+    min-height: 0;
+  }
+
+  .mastery-slot.occupied img {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100%;
+    object-fit: contain;
+    padding: 2px !important;
+  }
+
+  /* Accordion Expansion Indicators */
+  .mastery-selection-header,
+  .output-header {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  /* Show extend icon ONLY when collapsed */
+  .selection-panel.mobile-collapsed .mastery-selection-header::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0.25rem;
+    transform: translateX(-50%);
+    width: 24px;
+    height: 24px;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2300f0ff' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10' stroke='%2300f0ff' stroke-opacity='0.5'/%3E%3Cpolyline points='8 10 12 14 16 10'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+  }
+
+  .output-panel.mobile-collapsed .output-header::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%) rotate(180deg);
+    width: 24px;
+    height: 24px;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2300f0ff' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10' stroke='%2300f0ff' stroke-opacity='0.5'/%3E%3Cpolyline points='8 10 12 14 16 10'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+  }
+}
+
+@media (max-width: 600px) {
+  .mastery-selection-header::before {
+    left: -1.25rem;
+    right: -1.25rem;
+  }
 }
 </style>
 </head>
@@ -1077,6 +1466,23 @@ h2 {
 <body>
   <div class="background-glow background-glow-left"></div>
   <div class="background-glow background-glow-right"></div>
+
+  <button id="burger-menu-toggle" class="burger-menu-toggle" aria-label="Toggle menu" style="display: none;">
+    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </button>
+
+  <div id="mobile-drawer-overlay" class="drawer-overlay" style="display: none;"></div>
+  <aside id="mobile-drawer" class="mobile-drawer">
+    <div class="drawer-header">
+      <h2 data-i18n="ui.menuTitle" style="font-size: 1.5rem; margin: 0;">Menu</h2>
+      <button id="close-drawer" class="close-drawer-btn" aria-label="Close menu">&times;</button>
+    </div>
+    <div id="drawer-content" class="drawer-content"></div>
+  </aside>
 
   <div class="language-select-container">
     <button id="show-disabled-list" class="button-show-disabled-list toolbar-button-secondary" data-i18n="ui.showDisabledList">Show disabled list</button>
@@ -1127,6 +1533,8 @@ h2 {
         </div>
       </div>
 
+      <div class="mastery-selection-header">
+        <h2 class="mastery-selection-title" data-i18n="ui.masterySelection">Mastery Selection</h2>
       <div class="selection-stats">
         <div class="stat-chip">
           <span class="stat-label" data-i18n="ui.selectedPerks">Selected Perks</span>
@@ -1136,6 +1544,7 @@ h2 {
           <span class="stat-label" data-i18n="ui.totalPerks">Total Perks</span>
           <strong id="total-icons">0</strong>
         </div>
+      </div>
       </div>
 
       <div id="icon-grid" class="icon-grid" aria-label="Mastery selection buttons"></div>
@@ -1159,7 +1568,7 @@ h2 {
   </main>
 
   <div id="disabled-cars-overlay" class="panel-overlay" style="display: none;"></div>
-  <div id="disabled-cars-panel" class="panel selection-panel" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 101; max-height: 80vh; overflow-y: auto; width: 500px; box-shadow: var(--shadow);">
+  <div id="disabled-cars-panel" class="panel selection-panel" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 101; max-height: 80vh; overflow-y: auto; width: 90%; max-width: 500px; box-shadow: var(--shadow);">
     <div class="panel-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
       <div>
         <p class="eyebrow" data-i18n="ui.appTitle">Forza Horizon 6</p>
@@ -1191,7 +1600,7 @@ h2 {
       </a>
     </div>
     <div class="footer-right">
-      <span><span data-i18n="ui.lastUpdate">Last Update:</span> <strong>2026-05-31 11:02:51</strong></span>
+      <span><span data-i18n="ui.lastUpdate">Last Update:</span> <strong>2026-05-31 18:35:27</strong></span>
       <span class="footer-separator">|</span>
       <span><span data-i18n="ui.carsConsidered">Cars considered:</span> <strong id="footer-car-count">0</strong></span>
     </div>
@@ -10873,6 +11282,8 @@ window.__MASTERY_DATA__ = [
 window.__I18N_DATA__ = {
   "cn": {
     "ui": {
+      "menuTitle": "\u8bbe\u7f6e",
+      "masterySelection": "\u7cbe\u901a\u9009\u62e9",
       "appTitle": "Forza Horizon 6",
       "appSubtitle": "Mastery Explorer",
       "appDescription": "\u9009\u62e9\u4e0b\u65b9\u7684\u7cbe\u901a\u7279\u6027\u4ee5\u52a8\u6001\u8fc7\u6ee4\u6570\u636e\u96c6\u3002",
@@ -11013,6 +11424,8 @@ window.__I18N_DATA__ = {
   },
   "de": {
     "ui": {
+      "menuTitle": "Einstellungen",
+      "masterySelection": "Mastery Auswahl",
       "appTitle": "Forza Horizon 6",
       "appSubtitle": "Mastery Explorer",
       "appDescription": "W\u00e4hle Mastery-Perks unten aus, um den Datensatz dynamisch zu filtern.",
@@ -11153,6 +11566,8 @@ window.__I18N_DATA__ = {
   },
   "en": {
     "ui": {
+      "menuTitle": "Settings",
+      "masterySelection": "Mastery Selection",
       "appTitle": "Forza Horizon 6",
       "appSubtitle": "Mastery Explorer",
       "appDescription": "Select mastery perks below to dynamically filter the dataset.",
@@ -11293,6 +11708,8 @@ window.__I18N_DATA__ = {
   },
   "es": {
     "ui": {
+      "menuTitle": "Ajustes",
+      "masterySelection": "Selecci\u00f3n de Maestr\u00eda",
       "appTitle": "Forza Horizon 6",
       "appSubtitle": "Mastery Explorer",
       "appDescription": "Selecciona las ventajas de maestr\u00eda a continuaci\u00f3n para filtrar din\u00e1micamente el conjunto de datos.",
@@ -11433,6 +11850,8 @@ window.__I18N_DATA__ = {
   },
   "it": {
     "ui": {
+      "menuTitle": "Impostazioni",
+      "masterySelection": "Selezione Maestria",
       "appTitle": "Forza Horizon 6",
       "appSubtitle": "Mastery Explorer",
       "appDescription": "Seleziona i vantaggi maestria qui sotto per filtrare dinamicamente il set di dati.",
@@ -11573,6 +11992,8 @@ window.__I18N_DATA__ = {
   },
   "jp": {
     "ui": {
+      "menuTitle": "\u8a2d\u5b9a",
+      "masterySelection": "\u30de\u30b9\u30bf\u30ea\u30fc\u9078\u629e",
       "appTitle": "Forza Horizon 6",
       "appSubtitle": "Mastery Explorer",
       "appDescription": "\u4ee5\u4e0b\u306e\u30de\u30b9\u30bf\u30ea\u30fc\u30d1\u30fc\u30af\u3092\u9078\u629e\u3057\u3066\u3001\u30c7\u30fc\u30bf\u30bb\u30c3\u30c8\u3092\u52d5\u7684\u306b\u30d5\u30a3\u30eb\u30bf\u30ea\u30f3\u30b0\u3057\u307e\u3059\u3002",
@@ -12317,6 +12738,15 @@ async function init() {
 
   if (showDisabledBtn) {
     showDisabledBtn.addEventListener("click", () => {
+      const drawer = document.getElementById("mobile-drawer");
+      const drawerOverlay = document.getElementById("mobile-drawer-overlay");
+      if (drawer && drawer.classList.contains("open")) {
+        drawer.classList.remove("open");
+        if (drawerOverlay) {
+          drawerOverlay.classList.remove("open");
+        }
+      }
+
       renderDisabledPanel();
       disabledOverlay.style.display = "block";
       disabledPanel.style.display = "flex";
@@ -12395,6 +12825,152 @@ async function init() {
     `;
   }
 }
+
+// --- Mobile Layout & Interactions ---
+function initMobileInteractions() {
+  const burgerToggle = document.getElementById("burger-menu-toggle");
+  const drawer = document.getElementById("mobile-drawer");
+  const drawerOverlay = document.getElementById("mobile-drawer-overlay");
+  const closeDrawerBtn = document.getElementById("close-drawer");
+  const drawerContent = document.getElementById("drawer-content");
+  
+  // Elements to move
+  const searchContainer = document.querySelector(".search-container");
+  const toolbarSection = document.querySelector(".toolbar-section");
+  const langSelectContainer = document.querySelector(".language-select-container");
+  const appFooter = document.querySelector(".app-footer");
+  
+  // Save original parents and siblings for restoring
+  const desktopLocations = new Map();
+  function saveLocation(el) {
+    if (el && !desktopLocations.has(el)) {
+      desktopLocations.set(el, { parent: el.parentNode, nextSibling: el.nextSibling });
+    }
+  }
+  [searchContainer, toolbarSection, langSelectContainer, appFooter].forEach(saveLocation);
+  
+  let isMobile = window.innerWidth <= 980;
+  
+  function handleResize() {
+    const currentlyMobile = window.innerWidth <= 980;
+    if (currentlyMobile !== isMobile) {
+      isMobile = currentlyMobile;
+      if (isMobile) {
+        // Move to drawer
+        if (searchContainer) drawerContent.appendChild(searchContainer);
+        if (toolbarSection) drawerContent.appendChild(toolbarSection);
+        if (langSelectContainer) drawerContent.appendChild(langSelectContainer);
+        if (appFooter) drawerContent.appendChild(appFooter);
+        setupAccordion(true);
+      } else {
+        // Restore to desktop
+        [searchContainer, toolbarSection, langSelectContainer, appFooter].forEach(el => {
+          if (el) {
+            const loc = desktopLocations.get(el);
+            if (loc) loc.parent.insertBefore(el, loc.nextSibling);
+          }
+        });
+        drawerOverlay.classList.remove("open");
+        drawer.classList.remove("open");
+        setupAccordion(false);
+      }
+    }
+  }
+  
+  // Initial setup for DOM movement
+  if (isMobile) {
+    if (searchContainer) drawerContent.appendChild(searchContainer);
+    if (toolbarSection) drawerContent.appendChild(toolbarSection);
+    if (langSelectContainer) drawerContent.appendChild(langSelectContainer);
+    if (appFooter) drawerContent.appendChild(appFooter);
+  }
+  
+  window.addEventListener("resize", handleResize);
+  
+  // Drawer Toggle
+  if (burgerToggle) {
+    burgerToggle.addEventListener("click", () => {
+      drawerOverlay.classList.add("open");
+      drawer.classList.add("open");
+    });
+  }
+  if (closeDrawerBtn) {
+    closeDrawerBtn.addEventListener("click", () => {
+      drawerOverlay.classList.remove("open");
+      drawer.classList.remove("open");
+    });
+  }
+  if (drawerOverlay) {
+    drawerOverlay.addEventListener("click", () => {
+      drawerOverlay.classList.remove("open");
+      drawer.classList.remove("open");
+    });
+  }
+  
+  // Accordion Logic
+  const selectionPanel = document.querySelector(".selection-panel");
+  const outputPanel = document.querySelector(".output-panel");
+  const selectionHeader = selectionPanel.querySelector(".panel-header");
+  const outputHeader = outputPanel.querySelector(".panel-header");
+  
+  let activePanel = "selection";
+  
+  function updateAccordionUI() {
+    if (activePanel === "selection") {
+      selectionPanel.classList.add("mobile-expanded");
+      selectionPanel.classList.remove("mobile-collapsed");
+      outputPanel.classList.remove("mobile-expanded");
+      outputPanel.classList.add("mobile-collapsed");
+    } else {
+      outputPanel.classList.add("mobile-expanded");
+      outputPanel.classList.remove("mobile-collapsed");
+      selectionPanel.classList.remove("mobile-expanded");
+      selectionPanel.classList.add("mobile-collapsed");
+    }
+  }
+  
+  function setupAccordion(enable) {
+    if (enable) {
+      updateAccordionUI();
+    } else {
+      selectionPanel.classList.remove("mobile-expanded", "mobile-collapsed");
+      outputPanel.classList.remove("mobile-expanded", "mobile-collapsed");
+    }
+  }
+  
+  const masterySelectionHeader = selectionPanel.querySelector(".mastery-selection-header");
+
+  if (selectionHeader) {
+    selectionHeader.addEventListener("click", () => {
+      if (isMobile && activePanel !== "selection") {
+        activePanel = "selection";
+        updateAccordionUI();
+      }
+    });
+  }
+
+  if (masterySelectionHeader) {
+    masterySelectionHeader.addEventListener("click", () => {
+      if (isMobile && activePanel !== "selection") {
+        activePanel = "selection";
+        updateAccordionUI();
+      }
+    });
+  }
+  
+  if (outputHeader) {
+    outputHeader.addEventListener("click", () => {
+      if (isMobile && activePanel !== "output") {
+        activePanel = "output";
+        updateAccordionUI();
+      }
+    });
+  }
+  
+  setupAccordion(isMobile);
+}
+
+initMobileInteractions();
 
 init();
 </script>

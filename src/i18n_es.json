@@ -1,5 +1,7 @@
 {
   "ui": {
+    "menuTitle": "Ajustes",
+    "masterySelection": "Selección de Maestría",
     "appTitle": "Forza Horizon 6",
     "appSubtitle": "Mastery Explorer",
     "appDescription": "Selecciona las ventajas de maestría a continuación para filtrar dinámicamente el conjunto de datos.",
