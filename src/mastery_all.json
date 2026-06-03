@@ -484,6 +484,29 @@
   },
   {
     "Manufacturer": "ASTON MARTIN",
+    "Year": "2017",
+    "Carname": "VULCAN AMR PRO",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      "instant_super_wheel_spin",
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "ASTON MARTIN",
     "Year": "2019",
     "Carname": "VANTAGE",
     "Mastery": [
@@ -1863,6 +1886,29 @@
     ]
   },
   {
+    "Manufacturer": "CADILLAC",
+    "Year": "2022",
+    "Carname": "CT5-V BLACKWING",
+    "Mastery": [
+      null,
+      null,
+      null,
+      "street_racing_events",
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
     "Manufacturer": "CAN-AM",
     "Year": "2018",
     "Carname": "MAVERICK X RS TURBO R",
@@ -1910,6 +1956,29 @@
   },
   {
     "Manufacturer": "CHEVROLET",
+    "Year": "1957",
+    "Carname": "BEL AIR",
+    "Mastery": [
+      "drag_racing_events",
+      null,
+      null,
+      null,
+      "tripple_pass_skills",
+      "drag_meet_events",
+      null,
+      "convoy_skills",
+      "pass_skills",
+      "burnout_skills",
+      "hard_charger_skills",
+      "link_skill_skills",
+      "XP",
+      "speed_skills",
+      "event_finish_score",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "CHEVROLET",
     "Year": "1964",
     "Carname": "IMPALA SUPER SPORT 409",
     "Mastery": [
@@ -1938,6 +2007,29 @@
     "Mastery": [
       null,
       "faster_multiplier",
+      null,
+      "street_racing_events",
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "CHEVROLET",
+    "Year": "1969",
+    "Carname": "CAMARO SUPER SPORT COUPE",
+    "Mastery": [
+      null,
+      null,
       null,
       "street_racing_events",
       "hard_charger_skills",
@@ -2186,6 +2278,52 @@
   },
   {
     "Manufacturer": "CHEVROLET",
+    "Year": "2015",
+    "Carname": "CAMARO Z28",
+    "Mastery": [
+      "touge_events",
+      null,
+      null,
+      null,
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "CHEVROLET",
+    "Year": "2015",
+    "Carname": "CORVETTE Z06",
+    "Mastery": [
+      null,
+      null,
+      null,
+      "street_racing_events",
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "CHEVROLET",
     "Year": "2017",
     "Carname": "CAMARO ZLI",
     "Mastery": [
@@ -2204,6 +2342,29 @@
       "XP",
       "speed_skills",
       "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "CHEVROLET",
+    "Year": "2018",
+    "Carname": "CAMARO ZLI ILE",
+    "Mastery": [
+      "touge_events",
+      null,
+      null,
+      null,
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
       "break_skillchains_twice"
     ]
   },
@@ -2940,6 +3101,29 @@
       "XP",
       "drift_edrift_skills",
       "convoy_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORD",
+    "Year": "1969",
+    "Carname": "MUSTANG BOSS 302",
+    "Mastery": [
+      null,
+      null,
+      null,
+      "street_racing_events",
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
       "break_skillchains_twice"
     ]
   },
@@ -8804,6 +8988,29 @@
       "speed_skills",
       "XP",
       "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "RADICAL",
+    "Year": "2015",
+    "Carname": "TURBO",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      null,
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
     ]
