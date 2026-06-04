@@ -2278,6 +2278,29 @@
   },
   {
     "Manufacturer": "CHEVROLET",
+    "Year": "2009",
+    "Carname": "CORVETTE ZRI",
+    "Mastery": [
+      null,
+      null,
+      null,
+      "street_racing_events",
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "CHEVROLET",
     "Year": "2015",
     "Carname": "CAMARO Z28",
     "Mastery": [
@@ -9426,6 +9449,29 @@
       "XP",
       "drafting_skills",
       "touge_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "SUBARU",
+    "Year": "1994",
+    "Carname": "RX-R FORZA EDITION",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      "instant_credits",
+      "instant_super_wheel_spin",
+      "link_skill_skills",
+      "faster_multiplier",
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "instant_wheel_spins",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
       "break_skillchains_twice"
     ]
   },
