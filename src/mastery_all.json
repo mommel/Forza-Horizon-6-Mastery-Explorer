@@ -622,29 +622,6 @@
   },
   {
     "Manufacturer": "AUDI",
-    "Year": "1986",
-    "Carname": "AUDI SPORT QUATTRO SI",
-    "Mastery": [
-      "skillchain_ends_later",
-      "head-to-head_races",
-      "event_finish_score",
-      null,
-      "dirtracing_events",
-      "combo_skills",
-      null,
-      "ultimate_skillchain_scores",
-      "air_skills",
-      "speed_skills",
-      "multiplier_goes_up_to",
-      "instant_wheel_spins",
-      "XP",
-      "drift_edrift_skills",
-      "sideswipes_skills",
-      "break_skillchains_twice"
-    ]
-  },
-  {
-    "Manufacturer": "AUDI",
     "Year": "2001",
     "Carname": "RS 4 AVANT",
     "Mastery": [
@@ -6417,6 +6394,29 @@
     ]
   },
   {
+    "Manufacturer": "LOTUS",
+    "Year": "2023",
+    "Carname": "EMIRA",
+    "Mastery": [
+      null,
+      null,
+      null,
+      "road_racing_events",
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
     "Manufacturer": "LUCID",
     "Year": "2024",
     "Carname": "AIR SAPPHIRE",
@@ -10208,6 +10208,29 @@
       "XP",
       "drift_edrift_skills",
       "sideswipes_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "SUBARU",
+    "Year": "2019",
+    "Carname": "STI S209",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "dirtracing_events",
+      "air_skills",
+      "slingshot_skills",
+      "skillchain_ends_later",
+      "showoff_skills",
+      "pass_skills",
+      "drafting_skills",
+      "XP",
+      "drift_edrift_skills",
+      "touge_events",
       "break_skillchains_twice"
     ]
   },
