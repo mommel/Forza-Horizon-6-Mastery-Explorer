@@ -438,6 +438,29 @@
   },
   {
     "Manufacturer": "ASTON MARTIN",
+    "Year": "1964",
+    "Carname": "DB5",
+    "Mastery": [
+      null,
+      "road_racing_events",
+      "instant_super_wheel_spin",
+      null,
+      "skillchain_ends_later",
+      "daredevil_skills",
+      null,
+      "skillsong",
+      "event_finish_score",
+      "near_miss",
+      "showoff_skills",
+      "instant_wheel_spins",
+      "XP",
+      "clean_racing_skills",
+      "drift_edrift_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "ASTON MARTIN",
     "Year": "2016",
     "Carname": "VULCAN",
     "Mastery": [
@@ -462,7 +485,7 @@
   {
     "Manufacturer": "ASTON MARTIN",
     "Year": "2017",
-    "Carname": "DBII",
+    "Carname": "DB11",
     "Mastery": [
       null,
       null,
@@ -594,6 +617,29 @@
       "XP",
       "road_racing_events",
       "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "ASTON MARTIN",
+    "Year": "2023",
+    "Carname": "VALKYRIE",
+    "Mastery": [
+      "instant_wheel_spins",
+      "freeroam",
+      "instant_super_wheel_spin",
+      null,
+      "road_racing_events",
+      "tripple_pass_skills",
+      null,
+      "hard_charger_skills",
+      "clean_racing_skills",
+      "pass_skills",
+      "multiplier_goes_up_to",
+      "burnout_skills",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
       "break_skillchains_twice"
     ]
   },
@@ -2025,6 +2071,29 @@
   },
   {
     "Manufacturer": "CHEVROLET",
+    "Year": "1953",
+    "Carname": "CORVETTE",
+    "Mastery": [
+      null,
+      "event_finish_score",
+      "ultimate_skillchain_scores",
+      "road_racing_events",
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "CHEVROLET",
     "Year": "1955",
     "Carname": "150 UTILITY SEDAN",
     "Mastery": [
@@ -2372,29 +2441,6 @@
     "Manufacturer": "CHEVROLET",
     "Year": "2009",
     "Carname": "CORVETTE ZR1",
-    "Mastery": [
-      null,
-      null,
-      null,
-      "street_racing_events",
-      "hard_charger_skills",
-      "sideswipes_skills",
-      null,
-      "daredevil_skills",
-      "burnout_skills",
-      "drift_edrift_skills",
-      "lucky_escape_skills",
-      "near_miss",
-      "XP",
-      "speed_skills",
-      "drag_meet_events",
-      "break_skillchains_twice"
-    ]
-  },
-  {
-    "Manufacturer": "CHEVROLET",
-    "Year": "2009",
-    "Carname": "CORVETTE ZRI",
     "Mastery": [
       null,
       null,
@@ -3175,6 +3221,29 @@
   },
   {
     "Manufacturer": "FERRARI",
+    "Year": "2015",
+    "Carname": "F12TDF",
+    "Mastery": [
+      null,
+      null,
+      "event_finish_score",
+      "faster_multiplier",
+      "convoy_skills",
+      null,
+      "showoff_skills",
+      "road_racing_events",
+      "clean_racing_skills",
+      "head-to-head_races",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "XP",
+      "speed_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FERRARI",
     "Year": "2017",
     "Carname": "J50",
     "Mastery": [
@@ -3911,6 +3980,29 @@
   },
   {
     "Manufacturer": "FORD",
+    "Year": "2014",
+    "Carname": "ROCKSTAR F-150 TROPHY TRUCK",
+    "Mastery": [
+      "cross_country_events",
+      "combo_skills",
+      null,
+      null,
+      "wrecking_ball_skills",
+      null,
+      "tripple_pass_skills",
+      "event_finish_score",
+      "wreckage_skills",
+      "crash_landing_skills",
+      "pass_skills",
+      "airborne_pass_skills",
+      "XP",
+      "link_skill_skills",
+      "air_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORD",
     "Year": "2016",
     "Carname": "MUSTANG SHELBY GT350R",
     "Mastery": [
@@ -4044,6 +4136,29 @@
       "XP",
       "speed_skills",
       "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORD",
+    "Year": "2020",
+    "Carname": "#2069 FORD PERFORMANCE BRONCO R",
+    "Mastery": [
+      "cross_country_events",
+      "combo_skills",
+      null,
+      null,
+      "wrecking_ball_skills",
+      null,
+      "tripple_pass_skills",
+      "event_finish_score",
+      "wreckage_skills",
+      "crash_landing_skills",
+      "pass_skills",
+      "airborne_pass_skills",
+      "XP",
+      "link_skill_skills",
+      "air_skills",
       "break_skillchains_twice"
     ]
   },
@@ -4465,6 +4580,29 @@
     "Manufacturer": "FORMULA DRIFT",
     "Year": "2019",
     "Carname": "#411 TOYOTA COROLLA HATCHBACK",
+    "Mastery": [
+      "link_skill_skills",
+      "skillchain_ends_later",
+      null,
+      null,
+      "lucky_escape_skills",
+      "sideswipes_skills",
+      "combo_skills",
+      null,
+      "near_miss",
+      "drift_tap_skills",
+      "freeroam",
+      "skillsong",
+      "XP",
+      "drift_edrift_skills",
+      "convoy_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORMULA DRIFT",
+    "Year": "2020",
+    "Carname": "#151 TOYOTA GR SUPRA",
     "Mastery": [
       "link_skill_skills",
       "skillchain_ends_later",
@@ -5774,6 +5912,29 @@
   },
   {
     "Manufacturer": "LAMBORGHINI",
+    "Year": "1988",
+    "Carname": "COUNTACH LP5000 QV",
+    "Mastery": [
+      "dirtracing_events",
+      "skillsong",
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "LAMBORGHINI",
     "Year": "1997",
     "Carname": "DIABLO SV",
     "Mastery": [
@@ -6350,6 +6511,29 @@
   {
     "Manufacturer": "LOTUS",
     "Year": "2018",
+    "Carname": "EXIGE CUP 430",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      null,
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "LOTUS",
+    "Year": "2018",
     "Carname": "SCURA MOTORSPORTS EXIGE WTAC",
     "Mastery": [
       "touge_events",
@@ -6901,6 +7085,29 @@
   },
   {
     "Manufacturer": "MCLAREN",
+    "Year": "2018",
+    "Carname": "600LT COUPE",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      null,
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MCLAREN",
     "Year": "2021",
     "Carname": "SABRE",
     "Mastery": [
@@ -6919,6 +7126,29 @@
       "XP",
       "speed_skills",
       "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MCLAREN",
+    "Year": "2023",
+    "Carname": "ARTURA",
+    "Mastery": [
+      "road_racing_events",
+      "skillsong",
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
       "break_skillchains_twice"
     ]
   },
