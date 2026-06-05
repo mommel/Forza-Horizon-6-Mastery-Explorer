@@ -391,6 +391,29 @@
     ]
   },
   {
+    "Manufacturer": "APOLLO",
+    "Year": "2019",
+    "Carname": "INTENSA EMOZIONE",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      "instant_super_wheel_spin",
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
     "Manufacturer": "ARIEL",
     "Year": "2013",
     "Carname": "ATOM 500",
@@ -2279,6 +2302,29 @@
   {
     "Manufacturer": "CHEVROLET",
     "Year": "1970",
+    "Carname": "CORVETTE ZR-1",
+    "Mastery": [
+      null,
+      "faster_multiplier",
+      null,
+      "street_racing_events",
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "CHEVROLET",
+    "Year": "1970",
     "Carname": "EL CAMINO SUPER SPORT 454",
     "Mastery": [
       null,
@@ -3129,6 +3175,29 @@
   },
   {
     "Manufacturer": "FERRARI",
+    "Year": "1969",
+    "Carname": "DINO 246 GT",
+    "Mastery": [
+      null,
+      "road_racing_events",
+      "instant_super_wheel_spin",
+      null,
+      "skillchain_ends_later",
+      "daredevil_skills",
+      null,
+      "skillsong",
+      "event_finish_score",
+      "near_miss",
+      "showoff_skills",
+      "instant_wheel_spins",
+      "XP",
+      "clean_racing_skills",
+      "drift_edrift_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FERRARI",
     "Year": "1987",
     "Carname": "F40",
     "Mastery": [
@@ -3245,10 +3314,56 @@
   {
     "Manufacturer": "FERRARI",
     "Year": "2015",
+    "Carname": "488 GTB",
+    "Mastery": [
+      "road_racing_events",
+      "skillsong",
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FERRARI",
+    "Year": "2015",
     "Carname": "F12TDF",
     "Mastery": [
       null,
       null,
+      "event_finish_score",
+      "faster_multiplier",
+      "convoy_skills",
+      null,
+      "showoff_skills",
+      "road_racing_events",
+      "clean_racing_skills",
+      "head-to-head_races",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "XP",
+      "speed_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FERRARI",
+    "Year": "2017",
+    "Carname": "812 SUPERFAST",
+    "Mastery": [
+      null,
+      "instant_super_wheel_spin",
       "event_finish_score",
       "faster_multiplier",
       "convoy_skills",
@@ -5682,6 +5797,29 @@
   },
   {
     "Manufacturer": "JAGUAR",
+    "Year": "1961",
+    "Carname": "E-TYPE",
+    "Mastery": [
+      null,
+      "road_racing_events",
+      "instant_super_wheel_spin",
+      null,
+      "skillchain_ends_later",
+      "daredevil_skills",
+      null,
+      "skillsong",
+      "event_finish_score",
+      "near_miss",
+      "showoff_skills",
+      "instant_wheel_spins",
+      "XP",
+      "clean_racing_skills",
+      "drift_edrift_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "JAGUAR",
     "Year": "1991",
     "Carname": "SPORT XJR-15",
     "Mastery": [
@@ -5861,6 +5999,29 @@
       "XP",
       "freeroam",
       "event_finish_score",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "KOENIGSEGG",
+    "Year": "2008",
+    "Carname": "CCGT",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      "instant_super_wheel_spin",
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
       "break_skillchains_twice"
     ]
   },
@@ -6160,6 +6321,29 @@
       "XP",
       "near_miss",
       "wreckage_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "LAMBORGHINI",
+    "Year": "2020",
+    "Carname": "ESSENZA SCV",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      "instant_super_wheel_spin",
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
       "break_skillchains_twice"
     ]
   },
@@ -7701,6 +7885,29 @@
       "XP",
       "near_miss",
       "street_racing_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MINI",
+    "Year": "2013",
+    "Carname": "X-RAID ALL4 RACING COUNTRYMAN",
+    "Mastery": [
+      "cross_country_events",
+      "combo_skills",
+      null,
+      null,
+      "wrecking_ball_skills",
+      null,
+      "tripple_pass_skills",
+      "event_finish_score",
+      "wreckage_skills",
+      "crash_landing_skills",
+      "pass_skills",
+      "airborne_pass_skills",
+      "XP",
+      "link_skill_skills",
+      "air_skills",
       "break_skillchains_twice"
     ]
   },
@@ -10054,6 +10261,29 @@
     "Manufacturer": "RJ ANDERSON",
     "Year": "2016",
     "Carname": "#37 POLARIS RZR PRO 2 TRUCK",
+    "Mastery": [
+      "cross_country_events",
+      "combo_skills",
+      null,
+      null,
+      "wrecking_ball_skills",
+      null,
+      "tripple_pass_skills",
+      "event_finish_score",
+      "wreckage_skills",
+      "crash_landing_skills",
+      "pass_skills",
+      "airborne_pass_skills",
+      "XP",
+      "link_skill_skills",
+      "air_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "RJ ANDERSON",
+    "Year": "2021",
+    "Carname": "POLARIS RZR PRO 4 TRUCK",
     "Mastery": [
       "cross_country_events",
       "combo_skills",
