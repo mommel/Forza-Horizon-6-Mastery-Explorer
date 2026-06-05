@@ -2646,6 +2646,29 @@
   },
   {
     "Manufacturer": "DATSUN",
+    "Year": "1969",
+    "Carname": "2000 ROADSTER",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "DATSUN",
     "Year": "1970",
     "Carname": "510",
     "Mastery": [
@@ -3338,6 +3361,29 @@
     "Manufacturer": "FERRARI",
     "Year": "2018",
     "Carname": "PORTOFINO",
+    "Mastery": [
+      null,
+      null,
+      "event_finish_score",
+      "faster_multiplier",
+      "convoy_skills",
+      null,
+      "showoff_skills",
+      "road_racing_events",
+      "clean_racing_skills",
+      "head-to-head_races",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "XP",
+      "speed_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FERRARI",
+    "Year": "2020",
+    "Carname": "ROMA",
     "Mastery": [
       null,
       null,
@@ -8626,6 +8672,29 @@
   },
   {
     "Manufacturer": "NISSAN",
+    "Year": "2010",
+    "Carname": "370Z",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "NISSAN",
     "Year": "2012",
     "Carname": "GT-R BLACK EDITION R35",
     "Mastery": [
@@ -9817,6 +9886,29 @@
       "XP",
       "street_racing_events",
       "ultimate_skillchain_scores",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "RENAULT",
+    "Year": "1967",
+    "Carname": "8 GORDINI",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      "faster_multiplier",
+      "combo_skills",
+      "link_skill_skills",
+      "drift_edrift_skills",
+      "sideswipes_skills",
+      "airborne_pass_skills",
+      "crash_landing_skills",
+      "XP",
+      "wreckage_skills",
+      "air_skills",
       "break_skillchains_twice"
     ]
   },
@@ -11036,6 +11128,29 @@
       "XP",
       "road_racing_events",
       "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "TOYOTA",
+    "Year": "2016",
+    "Carname": "LAND CRUISER ARCTIC TRUCKS AT37",
+    "Mastery": [
+      null,
+      null,
+      "event_finish_score",
+      null,
+      "cross_country_events",
+      "combo_skills",
+      "ultimate_skillchain_scores",
+      null,
+      "crash_landing_skills",
+      "wreckage_skills",
+      "wrecking_ball_skills",
+      "multiplier_goes_up_to",
+      "XP",
+      "air_skills",
+      "kangaroo_skills",
       "break_skillchains_twice"
     ]
   },
