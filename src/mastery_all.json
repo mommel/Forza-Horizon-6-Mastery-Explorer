@@ -3635,6 +3635,29 @@
   },
   {
     "Manufacturer": "FERRARI",
+    "Year": "2019",
+    "Carname": "MONZA SP2",
+    "Mastery": [
+      null,
+      "instant_super_wheel_spin",
+      "event_finish_score",
+      "faster_multiplier",
+      "convoy_skills",
+      null,
+      "showoff_skills",
+      "road_racing_events",
+      "clean_racing_skills",
+      "head-to-head_races",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "XP",
+      "speed_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FERRARI",
     "Year": "2020",
     "Carname": "ROMA",
     "Mastery": [
@@ -6188,6 +6211,29 @@
   },
   {
     "Manufacturer": "JIMCO",
+    "Year": "2019",
+    "Carname": "#240 FASTBALL RACING CLASS 6100 SPEC TROPHY TRUCK",
+    "Mastery": [
+      "cross_country_events",
+      "combo_skills",
+      null,
+      null,
+      "wrecking_ball_skills",
+      null,
+      "tripple_pass_skills",
+      "event_finish_score",
+      "wreckage_skills",
+      "crash_landing_skills",
+      "pass_skills",
+      "airborne_pass_skills",
+      "XP",
+      "link_skill_skills",
+      "air_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "JIMCO",
     "Year": "2020",
     "Carname": "#179 HAMMERHEAD CLASS I",
     "Mastery": [
@@ -6229,6 +6275,52 @@
       "XP",
       "road_racing_events",
       "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "KOENIGSEGG",
+    "Year": "2011",
+    "Carname": "AGERA",
+    "Mastery": [
+      "instant_wheel_spins",
+      "freeroam",
+      "instant_super_wheel_spin",
+      null,
+      "road_racing_events",
+      "tripple_pass_skills",
+      null,
+      "hard_charger_skills",
+      "clean_racing_skills",
+      "pass_skills",
+      "multiplier_goes_up_to",
+      "burnout_skills",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "KOENIGSEGG",
+    "Year": "2016",
+    "Carname": "REGERA",
+    "Mastery": [
+      "instant_wheel_spins",
+      "freeroam",
+      "instant_super_wheel_spin",
+      null,
+      "road_racing_events",
+      "tripple_pass_skills",
+      null,
+      "hard_charger_skills",
+      "clean_racing_skills",
+      "pass_skills",
+      "multiplier_goes_up_to",
+      "burnout_skills",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
       "break_skillchains_twice"
     ]
   },
@@ -6824,6 +6916,29 @@
       "stuntman_skills",
       "wrecking_ball_skills",
       "crash_landing_skills",
+      "XP",
+      "near_miss",
+      "wreckage_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "LAND ROVER",
+    "Year": "2020",
+    "Carname": "DEFENDER 110 X",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "kangaroo_skills",
+      "event_finish_score",
+      "ultimate_skillchain_scores",
+      null,
+      "air_skills",
+      "stuntman_skills",
+      "wrecking_ball_skills",
+      "landscaping_skills",
       "XP",
       "near_miss",
       "wreckage_skills",
@@ -7547,6 +7662,29 @@
     "Manufacturer": "MCLAREN",
     "Year": "2018",
     "Carname": "600LT COUPE",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      null,
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MCLAREN",
+    "Year": "2021",
+    "Carname": "765LT COUPE",
     "Mastery": [
       "touge_events",
       "convoy_skills",
@@ -8896,6 +9034,29 @@
       "drift_edrift_skills",
       "XP",
       "skillsong",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "NISSAN",
+    "Year": "1995",
+    "Carname": "NISMO GT-R LM",
+    "Mastery": [
+      null,
+      "event_finish_score",
+      "ultimate_skillchain_scores",
+      "road_racing_events",
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
     ]
