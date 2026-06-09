@@ -7660,6 +7660,29 @@
   },
   {
     "Manufacturer": "MCLAREN",
+    "Year": "2013",
+    "Carname": "PI",
+    "Mastery": [
+      "instant_wheel_spins",
+      "freeroam",
+      "instant_super_wheel_spin",
+      null,
+      "road_racing_events",
+      "tripple_pass_skills",
+      null,
+      "hard_charger_skills",
+      "clean_racing_skills",
+      "pass_skills",
+      "multiplier_goes_up_to",
+      "burnout_skills",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MCLAREN",
     "Year": "2014",
     "Carname": "650S SPIDER",
     "Mastery": [
@@ -7977,6 +8000,29 @@
       "XP",
       "speed_skills",
       "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MERCEDES-BENZ",
+    "Year": "1954",
+    "Carname": "300 SL COUPE",
+    "Mastery": [
+      "instant_credits",
+      null,
+      "instant_super_wheel_spin",
+      null,
+      "skillchain_ends_later",
+      "daredevil_skills",
+      null,
+      "skillsong",
+      "event_finish_score",
+      "near_miss",
+      "showoff_skills",
+      "instant_wheel_spins",
+      "XP",
+      "clean_racing_skills",
+      "drift_edrift_skills",
       "break_skillchains_twice"
     ]
   },
