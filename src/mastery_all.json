@@ -3267,6 +3267,29 @@
   },
   {
     "Manufacturer": "FERRARI",
+    "Year": "1970",
+    "Carname": "512 S",
+    "Mastery": [
+      "head-to-head_races",
+      "road_racing_events",
+      null,
+      "instant_super_wheel_spin",
+      "clean_racing_skills",
+      "showoff_skills",
+      null,
+      "skillchain_ends_later",
+      "speed_skills",
+      "pass_skills",
+      "slingshot_skills",
+      "time_attack_events",
+      "XP",
+      "event_finish_score",
+      "drafting_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FERRARI",
     "Year": "1987",
     "Carname": "F40",
     "Mastery": [
@@ -3336,6 +3359,29 @@
   },
   {
     "Manufacturer": "FERRARI",
+    "Year": "1994",
+    "Carname": "F355 BERLINETTA",
+    "Mastery": [
+      "road_racing_events",
+      "skillsong",
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FERRARI",
     "Year": "1995",
     "Carname": "F50",
     "Mastery": [
@@ -3361,6 +3407,29 @@
     "Manufacturer": "FERRARI",
     "Year": "1996",
     "Carname": "F50 GT",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      "instant_super_wheel_spin",
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FERRARI",
+    "Year": "2005",
+    "Carname": "FXX",
     "Mastery": [
       "touge_events",
       "convoy_skills",
@@ -5843,6 +5912,29 @@
   },
   {
     "Manufacturer": "HONDA",
+    "Year": "2008",
+    "Carname": "CIVIC TYPE R",
+    "Mastery": [
+      null,
+      "threading_the_needle_skills",
+      null,
+      null,
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "HONDA",
     "Year": "2015",
     "Carname": "CIVIC TYPE R",
     "Mastery": [
@@ -7844,6 +7936,52 @@
   },
   {
     "Manufacturer": "MCLAREN",
+    "Year": "1993",
+    "Carname": "FI",
+    "Mastery": [
+      "road_racing_events",
+      "faster_multiplier",
+      "instant_credits",
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MCLAREN",
+    "Year": "1997",
+    "Carname": "FI GT",
+    "Mastery": [
+      "road_racing_events",
+      "faster_multiplier",
+      "instant_credits",
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MCLAREN",
     "Year": "2011",
     "Carname": "12C COUPE",
     "Mastery": [
@@ -9293,6 +9431,52 @@
   },
   {
     "Manufacturer": "NISSAN",
+    "Year": "1993",
+    "Carname": "240SX",
+    "Mastery": [
+      null,
+      null,
+      "ultimate_skillchain_scores",
+      "road_racing_events",
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "NISSAN",
+    "Year": "1993",
+    "Carname": "MOSX",
+    "Mastery": [
+      null,
+      null,
+      "ultimate_skillchain_scores",
+      "road_racing_events",
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "NISSAN",
     "Year": "1994",
     "Carname": "FAIRLADY Z VERSION S TWIN TURBO",
     "Mastery": [
@@ -9817,6 +10001,29 @@
       "XP",
       "road_racing_events",
       "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "PAGANI",
+    "Year": "2010",
+    "Carname": "ZONDA CINQUE ROADSTER",
+    "Mastery": [
+      "instant_wheel_spins",
+      "freeroam",
+      "instant_super_wheel_spin",
+      null,
+      "road_racing_events",
+      "tripple_pass_skills",
+      null,
+      "hard_charger_skills",
+      "clean_racing_skills",
+      "pass_skills",
+      "multiplier_goes_up_to",
+      "burnout_skills",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
       "break_skillchains_twice"
     ]
   },
