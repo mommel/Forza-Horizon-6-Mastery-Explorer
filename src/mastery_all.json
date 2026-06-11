@@ -3221,6 +3221,29 @@
   },
   {
     "Manufacturer": "FERRARI",
+    "Year": "1962",
+    "Carname": "250 GTO",
+    "Mastery": [
+      "head-to-head_races",
+      "road_racing_events",
+      null,
+      "instant_super_wheel_spin",
+      "clean_racing_skills",
+      "showoff_skills",
+      null,
+      "skillchain_ends_later",
+      "speed_skills",
+      "pass_skills",
+      "slingshot_skills",
+      "time_attack_events",
+      "XP",
+      "event_finish_score",
+      "drafting_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FERRARI",
     "Year": "1967",
     "Carname": "#24 FERRARI SPA 330 P4",
     "Mastery": [
@@ -3422,6 +3445,29 @@
       "faster_multiplier",
       "XP",
       "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FERRARI",
+    "Year": "2002",
+    "Carname": "ENZO FERRARI",
+    "Mastery": [
+      "road_racing_events",
+      "faster_multiplier",
+      "instant_credits",
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
     ]
@@ -3906,6 +3952,29 @@
       "XP",
       "speed_skills",
       "drag_meet_events",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "FORD",
+    "Year": "1966",
+    "Carname": "GT40 MK II",
+    "Mastery": [
+      "head-to-head_races",
+      "road_racing_events",
+      null,
+      "instant_super_wheel_spin",
+      "clean_racing_skills",
+      "showoff_skills",
+      null,
+      "skillchain_ends_later",
+      "speed_skills",
+      "pass_skills",
+      "slingshot_skills",
+      "time_attack_events",
+      "XP",
+      "event_finish_score",
+      "drafting_skills",
       "break_skillchains_twice"
     ]
   },
@@ -8419,6 +8488,29 @@
   },
   {
     "Manufacturer": "MERCEDES-BENZ",
+    "Year": "1955",
+    "Carname": "300 SLR",
+    "Mastery": [
+      "head-to-head_races",
+      "road_racing_events",
+      null,
+      "instant_super_wheel_spin",
+      "clean_racing_skills",
+      "showoff_skills",
+      null,
+      "skillchain_ends_later",
+      "speed_skills",
+      "pass_skills",
+      "slingshot_skills",
+      "time_attack_events",
+      "XP",
+      "event_finish_score",
+      "drafting_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "MERCEDES-BENZ",
     "Year": "1987",
     "Carname": "AMG HAMMER COUPE",
     "Mastery": [
@@ -11427,6 +11519,29 @@
       "XP",
       "clean_racing_skills",
       "drift_edrift_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "SHELBY",
+    "Year": "1965",
+    "Carname": "COBRA DAYTONA COUPE",
+    "Mastery": [
+      "head-to-head_races",
+      "road_racing_events",
+      null,
+      "instant_super_wheel_spin",
+      "clean_racing_skills",
+      "showoff_skills",
+      null,
+      "skillchain_ends_later",
+      "speed_skills",
+      "pass_skills",
+      "slingshot_skills",
+      "time_attack_events",
+      "XP",
+      "event_finish_score",
+      "drafting_skills",
       "break_skillchains_twice"
     ]
   },
