@@ -347,7 +347,7 @@
   {
     "Manufacturer": "ALUMICRAFT",
     "Year": "2021",
-    "Carname": "#122 CLASS I BUGGY",
+    "Carname": "#122 CLASS 1 BUGGY",
     "Mastery": [
       "cross_country_events",
       null,
@@ -6303,6 +6303,29 @@
   },
   {
     "Manufacturer": "JAGUAR",
+    "Year": "1956",
+    "Carname": "D-TYPE",
+    "Mastery": [
+      "head-to-head_races",
+      "road_racing_events",
+      null,
+      "instant_super_wheel_spin",
+      "clean_racing_skills",
+      "showoff_skills",
+      null,
+      "skillchain_ends_later",
+      "speed_skills",
+      "pass_skills",
+      "slingshot_skills",
+      "time_attack_events",
+      "XP",
+      "event_finish_score",
+      "drafting_skills",
+      "break_skillchains_twice"
+    ]
+  },
+  {
+    "Manufacturer": "JAGUAR",
     "Year": "1961",
     "Carname": "E-TYPE",
     "Mastery": [
@@ -8052,7 +8075,7 @@
   {
     "Manufacturer": "MCLAREN",
     "Year": "1993",
-    "Carname": "FI",
+    "Carname": "F1",
     "Mastery": [
       "road_racing_events",
       "faster_multiplier",
@@ -8075,7 +8098,7 @@
   {
     "Manufacturer": "MCLAREN",
     "Year": "1997",
-    "Carname": "FI GT",
+    "Carname": "F1 GT",
     "Mastery": [
       "road_racing_events",
       "faster_multiplier",
@@ -8121,7 +8144,7 @@
   {
     "Manufacturer": "MCLAREN",
     "Year": "2013",
-    "Carname": "PI",
+    "Carname": "P1",
     "Mastery": [
       "instant_wheel_spins",
       "freeroam",
