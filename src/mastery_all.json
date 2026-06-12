@@ -20,7 +20,9 @@
       "pass_skills",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "23.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ABARTH",
@@ -43,7 +45,9 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "118.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ABARTH",
@@ -66,7 +70,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Herbst"
   },
   {
     "Manufacturer": "ACURA",
@@ -89,7 +95,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "61.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ACURA",
@@ -112,7 +120,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "17.100",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ACURA",
@@ -135,7 +145,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "ACURA",
@@ -158,7 +170,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "34.200",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ALFA ROMEO",
@@ -181,7 +195,9 @@
       "clean_racing_skills",
       "drift_edrift_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "325.850",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ALFA ROMEO",
@@ -204,7 +220,9 @@
       "event_finish_score",
       "drafting_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "ALFA ROMEO",
@@ -227,7 +245,9 @@
       "event_finish_score",
       "drafting_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "3.325.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ALFA ROMEO",
@@ -250,7 +270,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "28.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ALFA ROMEO",
@@ -273,7 +295,9 @@
       "speed_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "296.400",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ALFA ROMEO",
@@ -296,7 +320,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "69.350",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ALFA ROMEO",
@@ -319,7 +345,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "42.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ALUMICRAFT",
@@ -342,7 +370,9 @@
       "freeroam",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "45.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ALUMICRAFT",
@@ -365,7 +395,9 @@
       "freeroam",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "152.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ALUMICRAFT",
@@ -388,7 +420,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "285.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "AMG TRANSPORT DYNAMICS",
@@ -411,7 +445,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "807.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "APOLLO",
@@ -434,7 +470,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "ARIEL",
@@ -457,7 +495,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "180.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ARIEL",
@@ -480,7 +520,9 @@
       "freeroam",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "51.300",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ASTON MARTIN",
@@ -503,7 +545,9 @@
       "clean_racing_skills",
       "drift_edrift_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "475.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ASTON MARTIN",
@@ -526,7 +570,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.185.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ASTON MARTIN",
@@ -549,7 +595,9 @@
       "speed_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "166.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ASTON MARTIN",
@@ -572,7 +620,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.850.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ASTON MARTIN",
@@ -595,7 +645,9 @@
       "speed_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "ASTON MARTIN",
@@ -618,7 +670,9 @@
       "speed_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "237.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ASTON MARTIN",
@@ -641,7 +695,9 @@
       "near_miss",
       "wreckage_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Herbst"
   },
   {
     "Manufacturer": "ASTON MARTIN",
@@ -664,7 +720,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "3.990.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ASTON MARTIN",
@@ -687,7 +745,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.612.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -710,7 +770,9 @@
       "drift_edrift_skills",
       "sideswipes_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -733,7 +795,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.662.580",
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -756,7 +820,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "33.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -779,7 +845,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "71.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -802,7 +870,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "855.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -825,7 +895,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "39.900",
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -848,7 +920,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -871,7 +945,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "19.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -894,7 +970,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "231.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -917,7 +995,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -940,7 +1020,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "238.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -963,7 +1045,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "52.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -986,7 +1070,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "57.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -1009,7 +1095,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "19.950",
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -1032,7 +1120,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -1055,7 +1145,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "47.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -1078,7 +1170,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "266.950",
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -1101,7 +1195,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "49.400",
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -1124,7 +1220,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "78.850",
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -1147,7 +1245,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "76.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUDI",
@@ -1170,7 +1270,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "90.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUSTIN-HEALEY",
@@ -1193,7 +1295,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "AUTOZAM",
@@ -1216,7 +1320,9 @@
       "drafting_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "36.100",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BAC",
@@ -1239,7 +1345,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.862.006",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BENTLEY",
@@ -1262,7 +1370,9 @@
       "near_miss",
       "wreckage_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "BENTLEY",
@@ -1285,7 +1395,9 @@
       "speed_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1308,7 +1420,9 @@
       "pass_skills",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "79.800",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1331,7 +1445,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "120.650",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1354,7 +1470,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1377,7 +1495,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.315.080",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1400,7 +1520,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "66.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1423,7 +1545,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "128.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1446,7 +1570,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "45.600",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1469,7 +1595,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "238.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1492,7 +1620,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "44.650",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1515,7 +1645,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "33.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1538,7 +1670,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "463.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1561,7 +1695,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "59.850",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1584,7 +1720,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "51.300",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1607,7 +1745,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "188.100",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1630,7 +1770,9 @@
       "near_miss",
       "wreckage_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "22.800",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1653,7 +1795,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "38.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1676,7 +1820,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "52.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1699,7 +1845,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "66.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1722,7 +1870,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "118.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1745,7 +1895,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "36.100",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1768,7 +1920,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1791,7 +1945,9 @@
       "speed_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "95.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1814,7 +1970,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "663.866",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1837,7 +1995,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1860,7 +2020,9 @@
       "near_miss",
       "wreckage_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "35.150",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1883,7 +2045,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.425.686",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1906,7 +2070,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "63.650",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1929,7 +2095,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "BMW",
@@ -1952,7 +2120,9 @@
       "near_miss",
       "wreckage_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "133.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "BUICK",
@@ -1975,7 +2145,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "242.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CADILLAC",
@@ -1998,7 +2170,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "41.800",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CADILLAC",
@@ -2021,7 +2195,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "30.950",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CADILLAC",
@@ -2044,7 +2220,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "57.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CADILLAC",
@@ -2067,7 +2245,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "52.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CADILLAC",
@@ -2090,7 +2270,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "85.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CAN-AM",
@@ -2113,7 +2295,9 @@
       "air_skills",
       "crash_landing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "15.200",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CASEY CURRIE MOTORSPORTS",
@@ -2136,7 +2320,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2159,7 +2345,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "255.550",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2182,7 +2370,9 @@
       "speed_skills",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "133.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2205,7 +2395,9 @@
       "speed_skills",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "65.550",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2228,7 +2420,9 @@
       "speed_skills",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2251,7 +2445,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2274,7 +2470,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2297,7 +2495,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "38.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2320,7 +2520,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "52.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2343,7 +2545,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2366,7 +2570,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.315.080",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2389,7 +2595,9 @@
       "street_racing_events",
       "ultimate_skillchain_scores",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2412,7 +2620,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2435,7 +2645,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "19.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2458,7 +2670,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2481,7 +2695,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "12.200",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2504,7 +2720,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "238.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2527,7 +2745,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "313.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2550,7 +2770,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "118.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2573,7 +2795,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2596,7 +2820,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "95.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2619,7 +2845,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "52.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2642,7 +2870,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "66.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2665,7 +2895,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2688,7 +2920,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "463.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2711,7 +2945,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "147.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "CHEVROLET",
@@ -2734,7 +2970,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "108.300",
+    "Exclusive": null
   },
   {
     "Manufacturer": "DATSUN",
@@ -2757,7 +2995,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Winter"
   },
   {
     "Manufacturer": "DATSUN",
@@ -2780,7 +3020,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "81.700",
+    "Exclusive": null
   },
   {
     "Manufacturer": "DATSUN",
@@ -2803,7 +3045,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "DEBERTI",
@@ -2826,7 +3070,9 @@
       "drift_edrift_skills",
       "convoy_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "DEBERTI",
@@ -2849,7 +3095,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "DEBERTI",
@@ -2872,7 +3120,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "DEBERTI",
@@ -2895,7 +3145,9 @@
       "drift_edrift_skills",
       "convoy_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "DELOREAN",
@@ -2918,7 +3170,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "634.066",
+    "Exclusive": null
   },
   {
     "Manufacturer": "DODGE",
@@ -2941,7 +3195,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "5.139.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "DODGE",
@@ -2964,7 +3220,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "DODGE",
@@ -2987,7 +3245,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.662.580",
+    "Exclusive": null
   },
   {
     "Manufacturer": "DODGE",
@@ -3010,7 +3270,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "64.600",
+    "Exclusive": null
   },
   {
     "Manufacturer": "DODGE",
@@ -3033,7 +3295,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "DODGE",
@@ -3056,7 +3320,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "DODGE",
@@ -3079,7 +3345,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "DODGE",
@@ -3102,7 +3370,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "41.800",
+    "Exclusive": null
   },
   {
     "Manufacturer": "DODGE",
@@ -3125,7 +3395,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "DODGE",
@@ -3148,7 +3420,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "85.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "DODGE",
@@ -3171,7 +3445,9 @@
       "near_miss",
       "wreckage_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "DODGE",
@@ -3194,7 +3470,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3217,7 +3495,9 @@
       "clean_racing_skills",
       "drift_edrift_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3240,7 +3520,9 @@
       "event_finish_score",
       "drafting_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "245.608.666",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3263,7 +3545,9 @@
       "event_finish_score",
       "drafting_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "266.508.666",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3286,7 +3570,9 @@
       "clean_racing_skills",
       "drift_edrift_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "3.185.806",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3309,7 +3595,9 @@
       "event_finish_score",
       "drafting_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "3.420.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3332,7 +3620,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.900.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3355,7 +3645,9 @@
       "event_finish_score",
       "drafting_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "3.040.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3378,7 +3670,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3401,7 +3695,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Fr\u00fchling / Wheelspin"
   },
   {
     "Manufacturer": "FERRARI",
@@ -3424,7 +3720,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "4.275.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3447,7 +3745,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3470,7 +3770,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "3.325.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3493,7 +3795,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "23.156.080",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3516,7 +3820,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "337.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3539,7 +3845,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "199.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3562,7 +3870,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.900.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3585,7 +3895,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "475.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3608,7 +3920,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.850.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3631,7 +3945,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "4.085.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3654,7 +3970,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.315.080",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3677,7 +3995,9 @@
       "speed_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "475.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3700,7 +4020,9 @@
       "speed_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.375.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3723,7 +4045,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "23.156.080",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3746,7 +4070,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3769,7 +4095,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "4.275.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3792,7 +4120,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3815,7 +4145,9 @@
       "speed_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "190.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3838,7 +4170,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "680.200",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3861,7 +4195,9 @@
       "speed_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "23.156.080",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3884,7 +4220,9 @@
       "speed_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3907,7 +4245,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "546.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FERRARI",
@@ -3930,7 +4270,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Sommer"
   },
   {
     "Manufacturer": "FORD",
@@ -3953,7 +4295,9 @@
       "speed_skills",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -3976,7 +4320,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "49.400",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -3999,7 +4345,9 @@
       "event_finish_score",
       "drafting_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4022,7 +4370,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4045,7 +4395,9 @@
       "drift_edrift_skills",
       "convoy_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4068,7 +4420,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "71.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4091,7 +4445,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "65.550",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4114,7 +4470,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "207.100",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4137,7 +4495,9 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "175.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4160,7 +4520,9 @@
       "drift_edrift_skills",
       "sideswipes_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4183,7 +4545,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "42.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4206,7 +4570,9 @@
       "drift_edrift_skills",
       "convoy_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4229,7 +4595,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4252,7 +4620,9 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "61.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4275,7 +4645,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "79.800",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4298,7 +4670,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.315.080",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4321,7 +4695,9 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "238.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4344,7 +4720,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "145.350",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4367,7 +4745,9 @@
       "drift_edrift_skills",
       "sideswipes_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4390,7 +4770,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Sommer"
   },
   {
     "Manufacturer": "FORD",
@@ -4413,7 +4795,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "33.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4436,7 +4820,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4459,7 +4845,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "49.400",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4482,7 +4870,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4505,7 +4895,9 @@
       "street_racing_events",
       "ultimate_skillchain_scores",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4528,7 +4920,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "57.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4551,7 +4945,9 @@
       "street_racing_events",
       "ultimate_skillchain_scores",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4574,7 +4970,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4597,7 +4995,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4620,7 +5020,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4643,7 +5045,9 @@
       "drift_edrift_skills",
       "sideswipes_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4666,7 +5070,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4689,7 +5095,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "35.150",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4712,7 +5120,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "475.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4735,7 +5145,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "33.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4758,7 +5170,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4781,7 +5195,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "118.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4804,7 +5220,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4827,7 +5245,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4850,7 +5270,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "47.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4873,7 +5295,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "32.300",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4896,7 +5320,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4919,7 +5345,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "104.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4942,7 +5370,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4965,7 +5395,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "24.700",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -4988,7 +5420,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "56.050",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORD",
@@ -5011,12 +5445,14 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "42.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORMULA DRIFT",
     "Year": "1989",
-    "Carname": "BMW 3251",
+    "Carname": "#98 BMW 325i",
     "Mastery": [
       "link_skill_skills",
       "skillchain_ends_later",
@@ -5034,12 +5470,14 @@
       "drift_edrift_skills",
       "convoy_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORMULA DRIFT",
     "Year": "1995",
-    "Carname": "TOYOTA SUPRA MKIV",
+    "Carname": "#34 TOYOTA SUPRA MKIV",
     "Mastery": [
       "link_skill_skills",
       "skillchain_ends_later",
@@ -5057,7 +5495,9 @@
       "drift_edrift_skills",
       "convoy_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.425.686",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORMULA DRIFT",
@@ -5080,7 +5520,9 @@
       "drift_edrift_skills",
       "convoy_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.425.686",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORMULA DRIFT",
@@ -5103,7 +5545,9 @@
       "drift_edrift_skills",
       "convoy_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "498.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORMULA DRIFT",
@@ -5126,7 +5570,9 @@
       "drift_edrift_skills",
       "convoy_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.425.686",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORMULA DRIFT",
@@ -5149,7 +5595,9 @@
       "drift_edrift_skills",
       "convoy_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORMULA DRIFT",
@@ -5172,7 +5620,9 @@
       "drift_edrift_skills",
       "convoy_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.425.686",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORMULA DRIFT",
@@ -5195,7 +5645,9 @@
       "drift_edrift_skills",
       "convoy_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORMULA DRIFT",
@@ -5218,7 +5670,9 @@
       "drift_edrift_skills",
       "convoy_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "175.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORMULA DRIFT",
@@ -5241,30 +5695,9 @@
       "drift_edrift_skills",
       "convoy_skills",
       "break_skillchains_twice"
-    ]
-  },
-  {
-    "Manufacturer": "FORMULA DRIFT",
-    "Year": "2020",
-    "Carname": "BMW M2",
-    "Mastery": [
-      "link_skill_skills",
-      "skillchain_ends_later",
-      null,
-      null,
-      "lucky_escape_skills",
-      "sideswipes_skills",
-      "combo_skills",
-      null,
-      "near_miss",
-      "drift_tap_skills",
-      "freeroam",
-      "skillsong",
-      "XP",
-      "drift_edrift_skills",
-      "convoy_skills",
-      "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.425.686",
+    "Exclusive": null
   },
   {
     "Manufacturer": "FORMULA DRIFT",
@@ -5287,7 +5720,9 @@
       "drift_edrift_skills",
       "convoy_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "FUNCO MOTORSPORTS",
@@ -5310,7 +5745,9 @@
       "freeroam",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "GMC",
@@ -5333,7 +5770,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "57.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "GMC",
@@ -5356,7 +5795,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "43.700",
+    "Exclusive": null
   },
   {
     "Manufacturer": "GMC",
@@ -5379,7 +5820,9 @@
       "near_miss",
       "wreckage_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "36.100",
+    "Exclusive": null
   },
   {
     "Manufacturer": "GMC",
@@ -5402,7 +5845,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "969.258",
+    "Exclusive": null
   },
   {
     "Manufacturer": "GORDON MURRAY AUTOMOTIVE",
@@ -5425,7 +5870,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "GR",
@@ -5448,7 +5895,9 @@
       "speed_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.315.080",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HENNESSEY",
@@ -5471,7 +5920,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "HENNESSEY",
@@ -5494,7 +5945,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "HENNESSEY",
@@ -5517,7 +5970,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "19.475.080",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HOLDEN",
@@ -5540,7 +5995,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -5563,7 +6020,9 @@
       "pass_skills",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "38.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -5586,7 +6045,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -5609,7 +6070,9 @@
       "drafting_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -5632,7 +6095,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -5655,7 +6120,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "9.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -5678,7 +6145,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -5701,7 +6170,9 @@
       "drafting_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "14.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -5724,7 +6195,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Herbst"
   },
   {
     "Manufacturer": "HONDA",
@@ -5747,7 +6220,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -5770,7 +6245,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "427.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -5793,7 +6270,9 @@
       "drafting_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "8.550",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -5816,7 +6295,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "14.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -5839,7 +6320,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "238.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -5862,7 +6345,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.425.686",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -5885,7 +6370,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -5908,7 +6395,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -5931,7 +6420,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "14.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -5954,7 +6445,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "308.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -5977,7 +6470,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -6000,7 +6495,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "16.150",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -6023,7 +6520,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "19.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -6046,7 +6545,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "238.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -6069,7 +6570,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -6092,7 +6595,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "33.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -6115,7 +6620,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "238.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HONDA",
@@ -6138,7 +6645,9 @@
       "near_miss",
       null,
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "463.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HSV",
@@ -6161,7 +6670,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "76.950",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HSV",
@@ -6184,7 +6695,9 @@
       "street_racing_events",
       "ultimate_skillchain_scores",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "HYUNDAI",
@@ -6207,7 +6720,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "19.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HYUNDAI",
@@ -6230,7 +6745,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "HYUNDAI",
@@ -6253,7 +6770,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "HYUNDAI",
@@ -6276,7 +6795,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "308.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "HYUNDAI",
@@ -6299,7 +6820,9 @@
       "near_miss",
       "wreckage_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "JAGUAR",
@@ -6322,7 +6845,9 @@
       "event_finish_score",
       "drafting_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "JAGUAR",
@@ -6345,7 +6870,9 @@
       "clean_racing_skills",
       "drift_edrift_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "JAGUAR",
@@ -6368,7 +6895,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "902.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "JAGUAR",
@@ -6391,7 +6920,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "541.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "JAGUAR",
@@ -6414,7 +6945,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "3.040.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "JEEP",
@@ -6437,7 +6970,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "15.200",
+    "Exclusive": null
   },
   {
     "Manufacturer": "JEEP",
@@ -6460,7 +6995,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "66.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "JEEP",
@@ -6483,7 +7020,9 @@
       "near_miss",
       "wreckage_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "JEEP",
@@ -6506,7 +7045,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "34.200",
+    "Exclusive": null
   },
   {
     "Manufacturer": "JIMCO",
@@ -6529,7 +7070,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "JIMCO",
@@ -6552,7 +7095,9 @@
       "freeroam",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "KOENIGSEGG",
@@ -6575,7 +7120,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "3.230.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "KOENIGSEGG",
@@ -6598,7 +7145,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.852.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "KOENIGSEGG",
@@ -6621,7 +7170,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.422.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "KOENIGSEGG",
@@ -6644,7 +7195,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.755.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "KOENIGSEGG",
@@ -6667,7 +7220,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "3.325.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "KOENIGSEGG",
@@ -6690,7 +7245,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.900.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "KTM",
@@ -6713,7 +7270,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "85.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -6736,7 +7295,9 @@
       "clean_racing_skills",
       "drift_edrift_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.615.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -6759,7 +7320,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Winter"
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -6782,7 +7345,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -6805,7 +7370,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -6828,7 +7395,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "950.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -6851,7 +7420,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -6874,7 +7445,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -6897,7 +7470,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "3.752.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -6920,7 +7495,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "190.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -6943,7 +7520,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.662.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -6966,7 +7545,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "114.866.660",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -6989,7 +7570,9 @@
       "near_miss",
       "wreckage_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "190.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -7012,7 +7595,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "14.256.066",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -7035,7 +7620,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Herbst"
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -7058,7 +7645,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "308.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -7081,7 +7670,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "23.156.080",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -7104,7 +7695,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -7127,7 +7720,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.995.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -7150,7 +7745,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "3.467.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -7173,7 +7770,9 @@
       "drift_edrift_skills",
       "sideswipes_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAMBORGHINI",
@@ -7196,7 +7795,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "3.467.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LANCIA",
@@ -7219,7 +7820,9 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "LANCIA",
@@ -7242,7 +7845,9 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "52.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LANCIA",
@@ -7265,7 +7870,9 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "104.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAND ROVER",
@@ -7288,7 +7895,9 @@
       "near_miss",
       "wreckage_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "LAND ROVER",
@@ -7311,7 +7920,9 @@
       "near_miss",
       "wreckage_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.315.080",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LEXUS",
@@ -7334,7 +7945,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "8.312.580",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LEXUS",
@@ -7357,7 +7970,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "LEXUS",
@@ -7380,7 +7995,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "33.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LEXUS",
@@ -7403,7 +8020,9 @@
       "speed_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "75.050",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LINCOLN",
@@ -7426,7 +8045,9 @@
       "speed_skills",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "LOTUS",
@@ -7449,7 +8070,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "14.256.066",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LOTUS",
@@ -7472,7 +8095,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "LOTUS",
@@ -7495,7 +8120,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Winter"
   },
   {
     "Manufacturer": "LOTUS",
@@ -7518,7 +8145,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "LOTUS",
@@ -7541,7 +8170,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.327.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "LOTUS",
@@ -7564,7 +8195,9 @@
       "drift_edrift_skills",
       "convoy_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "LOTUS",
@@ -7587,7 +8220,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Winter"
   },
   {
     "Manufacturer": "LUCID",
@@ -7610,7 +8245,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "228.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MASERATI",
@@ -7633,7 +8270,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "96.900",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MASERATI",
@@ -7656,7 +8295,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Fr\u00fchling"
   },
   {
     "Manufacturer": "MASERATI",
@@ -7679,7 +8320,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.945.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MASERATI",
@@ -7702,7 +8345,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "209.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MAZDA",
@@ -7725,7 +8370,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "69.350",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MAZDA",
@@ -7748,7 +8395,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MAZDA",
@@ -7771,7 +8420,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MAZDA",
@@ -7794,7 +8445,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "21.850",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MAZDA",
@@ -7817,7 +8470,9 @@
       "event_finish_score",
       "drafting_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MAZDA",
@@ -7840,7 +8495,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "38.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MAZDA",
@@ -7863,7 +8520,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "14.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MAZDA",
@@ -7886,7 +8545,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MAZDA",
@@ -7909,7 +8570,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "19.950",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MAZDA",
@@ -7932,7 +8595,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan SERIE"
   },
   {
     "Manufacturer": "MAZDA",
@@ -7955,7 +8620,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "231.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MAZDA",
@@ -7978,7 +8645,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "313.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MAZDA",
@@ -8001,7 +8670,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "266.680",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MAZDA",
@@ -8024,7 +8695,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "17.100",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MAZDA",
@@ -8047,7 +8720,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "57.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MAZDA",
@@ -8070,7 +8745,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "27.550",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MCLAREN",
@@ -8093,7 +8770,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MCLAREN",
@@ -8116,7 +8795,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "5.225.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MCLAREN",
@@ -8139,7 +8820,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "99.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MCLAREN",
@@ -8162,7 +8845,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MCLAREN",
@@ -8185,7 +8870,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "12.358.686",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MCLAREN",
@@ -8208,7 +8895,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "12.358.686",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MCLAREN",
@@ -8231,7 +8920,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.476.086",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MCLAREN",
@@ -8254,7 +8945,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.900.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MCLAREN",
@@ -8277,7 +8970,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "340.100",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MCLAREN",
@@ -8300,7 +8995,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Sommer"
   },
   {
     "Manufacturer": "MCLAREN",
@@ -8323,7 +9020,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "209.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MERCEDES-AMG",
@@ -8346,7 +9045,9 @@
       "speed_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "85.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MERCEDES-AMG",
@@ -8369,7 +9070,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "32.300",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MERCEDES-AMG",
@@ -8392,7 +9095,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "59.850",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MERCEDES-AMG",
@@ -8415,7 +9120,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MERCEDES-AMG",
@@ -8438,7 +9145,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MERCEDES-AMG",
@@ -8461,7 +9170,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "418.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MERCEDES-AMG",
@@ -8484,7 +9195,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.660.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MERCEDES-AMG",
@@ -8507,7 +9220,9 @@
       "speed_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "114.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MERCEDES-BENZ",
@@ -8530,7 +9245,9 @@
       "clean_racing_skills",
       "drift_edrift_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.615.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MERCEDES-BENZ",
@@ -8553,7 +9270,9 @@
       "event_finish_score",
       "drafting_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "57.000.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MERCEDES-BENZ",
@@ -8576,7 +9295,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "213.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MERCEDES-BENZ",
@@ -8599,7 +9320,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MERCEDES-BENZ",
@@ -8622,7 +9345,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "190.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MERCEDES-BENZ",
@@ -8645,7 +9370,9 @@
       "speed_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "342.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MERCEDES-BENZ",
@@ -8668,7 +9395,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MERCEDES-BENZ",
@@ -8691,7 +9420,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "231.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MERCEDES-BENZ",
@@ -8714,7 +9445,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "114.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MERCEDES-BENZ",
@@ -8737,7 +9470,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MERCEDES-BENZ",
@@ -8760,7 +9495,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "47.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MEYERS",
@@ -8783,7 +9520,9 @@
       "freeroam",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "32.300",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MEYERS",
@@ -8806,7 +9545,9 @@
       "freeroam",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MG",
@@ -8829,7 +9570,9 @@
       "drift_edrift_skills",
       "sideswipes_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "209.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MINI",
@@ -8852,7 +9595,9 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "316.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MINI",
@@ -8875,7 +9620,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "238.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MINI",
@@ -8898,7 +9645,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MINI",
@@ -8921,7 +9670,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MINI",
@@ -8944,7 +9695,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Fr\u00fchling"
   },
   {
     "Manufacturer": "MITSUBISHI",
@@ -8967,7 +9720,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MITSUBISHI",
@@ -8990,7 +9745,9 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "231.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MITSUBISHI",
@@ -9013,7 +9770,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "33.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MITSUBISHI",
@@ -9036,7 +9795,9 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MITSUBISHI",
@@ -9059,7 +9820,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MITSUBISHI",
@@ -9082,7 +9845,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "19.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "MITSUBISHI",
@@ -9105,7 +9870,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MITSUBISHI",
@@ -9128,7 +9895,9 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MITSUBISHI",
@@ -9151,7 +9920,9 @@
       "drift_edrift_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MITSUBISHI",
@@ -9174,7 +9945,9 @@
       "drift_edrift_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MITSUBISHI",
@@ -9197,7 +9970,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "MITSUBISHI",
@@ -9220,7 +9995,9 @@
       "drift_edrift_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Sommer"
   },
   {
     "Manufacturer": "MITSUBISHI",
@@ -9243,7 +10020,9 @@
       "drift_edrift_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9266,7 +10045,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.315.080",
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9289,7 +10070,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9312,7 +10095,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9335,7 +10120,9 @@
       "event_finish_score",
       "drafting_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9358,7 +10145,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9381,7 +10170,9 @@
       "drafting_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Herbst"
   },
   {
     "Manufacturer": "NISSAN",
@@ -9404,7 +10195,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "30.950",
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9427,7 +10220,9 @@
       "drafting_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9450,7 +10245,9 @@
       "drafting_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.836.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9473,7 +10270,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9496,7 +10295,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "38.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9519,7 +10320,9 @@
       "event_finish_score",
       "drafting_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9542,7 +10345,9 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "266.680",
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9565,7 +10370,9 @@
       "drafting_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9588,7 +10395,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "634.066",
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9611,7 +10420,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9634,7 +10445,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9657,7 +10470,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9680,7 +10495,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9703,7 +10520,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "19.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9726,7 +10545,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "14.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9749,7 +10570,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.045.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9772,7 +10595,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Herbst"
   },
   {
     "Manufacturer": "NISSAN",
@@ -9795,7 +10620,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "19.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9818,7 +10645,9 @@
       "event_finish_score",
       "drafting_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9841,7 +10670,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9864,7 +10695,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "20.900",
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9887,7 +10720,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9910,7 +10745,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "190.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9933,7 +10770,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "41.800",
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9956,7 +10795,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "17.100",
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -9979,7 +10820,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan SERIE"
   },
   {
     "Manufacturer": "NISSAN",
@@ -10002,7 +10845,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "76.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -10025,7 +10870,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -10048,7 +10895,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "109.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -10071,7 +10920,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "43.700",
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -10094,7 +10945,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "209.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "NISSAN",
@@ -10117,7 +10970,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "57.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "NOBLE",
@@ -10140,7 +10995,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "305.900",
+    "Exclusive": null
   },
   {
     "Manufacturer": "OPEL",
@@ -10163,7 +11020,9 @@
       "drift_edrift_skills",
       "sideswipes_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "144.400",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PAGANI",
@@ -10186,7 +11045,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "4.512.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PAGANI",
@@ -10209,7 +11070,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "PAGANI",
@@ -10232,7 +11095,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "3.420.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PAGANI",
@@ -10255,7 +11120,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Sommer"
   },
   {
     "Manufacturer": "PEEL",
@@ -10278,7 +11145,9 @@
       "pass_skills",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "19.950",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PENHALL",
@@ -10301,7 +11170,9 @@
       "freeroam",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "PEUGEOT",
@@ -10324,7 +11195,9 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "PEUGEOT",
@@ -10347,7 +11220,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "20.900",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PEUGEOT",
@@ -10370,7 +11245,9 @@
       "drift_edrift_skills",
       "sideswipes_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "PLYMOUTH",
@@ -10393,7 +11270,9 @@
       "speed_skills",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "50.350",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PLYMOUTH",
@@ -10416,7 +11295,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "42.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PLYMOUTH",
@@ -10439,7 +11320,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "118.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "POLARIS",
@@ -10462,7 +11345,9 @@
       "air_skills",
       "crash_landing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "POLARIS",
@@ -10485,7 +11370,9 @@
       "air_skills",
       "crash_landing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "32.300",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PONTIAC",
@@ -10508,7 +11395,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "57.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PONTIAC",
@@ -10531,7 +11420,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "231.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -10554,7 +11445,9 @@
       "event_finish_score",
       "drafting_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "950.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -10577,7 +11470,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -10600,7 +11495,9 @@
       "clean_racing_skills",
       "drift_edrift_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "997.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -10623,7 +11520,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -10646,7 +11545,9 @@
       "drift_edrift_skills",
       "sideswipes_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -10669,7 +11570,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -10692,7 +11595,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "238.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -10715,7 +11620,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.425.686",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -10738,7 +11645,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "494.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -10761,7 +11670,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -10784,7 +11695,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -10807,7 +11720,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -10830,7 +11745,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "128.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -10853,7 +11770,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "171.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -10876,7 +11795,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "883.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -10899,7 +11820,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.185.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -10922,7 +11845,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "71.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -10945,7 +11870,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "522.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -10968,7 +11895,9 @@
       "near_miss",
       "wreckage_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "75.050",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -10991,7 +11920,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.315.080",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -11014,7 +11945,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "137.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -11037,7 +11970,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -11060,7 +11995,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -11083,7 +12020,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "190.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -11106,7 +12045,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.476.086",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -11129,7 +12070,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "180.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -11152,7 +12095,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "4.750.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -11175,7 +12120,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "4.623.806",
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -11198,7 +12145,9 @@
       "drift_edrift_skills",
       "sideswipes_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "PORSCHE",
@@ -11221,7 +12170,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "261.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "RADICAL",
@@ -11244,7 +12195,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "RAM",
@@ -11267,7 +12220,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "95.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "RELIANT",
@@ -11290,7 +12245,9 @@
       "street_racing_events",
       "ultimate_skillchain_scores",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "316.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "RENAULT",
@@ -11313,7 +12270,9 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Winter"
   },
   {
     "Manufacturer": "RENAULT",
@@ -11336,7 +12295,9 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "135.850",
+    "Exclusive": null
   },
   {
     "Manufacturer": "RENAULT",
@@ -11359,7 +12320,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "238.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "RENAULT",
@@ -11382,7 +12345,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "55.100",
+    "Exclusive": null
   },
   {
     "Manufacturer": "RENAULT",
@@ -11405,7 +12370,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "13.300",
+    "Exclusive": null
   },
   {
     "Manufacturer": "RENAULT",
@@ -11428,7 +12395,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "30.400",
+    "Exclusive": null
   },
   {
     "Manufacturer": "RIVIAN",
@@ -11451,7 +12420,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "RJ ANDERSON",
@@ -11474,7 +12445,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "RJ ANDERSON",
@@ -11497,7 +12470,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "SALEEN",
@@ -11520,7 +12495,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Fr\u00fchling"
   },
   {
     "Manufacturer": "SCHUPPAN",
@@ -11543,7 +12520,9 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Herbst"
   },
   {
     "Manufacturer": "SHELBY",
@@ -11566,7 +12545,9 @@
       "clean_racing_skills",
       "drift_edrift_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "SHELBY",
@@ -11589,7 +12570,9 @@
       "event_finish_score",
       "drafting_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "19.000.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "SIERRA CARS",
@@ -11612,7 +12595,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "SIERRA CARS",
@@ -11635,7 +12620,9 @@
       "air_skills",
       "crash_landing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "71.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "SIERRA CARS",
@@ -11658,7 +12645,9 @@
       "air_skills",
       "crash_landing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "47.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "SRT",
@@ -11681,7 +12670,9 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "128.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "SUBARU",
@@ -11704,7 +12695,9 @@
       "street_racing_events",
       "ultimate_skillchain_scores",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "19.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "SUBARU",
@@ -11727,7 +12720,9 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "14.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "SUBARU",
@@ -11750,7 +12745,9 @@
       "drafting_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "9.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "SUBARU",
@@ -11773,7 +12770,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "SUBARU",
@@ -11796,7 +12795,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "12.350",
+    "Exclusive": null
   },
   {
     "Manufacturer": "SUBARU",
@@ -11819,7 +12820,9 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "SUBARU",
@@ -11842,7 +12845,9 @@
       "drift_edrift_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "238.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "SUBARU",
@@ -11865,7 +12870,9 @@
       "drift_edrift_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "33.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "SUBARU",
@@ -11888,7 +12895,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "SUBARU",
@@ -11911,7 +12920,9 @@
       "drift_edrift_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "25.650",
+    "Exclusive": null
   },
   {
     "Manufacturer": "SUBARU",
@@ -11934,7 +12945,9 @@
       "drift_edrift_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "25.650",
+    "Exclusive": null
   },
   {
     "Manufacturer": "SUBARU",
@@ -11957,7 +12970,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "231.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "SUBARU",
@@ -11980,7 +12995,9 @@
       "drift_edrift_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "25.650",
+    "Exclusive": null
   },
   {
     "Manufacturer": "SUBARU",
@@ -12003,7 +13020,9 @@
       "drift_edrift_skills",
       "sideswipes_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "SUBARU",
@@ -12026,7 +13045,9 @@
       "drift_edrift_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Winter"
   },
   {
     "Manufacturer": "SUBARU",
@@ -12049,7 +13070,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "266.680",
+    "Exclusive": null
   },
   {
     "Manufacturer": "SUBARU",
@@ -12072,7 +13095,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "SUBARU",
@@ -12095,7 +13120,9 @@
       "drift_edrift_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "231.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12118,7 +13145,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12141,7 +13170,9 @@
       "clean_racing_skills",
       "drift_edrift_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12164,7 +13195,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Fr\u00fchling"
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12187,7 +13220,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "973.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12210,7 +13245,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12233,7 +13270,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12256,7 +13295,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Sommer"
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12279,7 +13320,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "19.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12302,7 +13345,9 @@
       "drafting_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "10.450",
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12325,7 +13370,9 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12348,7 +13395,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12371,7 +13420,9 @@
       "link_skill_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12394,7 +13445,9 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "25.650",
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12417,7 +13470,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12440,7 +13495,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "266.680",
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12463,7 +13520,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Fr\u00fchling"
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12486,7 +13545,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "14.725",
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12509,7 +13570,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12532,7 +13595,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12555,7 +13620,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "57.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12578,7 +13645,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Sommer"
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12601,7 +13670,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12624,7 +13695,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12647,7 +13720,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "14.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12670,7 +13745,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12693,7 +13770,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Winter"
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12716,7 +13795,9 @@
       "drafting_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "231.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12739,7 +13820,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "39.900",
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12762,7 +13845,9 @@
       "air_skills",
       "kangaroo_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "32.300",
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12785,7 +13870,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12808,7 +13895,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "42.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12831,7 +13920,9 @@
       "drift_edrift_skills",
       "touge_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "51.300",
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12854,7 +13945,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "266.680",
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12877,7 +13970,9 @@
       "skillsong",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "294.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "TOYOTA",
@@ -12900,7 +13995,9 @@
       "near_miss",
       "wreckage_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "66.500",
+    "Exclusive": null
   },
   {
     "Manufacturer": "TVR",
@@ -12923,7 +14020,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "109.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "TVR",
@@ -12946,7 +14045,9 @@
       "drift_edrift_skills",
       "pass_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "2.315.080",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ULTIMA",
@@ -12969,7 +14070,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.425.686",
+    "Exclusive": null
   },
   {
     "Manufacturer": "VOLKSWAGEN",
@@ -12992,7 +14095,9 @@
       "pass_skills",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "16.150",
+    "Exclusive": null
   },
   {
     "Manufacturer": "VOLKSWAGEN",
@@ -13015,7 +14120,9 @@
       "pass_skills",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "169.100",
+    "Exclusive": null
   },
   {
     "Manufacturer": "VOLKSWAGEN",
@@ -13038,7 +14145,9 @@
       "freeroam",
       "event_finish_score",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "VOLKSWAGEN",
@@ -13061,7 +14170,9 @@
       "street_racing_events",
       "ultimate_skillchain_scores",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "15.200",
+    "Exclusive": null
   },
   {
     "Manufacturer": "VOLKSWAGEN",
@@ -13084,7 +14195,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "17.100",
+    "Exclusive": null
   },
   {
     "Manufacturer": "VOLKSWAGEN",
@@ -13107,7 +14220,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "20.900",
+    "Exclusive": null
   },
   {
     "Manufacturer": "VOLKSWAGEN",
@@ -13130,7 +14245,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "238.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "VOLKSWAGEN",
@@ -13153,7 +14270,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "19.000",
+    "Exclusive": null
   },
   {
     "Manufacturer": "VOLKSWAGEN",
@@ -13176,7 +14295,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "14.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "VOLKSWAGEN",
@@ -13199,7 +14320,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "25.650",
+    "Exclusive": null
   },
   {
     "Manufacturer": "VOLKSWAGEN",
@@ -13222,7 +14345,9 @@
       "drift_edrift_skills",
       "sideswipes_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "VOLKSWAGEN",
@@ -13245,7 +14370,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "27.550",
+    "Exclusive": null
   },
   {
     "Manufacturer": "VOLKSWAGEN",
@@ -13268,7 +14395,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "33.250",
+    "Exclusive": null
   },
   {
     "Manufacturer": "VOLVO",
@@ -13291,7 +14420,9 @@
       "wreckage_skills",
       "air_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "238.586",
+    "Exclusive": null
   },
   {
     "Manufacturer": "WULING",
@@ -13314,7 +14445,9 @@
       "street_racing_events",
       "ultimate_skillchain_scores",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.900",
+    "Exclusive": null
   },
   {
     "Manufacturer": "WULING",
@@ -13337,7 +14470,9 @@
       "road_racing_events",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "WULING",
@@ -13360,7 +14495,9 @@
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "4.750",
+    "Exclusive": null
   },
   {
     "Manufacturer": "ZENVO",
@@ -13383,6 +14520,8 @@
       "speed_skills",
       "drag_meet_events",
       "break_skillchains_twice"
-    ]
+    ],
+    "Price": "1.140.000",
+    "Exclusive": null
   }
 ]
