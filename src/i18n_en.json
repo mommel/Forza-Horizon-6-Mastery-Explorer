@@ -37,7 +37,8 @@
     "unhideCar": "Show Car",
     "notBuyable": "Not buyable",
     "buyableOnly": "Buyable Only",
-    "exclusiveOnly": "Exclusive Only"
+    "exclusiveOnly": "Exclusive Only",
+    "priceRange": "Price Range:"
   },
   "perks": {
     "near_miss": "extra % from Near Miss Skills",

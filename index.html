@@ -1497,6 +1497,101 @@ h2 {
   font-weight: 800;
   color: var(--muted);
 }
+
+
+/* Price Range Slider */
+.price-range-container {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: var(--radius-lg);
+}
+
+.price-range-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.price-range-display {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--neon-cyan);
+}
+
+.dual-slider {
+  position: relative;
+  height: 6px;
+  width: 100%;
+  margin: 1rem 0 0.5rem;
+}
+
+.slider-track {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+.slider-active-track {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, var(--neon-cyan), var(--neon-pink));
+  border-radius: 3px;
+  z-index: 1;
+}
+
+.dual-slider input[type='range'] {
+  position: absolute;
+  top: -8px; /* adjust for thumb height */
+  left: 0;
+  width: 100%;
+  appearance: none;
+  background: none;
+  pointer-events: none;
+  z-index: 2;
+  margin: 0;
+}
+
+.dual-slider input[type='range']::-webkit-slider-thumb {
+  pointer-events: auto;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid var(--neon-cyan);
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.dual-slider input[type='range']::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+
+.dual-slider input[type='range']::-moz-range-thumb {
+  pointer-events: auto;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid var(--neon-cyan);
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.dual-slider input[type='range']::-moz-range-thumb:hover {
+  transform: scale(1.2);
+}
 </style>
 </head>
 
@@ -1562,6 +1657,21 @@ h2 {
           <input type="checkbox" id="filter-exclusive" style="accent-color: var(--neon-pink); width: 1.2rem; height: 1.2rem; cursor: pointer;">
           <span data-i18n="ui.exclusiveOnly">Exclusive Only</span>
         </label>
+      </div>
+
+      <div class="price-range-container">
+        <div class="price-range-header">
+          <span class="mode-label" data-i18n="ui.priceRange">Price Range:</span>
+          <span class="price-range-display">
+            <span id="price-min-display">Any</span> - <span id="price-max-display">Any</span>
+          </span>
+        </div>
+        <div class="dual-slider">
+          <div class="slider-track"></div>
+          <div class="slider-active-track" id="slider-active-track"></div>
+          <input type="range" id="price-min" min="0" max="100" value="0">
+          <input type="range" id="price-max" min="0" max="100" value="100">
+        </div>
       </div>
 
       <div class="toolbar-section">
@@ -1654,7 +1764,7 @@ h2 {
       </a>
     </div>
     <div class="footer-right">
-      <span><span data-i18n="ui.lastUpdate">Last Update:</span> <strong>2026-06-12 20:07:36</strong></span>
+      <span><span data-i18n="ui.lastUpdate">Last Update:</span> <strong>2026-06-12 20:25:23</strong></span>
       <span class="footer-separator">|</span>
       <span><span data-i18n="ui.carsConsidered">Cars considered:</span> <strong id="footer-car-count">0</strong></span>
     </div>
@@ -16284,7 +16394,8 @@ window.__I18N_DATA__ = {
       "unhideCar": "\u663e\u793a\u8f66\u8f86",
       "notBuyable": "\u4e0d\u53ef\u8d2d\u4e70",
       "buyableOnly": "\u4ec5\u53ef\u8d2d\u4e70",
-      "exclusiveOnly": "\u4ec5\u9650\u72ec\u5360"
+      "exclusiveOnly": "\u4ec5\u9650\u72ec\u5360",
+      "priceRange": "\u4ef7\u683c\u8303\u56f4:"
     },
     "perks": {
       "near_miss": "\u9669\u4e9b\u9519\u8fc7\u6280\u80fd\u7684\u989d\u5916 %",
@@ -16429,7 +16540,8 @@ window.__I18N_DATA__ = {
       "unhideCar": "Auto anzeigen",
       "notBuyable": "Nicht k\u00e4uflich",
       "buyableOnly": "Nur K\u00e4uflich",
-      "exclusiveOnly": "Nur Exklusiv"
+      "exclusiveOnly": "Nur Exklusiv",
+      "priceRange": "Preisklasse:"
     },
     "perks": {
       "near_miss": "zus\u00e4tzliche % f\u00fcr Beinahe-Treffer-F\u00e4higkeiten",
@@ -16574,7 +16686,8 @@ window.__I18N_DATA__ = {
       "unhideCar": "Show Car",
       "notBuyable": "Not buyable",
       "buyableOnly": "Buyable Only",
-      "exclusiveOnly": "Exclusive Only"
+      "exclusiveOnly": "Exclusive Only",
+      "priceRange": "Price Range:"
     },
     "perks": {
       "near_miss": "extra % from Near Miss Skills",
@@ -16719,7 +16832,8 @@ window.__I18N_DATA__ = {
       "unhideCar": "Mostrar coche",
       "notBuyable": "No se puede comprar",
       "buyableOnly": "Solo Comprable",
-      "exclusiveOnly": "Solo Exclusivo"
+      "exclusiveOnly": "Solo Exclusivo",
+      "priceRange": "Rango de precios:"
     },
     "perks": {
       "near_miss": "% extra por habilidades de Casi Accidente",
@@ -16864,7 +16978,8 @@ window.__I18N_DATA__ = {
       "unhideCar": "Mostra auto",
       "notBuyable": "Non acquistabile",
       "buyableOnly": "Solo Acquistabile",
-      "exclusiveOnly": "Solo Esclusivo"
+      "exclusiveOnly": "Solo Esclusivo",
+      "priceRange": "Fascia di prezzo:"
     },
     "perks": {
       "near_miss": "% extra per abilit\u00e0 Mancato di Poco",
@@ -17009,7 +17124,8 @@ window.__I18N_DATA__ = {
       "unhideCar": "\u8eca\u3092\u8868\u793a",
       "notBuyable": "\u8cfc\u5165\u4e0d\u53ef",
       "buyableOnly": "\u8cfc\u5165\u53ef\u80fd\u306e\u307f",
-      "exclusiveOnly": "\u9650\u5b9a\u306e\u307f"
+      "exclusiveOnly": "\u9650\u5b9a\u306e\u307f",
+      "priceRange": "\u4fa1\u683c\u5e2f:"
     },
     "perks": {
       "near_miss": "\u30cb\u30a2\u30df\u30b9\u30b9\u30ad\u30eb\u304b\u3089\u8ffd\u52a0\u306e %",
@@ -17199,7 +17315,11 @@ const state = {
   i18n: {},
   hiddenCars: new Set(JSON.parse(localStorage.getItem('hiddenCars') || '[]')),
   buyableOnly: false,
-  exclusiveOnly: false
+  exclusiveOnly: false,
+  minPrice: null,
+  maxPrice: null,
+  globalMinPrice: 0,
+  globalMaxPrice: 0
 };
 
 function saveHiddenCars() {
@@ -17584,6 +17704,14 @@ function render() {
     filtered = filtered.filter((entry) => entry.Exclusive && entry.Exclusive !== "null");
   }
 
+  if (state.minPrice > state.globalMinPrice || state.maxPrice < state.globalMaxPrice) {
+    filtered = filtered.filter(entry => {
+      const p = parsePrice(entry.Price);
+      if (p === null) return false;
+      return p >= state.minPrice && p <= state.maxPrice;
+    });
+  }
+
   // 2. Filter by mastery perks
   if (state.selected.size > 0) {
     filtered = filtered.filter((entry) => {
@@ -17656,20 +17784,112 @@ function render() {
   results.append(fragment);
 }
 
+function parsePrice(priceStr) {
+  if (!priceStr || priceStr === "null") return null;
+  const p = parseInt(priceStr.replace(/\./g, ''), 10);
+  return isNaN(p) ? null : p;
+}
+
 async function loadData() {
   if (Array.isArray(window.__MASTERY_DATA__)) {
     state.data = window.__MASTERY_DATA__;
-    state.masteryCounts = buildMasteryCounts(state.data);
-    return;
+  } else {
+    const response = await fetch("./mastery_all.json");
+    if (!response.ok) {
+      throw new Error(`Failed to load mastery data: ${response.status}`);
+    }
+    state.data = await response.json();
   }
 
-  const response = await fetch("./mastery_all.json");
-  if (!response.ok) {
-    throw new Error(`Failed to load mastery data: ${response.status}`);
-  }
-
-  state.data = await response.json();
   state.masteryCounts = buildMasteryCounts(state.data);
+  
+  let min = Infinity;
+  let max = -Infinity;
+  state.data.forEach(entry => {
+    const p = parsePrice(entry.Price);
+    if (p !== null) {
+      if (p < min) min = p;
+      if (p > max) max = p;
+    }
+  });
+  
+  if (min === Infinity) {
+    state.globalMinPrice = 0;
+    state.globalMaxPrice = 100;
+  } else {
+    state.globalMinPrice = min;
+    state.globalMaxPrice = max;
+  }
+  state.minPrice = state.globalMinPrice;
+  state.maxPrice = state.globalMaxPrice;
+}
+
+function updatePriceSliderUI() {
+  const minSlider = document.getElementById("price-min");
+  const maxSlider = document.getElementById("price-max");
+  const activeTrack = document.getElementById("slider-active-track");
+  const minDisplay = document.getElementById("price-min-display");
+  const maxDisplay = document.getElementById("price-max-display");
+  
+  if (!minSlider || !maxSlider || !activeTrack) return;
+  
+  const range = state.globalMaxPrice - state.globalMinPrice;
+  if (range <= 0) return;
+  
+  const minPercent = ((state.minPrice - state.globalMinPrice) / range) * 100;
+  const maxPercent = ((state.maxPrice - state.globalMinPrice) / range) * 100;
+  
+  activeTrack.style.left = `${minPercent}%`;
+  activeTrack.style.width = `${maxPercent - minPercent}%`;
+  
+  minDisplay.textContent = state.minPrice <= state.globalMinPrice ? "Any" : Number(state.minPrice).toLocaleString() + " CR";
+  maxDisplay.textContent = state.maxPrice >= state.globalMaxPrice ? "Any" : Number(state.maxPrice).toLocaleString() + " CR";
+}
+
+function initPriceSlider() {
+  const minSlider = document.getElementById("price-min");
+  const maxSlider = document.getElementById("price-max");
+  
+  if (!minSlider || !maxSlider) return;
+  
+  minSlider.min = state.globalMinPrice;
+  minSlider.max = state.globalMaxPrice;
+  minSlider.value = state.globalMinPrice;
+  
+  maxSlider.min = state.globalMinPrice;
+  maxSlider.max = state.globalMaxPrice;
+  maxSlider.value = state.globalMaxPrice;
+  
+  const range = state.globalMaxPrice - state.globalMinPrice;
+  const step = Math.max(1, Math.floor(range / 100)); // ~100 steps
+  minSlider.step = step;
+  maxSlider.step = step;
+  
+  const handleInput = (e) => {
+    let minVal = parseInt(minSlider.value, 10);
+    let maxVal = parseInt(maxSlider.value, 10);
+    
+    if (minVal > maxVal) {
+      if (e.target.id === "price-min") {
+        minVal = maxVal;
+        minSlider.value = minVal;
+      } else {
+        maxVal = minVal;
+        maxSlider.value = maxVal;
+      }
+    }
+    
+    state.minPrice = minVal;
+    state.maxPrice = maxVal;
+    
+    updatePriceSliderUI();
+    render();
+  };
+  
+  minSlider.addEventListener("input", handleInput);
+  maxSlider.addEventListener("input", handleInput);
+  
+  updatePriceSliderUI();
 }
 
 async function init() {
@@ -17830,6 +18050,7 @@ async function init() {
 
   try {
     await loadData();
+    initPriceSlider();
     updateIconCounts();
     syncButtons();
     render();

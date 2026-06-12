@@ -72,6 +72,21 @@
         </label>
       </div>
 
+      <div class="price-range-container">
+        <div class="price-range-header">
+          <span class="mode-label" data-i18n="ui.priceRange">Price Range:</span>
+          <span class="price-range-display">
+            <span id="price-min-display">Any</span> - <span id="price-max-display">Any</span>
+          </span>
+        </div>
+        <div class="dual-slider">
+          <div class="slider-track"></div>
+          <div class="slider-active-track" id="slider-active-track"></div>
+          <input type="range" id="price-min" min="0" max="100" value="0">
+          <input type="range" id="price-max" min="0" max="100" value="100">
+        </div>
+      </div>
+
       <div class="toolbar-section">
         <div class="filter-mode-container">
           <span class="mode-label" data-i18n="ui.perkMatch">Perk Match:</span>

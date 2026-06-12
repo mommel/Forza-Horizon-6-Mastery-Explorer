@@ -37,7 +37,8 @@
     "unhideCar": "显示车辆",
     "notBuyable": "不可购买",
     "buyableOnly": "仅可购买",
-    "exclusiveOnly": "仅限独占"
+    "exclusiveOnly": "仅限独占",
+    "priceRange": "价格范围:"
   },
   "perks": {
     "near_miss": "险些错过技能的额外 %",

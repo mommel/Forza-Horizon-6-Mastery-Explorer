@@ -37,7 +37,8 @@
     "unhideCar": "車を表示",
     "notBuyable": "購入不可",
     "buyableOnly": "購入可能のみ",
-    "exclusiveOnly": "限定のみ"
+    "exclusiveOnly": "限定のみ",
+    "priceRange": "価格帯:"
   },
   "perks": {
     "near_miss": "ニアミススキルから追加の %",

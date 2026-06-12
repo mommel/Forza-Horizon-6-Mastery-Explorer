@@ -37,7 +37,8 @@
     "unhideCar": "Mostra auto",
     "notBuyable": "Non acquistabile",
     "buyableOnly": "Solo Acquistabile",
-    "exclusiveOnly": "Solo Esclusivo"
+    "exclusiveOnly": "Solo Esclusivo",
+    "priceRange": "Fascia di prezzo:"
   },
   "perks": {
     "near_miss": "% extra per abilità Mancato di Poco",

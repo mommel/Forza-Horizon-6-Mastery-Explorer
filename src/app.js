@@ -79,7 +79,11 @@ const state = {
   i18n: {},
   hiddenCars: new Set(JSON.parse(localStorage.getItem('hiddenCars') || '[]')),
   buyableOnly: false,
-  exclusiveOnly: false
+  exclusiveOnly: false,
+  minPrice: null,
+  maxPrice: null,
+  globalMinPrice: 0,
+  globalMaxPrice: 0
 };
 
 function saveHiddenCars() {
@@ -464,6 +468,14 @@ function render() {
     filtered = filtered.filter((entry) => entry.Exclusive && entry.Exclusive !== "null");
   }
 
+  if (state.minPrice > state.globalMinPrice || state.maxPrice < state.globalMaxPrice) {
+    filtered = filtered.filter(entry => {
+      const p = parsePrice(entry.Price);
+      if (p === null) return false;
+      return p >= state.minPrice && p <= state.maxPrice;
+    });
+  }
+
   // 2. Filter by mastery perks
   if (state.selected.size > 0) {
     filtered = filtered.filter((entry) => {
@@ -536,20 +548,112 @@ function render() {
   results.append(fragment);
 }
 
+function parsePrice(priceStr) {
+  if (!priceStr || priceStr === "null") return null;
+  const p = parseInt(priceStr.replace(/\./g, ''), 10);
+  return isNaN(p) ? null : p;
+}
+
 async function loadData() {
   if (Array.isArray(window.__MASTERY_DATA__)) {
     state.data = window.__MASTERY_DATA__;
-    state.masteryCounts = buildMasteryCounts(state.data);
-    return;
+  } else {
+    const response = await fetch("./mastery_all.json");
+    if (!response.ok) {
+      throw new Error(`Failed to load mastery data: ${response.status}`);
+    }
+    state.data = await response.json();
   }
 
-  const response = await fetch("./mastery_all.json");
-  if (!response.ok) {
-    throw new Error(`Failed to load mastery data: ${response.status}`);
-  }
-
-  state.data = await response.json();
   state.masteryCounts = buildMasteryCounts(state.data);
+  
+  let min = Infinity;
+  let max = -Infinity;
+  state.data.forEach(entry => {
+    const p = parsePrice(entry.Price);
+    if (p !== null) {
+      if (p < min) min = p;
+      if (p > max) max = p;
+    }
+  });
+  
+  if (min === Infinity) {
+    state.globalMinPrice = 0;
+    state.globalMaxPrice = 100;
+  } else {
+    state.globalMinPrice = min;
+    state.globalMaxPrice = max;
+  }
+  state.minPrice = state.globalMinPrice;
+  state.maxPrice = state.globalMaxPrice;
+}
+
+function updatePriceSliderUI() {
+  const minSlider = document.getElementById("price-min");
+  const maxSlider = document.getElementById("price-max");
+  const activeTrack = document.getElementById("slider-active-track");
+  const minDisplay = document.getElementById("price-min-display");
+  const maxDisplay = document.getElementById("price-max-display");
+  
+  if (!minSlider || !maxSlider || !activeTrack) return;
+  
+  const range = state.globalMaxPrice - state.globalMinPrice;
+  if (range <= 0) return;
+  
+  const minPercent = ((state.minPrice - state.globalMinPrice) / range) * 100;
+  const maxPercent = ((state.maxPrice - state.globalMinPrice) / range) * 100;
+  
+  activeTrack.style.left = `${minPercent}%`;
+  activeTrack.style.width = `${maxPercent - minPercent}%`;
+  
+  minDisplay.textContent = state.minPrice <= state.globalMinPrice ? "Any" : Number(state.minPrice).toLocaleString() + " CR";
+  maxDisplay.textContent = state.maxPrice >= state.globalMaxPrice ? "Any" : Number(state.maxPrice).toLocaleString() + " CR";
+}
+
+function initPriceSlider() {
+  const minSlider = document.getElementById("price-min");
+  const maxSlider = document.getElementById("price-max");
+  
+  if (!minSlider || !maxSlider) return;
+  
+  minSlider.min = state.globalMinPrice;
+  minSlider.max = state.globalMaxPrice;
+  minSlider.value = state.globalMinPrice;
+  
+  maxSlider.min = state.globalMinPrice;
+  maxSlider.max = state.globalMaxPrice;
+  maxSlider.value = state.globalMaxPrice;
+  
+  const range = state.globalMaxPrice - state.globalMinPrice;
+  const step = Math.max(1, Math.floor(range / 100)); // ~100 steps
+  minSlider.step = step;
+  maxSlider.step = step;
+  
+  const handleInput = (e) => {
+    let minVal = parseInt(minSlider.value, 10);
+    let maxVal = parseInt(maxSlider.value, 10);
+    
+    if (minVal > maxVal) {
+      if (e.target.id === "price-min") {
+        minVal = maxVal;
+        minSlider.value = minVal;
+      } else {
+        maxVal = minVal;
+        maxSlider.value = maxVal;
+      }
+    }
+    
+    state.minPrice = minVal;
+    state.maxPrice = maxVal;
+    
+    updatePriceSliderUI();
+    render();
+  };
+  
+  minSlider.addEventListener("input", handleInput);
+  maxSlider.addEventListener("input", handleInput);
+  
+  updatePriceSliderUI();
 }
 
 async function init() {
@@ -710,6 +814,7 @@ async function init() {
 
   try {
     await loadData();
+    initPriceSlider();
     updateIconCounts();
     syncButtons();
     render();
