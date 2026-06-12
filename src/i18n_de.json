@@ -34,7 +34,10 @@
     "disabledCars": "Deaktivierte Autos",
     "noDisabledCars": "Keine deaktivierten Autos.",
     "hideCar": "Auto ausblenden",
-    "unhideCar": "Auto anzeigen"
+    "unhideCar": "Auto anzeigen",
+    "notBuyable": "Nicht käuflich",
+    "buyableOnly": "Nur Käuflich",
+    "exclusiveOnly": "Nur Exklusiv"
   },
   "perks": {
     "near_miss": "zusätzliche % für Beinahe-Treffer-Fähigkeiten",

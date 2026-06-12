@@ -34,7 +34,10 @@
     "disabledCars": "無効な車",
     "noDisabledCars": "無効な車はありません。",
     "hideCar": "車を隠す",
-    "unhideCar": "車を表示"
+    "unhideCar": "車を表示",
+    "notBuyable": "購入不可",
+    "buyableOnly": "購入可能のみ",
+    "exclusiveOnly": "限定のみ"
   },
   "perks": {
     "near_miss": "ニアミススキルから追加の %",

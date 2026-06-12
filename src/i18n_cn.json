@@ -34,7 +34,10 @@
     "disabledCars": "禁用车辆",
     "noDisabledCars": "没有禁用车辆。",
     "hideCar": "隐藏车辆",
-    "unhideCar": "显示车辆"
+    "unhideCar": "显示车辆",
+    "notBuyable": "不可购买",
+    "buyableOnly": "仅可购买",
+    "exclusiveOnly": "仅限独占"
   },
   "perks": {
     "near_miss": "险些错过技能的额外 %",

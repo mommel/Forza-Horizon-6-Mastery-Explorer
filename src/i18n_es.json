@@ -34,7 +34,10 @@
     "disabledCars": "Coches deshabilitados",
     "noDisabledCars": "No hay coches deshabilitados.",
     "hideCar": "Ocultar coche",
-    "unhideCar": "Mostrar coche"
+    "unhideCar": "Mostrar coche",
+    "notBuyable": "No se puede comprar",
+    "buyableOnly": "Solo Comprable",
+    "exclusiveOnly": "Solo Exclusivo"
   },
   "perks": {
     "near_miss": "% extra por habilidades de Casi Accidente",

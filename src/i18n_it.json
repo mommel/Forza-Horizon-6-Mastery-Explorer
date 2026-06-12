@@ -34,7 +34,10 @@
     "disabledCars": "Auto disabilitate",
     "noDisabledCars": "Nessuna auto disabilitata.",
     "hideCar": "Nascondi auto",
-    "unhideCar": "Mostra auto"
+    "unhideCar": "Mostra auto",
+    "notBuyable": "Non acquistabile",
+    "buyableOnly": "Solo Acquistabile",
+    "exclusiveOnly": "Solo Esclusivo"
   },
   "perks": {
     "near_miss": "% extra per abilità Mancato di Poco",

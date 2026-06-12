@@ -1452,3 +1452,41 @@ h2 {
     right: -1.25rem;
   }
 }
+/* Custom Fields */
+.car-card-info h3 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.exclusive-badge {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+  background: linear-gradient(135deg, var(--neon-pink), #ff3366);
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--radius-sm);
+  box-shadow: 0 2px 8px rgba(255, 0, 127, 0.4);
+  cursor: help;
+}
+
+.car-price-container {
+  display: flex;
+  align-items: baseline;
+  gap: 0.3rem;
+  margin-top: 0.4rem;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--neon-cyan);
+}
+
+.car-price-currency {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--muted);
+}
+

@@ -34,7 +34,10 @@
     "disabledCars": "Disabled Cars",
     "noDisabledCars": "No disabled cars.",
     "hideCar": "Hide Car",
-    "unhideCar": "Show Car"
+    "unhideCar": "Show Car",
+    "notBuyable": "Not buyable",
+    "buyableOnly": "Buyable Only",
+    "exclusiveOnly": "Exclusive Only"
   },
   "perks": {
     "near_miss": "extra % from Near Miss Skills",

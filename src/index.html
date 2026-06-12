@@ -61,6 +61,17 @@
         </svg>
       </div>
 
+      <div class="property-filters" style="display: flex; gap: 1.5rem; margin-bottom: 1.5rem;">
+        <label class="checkbox-label" style="display: flex; align-items: center; gap: 0.5rem; color: var(--text); font-family: 'Outfit', sans-serif; font-size: 0.85rem; font-weight: 600; cursor: pointer;">
+          <input type="checkbox" id="filter-buyable" style="accent-color: var(--neon-cyan); width: 1.2rem; height: 1.2rem; cursor: pointer;">
+          <span data-i18n="ui.buyableOnly">Buyable Only</span>
+        </label>
+        <label class="checkbox-label" style="display: flex; align-items: center; gap: 0.5rem; color: var(--text); font-family: 'Outfit', sans-serif; font-size: 0.85rem; font-weight: 600; cursor: pointer;">
+          <input type="checkbox" id="filter-exclusive" style="accent-color: var(--neon-pink); width: 1.2rem; height: 1.2rem; cursor: pointer;">
+          <span data-i18n="ui.exclusiveOnly">Exclusive Only</span>
+        </label>
+      </div>
+
       <div class="toolbar-section">
         <div class="filter-mode-container">
           <span class="mode-label" data-i18n="ui.perkMatch">Perk Match:</span>
@@ -127,7 +138,13 @@
   <template id="car-card-template">
     <article class="car-card">
       <div class="car-card-info">
-        <h3 class="car-name"></h3>
+        <h3 class="car-name">
+          <span class="name-text"></span>
+          <span class="exclusive-badge" style="display: none;">Exclusive</span>
+        </h3>
+        <div class="car-price-container" style="display: none;">
+          <span class="car-price-value"></span> <span class="car-price-currency" data-i18n="ui.cr">CR</span>
+        </div>
         <div class="car-year"></div>
       </div>
       <div class="car-masteries-container">

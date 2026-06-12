@@ -1460,6 +1460,43 @@ h2 {
     right: -1.25rem;
   }
 }
+/* Custom Fields */
+.car-card-info h3 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.exclusive-badge {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+  background: linear-gradient(135deg, var(--neon-pink), #ff3366);
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--radius-sm);
+  box-shadow: 0 2px 8px rgba(255, 0, 127, 0.4);
+  cursor: help;
+}
+
+.car-price-container {
+  display: flex;
+  align-items: baseline;
+  gap: 0.3rem;
+  margin-top: 0.4rem;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--neon-cyan);
+}
+
+.car-price-currency {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--muted);
+}
 </style>
 </head>
 
@@ -1514,6 +1551,17 @@ h2 {
           <circle cx="11" cy="11" r="8"></circle>
           <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
         </svg>
+      </div>
+
+      <div class="property-filters" style="display: flex; gap: 1.5rem; margin-bottom: 1.5rem;">
+        <label class="checkbox-label" style="display: flex; align-items: center; gap: 0.5rem; color: var(--text); font-family: 'Outfit', sans-serif; font-size: 0.85rem; font-weight: 600; cursor: pointer;">
+          <input type="checkbox" id="filter-buyable" style="accent-color: var(--neon-cyan); width: 1.2rem; height: 1.2rem; cursor: pointer;">
+          <span data-i18n="ui.buyableOnly">Buyable Only</span>
+        </label>
+        <label class="checkbox-label" style="display: flex; align-items: center; gap: 0.5rem; color: var(--text); font-family: 'Outfit', sans-serif; font-size: 0.85rem; font-weight: 600; cursor: pointer;">
+          <input type="checkbox" id="filter-exclusive" style="accent-color: var(--neon-pink); width: 1.2rem; height: 1.2rem; cursor: pointer;">
+          <span data-i18n="ui.exclusiveOnly">Exclusive Only</span>
+        </label>
       </div>
 
       <div class="toolbar-section">
@@ -1582,7 +1630,13 @@ h2 {
   <template id="car-card-template">
     <article class="car-card">
       <div class="car-card-info">
-        <h3 class="car-name"></h3>
+        <h3 class="car-name">
+          <span class="name-text"></span>
+          <span class="exclusive-badge" style="display: none;">Exclusive</span>
+        </h3>
+        <div class="car-price-container" style="display: none;">
+          <span class="car-price-value"></span> <span class="car-price-currency" data-i18n="ui.cr">CR</span>
+        </div>
         <div class="car-year"></div>
       </div>
       <div class="car-masteries-container">
@@ -1600,7 +1654,7 @@ h2 {
       </a>
     </div>
     <div class="footer-right">
-      <span><span data-i18n="ui.lastUpdate">Last Update:</span> <strong>2026-06-12 19:43:15</strong></span>
+      <span><span data-i18n="ui.lastUpdate">Last Update:</span> <strong>2026-06-12 20:07:36</strong></span>
       <span class="footer-separator">|</span>
       <span><span data-i18n="ui.carsConsidered">Cars considered:</span> <strong id="footer-car-count">0</strong></span>
     </div>
@@ -16227,7 +16281,10 @@ window.__I18N_DATA__ = {
       "disabledCars": "\u7981\u7528\u8f66\u8f86",
       "noDisabledCars": "\u6ca1\u6709\u7981\u7528\u8f66\u8f86\u3002",
       "hideCar": "\u9690\u85cf\u8f66\u8f86",
-      "unhideCar": "\u663e\u793a\u8f66\u8f86"
+      "unhideCar": "\u663e\u793a\u8f66\u8f86",
+      "notBuyable": "\u4e0d\u53ef\u8d2d\u4e70",
+      "buyableOnly": "\u4ec5\u53ef\u8d2d\u4e70",
+      "exclusiveOnly": "\u4ec5\u9650\u72ec\u5360"
     },
     "perks": {
       "near_miss": "\u9669\u4e9b\u9519\u8fc7\u6280\u80fd\u7684\u989d\u5916 %",
@@ -16369,7 +16426,10 @@ window.__I18N_DATA__ = {
       "disabledCars": "Deaktivierte Autos",
       "noDisabledCars": "Keine deaktivierten Autos.",
       "hideCar": "Auto ausblenden",
-      "unhideCar": "Auto anzeigen"
+      "unhideCar": "Auto anzeigen",
+      "notBuyable": "Nicht k\u00e4uflich",
+      "buyableOnly": "Nur K\u00e4uflich",
+      "exclusiveOnly": "Nur Exklusiv"
     },
     "perks": {
       "near_miss": "zus\u00e4tzliche % f\u00fcr Beinahe-Treffer-F\u00e4higkeiten",
@@ -16511,7 +16571,10 @@ window.__I18N_DATA__ = {
       "disabledCars": "Disabled Cars",
       "noDisabledCars": "No disabled cars.",
       "hideCar": "Hide Car",
-      "unhideCar": "Show Car"
+      "unhideCar": "Show Car",
+      "notBuyable": "Not buyable",
+      "buyableOnly": "Buyable Only",
+      "exclusiveOnly": "Exclusive Only"
     },
     "perks": {
       "near_miss": "extra % from Near Miss Skills",
@@ -16653,7 +16716,10 @@ window.__I18N_DATA__ = {
       "disabledCars": "Coches deshabilitados",
       "noDisabledCars": "No hay coches deshabilitados.",
       "hideCar": "Ocultar coche",
-      "unhideCar": "Mostrar coche"
+      "unhideCar": "Mostrar coche",
+      "notBuyable": "No se puede comprar",
+      "buyableOnly": "Solo Comprable",
+      "exclusiveOnly": "Solo Exclusivo"
     },
     "perks": {
       "near_miss": "% extra por habilidades de Casi Accidente",
@@ -16795,7 +16861,10 @@ window.__I18N_DATA__ = {
       "disabledCars": "Auto disabilitate",
       "noDisabledCars": "Nessuna auto disabilitata.",
       "hideCar": "Nascondi auto",
-      "unhideCar": "Mostra auto"
+      "unhideCar": "Mostra auto",
+      "notBuyable": "Non acquistabile",
+      "buyableOnly": "Solo Acquistabile",
+      "exclusiveOnly": "Solo Esclusivo"
     },
     "perks": {
       "near_miss": "% extra per abilit\u00e0 Mancato di Poco",
@@ -16937,7 +17006,10 @@ window.__I18N_DATA__ = {
       "disabledCars": "\u7121\u52b9\u306a\u8eca",
       "noDisabledCars": "\u7121\u52b9\u306a\u8eca\u306f\u3042\u308a\u307e\u305b\u3093\u3002",
       "hideCar": "\u8eca\u3092\u96a0\u3059",
-      "unhideCar": "\u8eca\u3092\u8868\u793a"
+      "unhideCar": "\u8eca\u3092\u8868\u793a",
+      "notBuyable": "\u8cfc\u5165\u4e0d\u53ef",
+      "buyableOnly": "\u8cfc\u5165\u53ef\u80fd\u306e\u307f",
+      "exclusiveOnly": "\u9650\u5b9a\u306e\u307f"
     },
     "perks": {
       "near_miss": "\u30cb\u30a2\u30df\u30b9\u30b9\u30ad\u30eb\u304b\u3089\u8ffd\u52a0\u306e %",
@@ -17125,7 +17197,9 @@ const state = {
   filterMode: "any", // "any" or "all"
   lang: "en",
   i18n: {},
-  hiddenCars: new Set(JSON.parse(localStorage.getItem('hiddenCars') || '[]'))
+  hiddenCars: new Set(JSON.parse(localStorage.getItem('hiddenCars') || '[]')),
+  buyableOnly: false,
+  exclusiveOnly: false
 };
 
 function saveHiddenCars() {
@@ -17358,8 +17432,24 @@ function renderActiveFilters() {
 
 function buildCard(entry) {
   const fragment = cardTemplate.content.cloneNode(true);
-  fragment.querySelector(".car-name").textContent = entry.Carname;
-  
+  fragment.querySelector(".name-text").textContent = entry.Carname;
+
+  if (entry.Exclusive && entry.Exclusive !== "null") {
+    const badge = fragment.querySelector(".exclusive-badge");
+    badge.style.display = "inline-block";
+    badge.title = entry.Exclusive;
+  }
+
+  const priceContainer = fragment.querySelector(".car-price-container");
+  priceContainer.style.display = "flex";
+
+  if (entry.Price && entry.Price !== "null") {
+    fragment.querySelector(".car-price-value").textContent = entry.Price;
+    fragment.querySelector(".car-price-currency").style.display = "inline";
+  } else {
+    fragment.querySelector(".car-price-value").textContent = t('ui.notBuyable') || "Not buyable";
+    fragment.querySelector(".car-price-currency").style.display = "none";
+  }
   const yearContainer = fragment.querySelector(".car-year");
   yearContainer.style.display = "flex";
   yearContainer.style.justifyContent = "space-between";
@@ -17468,7 +17558,7 @@ function buildMasteryCounts(data) {
 function render() {
   renderActiveFilters();
 
-  if (!state.selected.size && !state.searchQuery) {
+  if (!state.selected.size && !state.searchQuery && !state.buyableOnly && !state.exclusiveOnly) {
     renderEmptyState();
     return;
   }
@@ -17484,6 +17574,14 @@ function render() {
         entry.Carname.toLowerCase().includes(query) ||
         entry.Manufacturer.toLowerCase().includes(query)
     );
+  }
+
+  if (state.buyableOnly) {
+    filtered = filtered.filter((entry) => entry.Price && entry.Price !== "null");
+  }
+
+  if (state.exclusiveOnly) {
+    filtered = filtered.filter((entry) => entry.Exclusive && entry.Exclusive !== "null");
   }
 
   // 2. Filter by mastery perks
@@ -17695,6 +17793,22 @@ async function init() {
     state.searchQuery = e.target.value;
     render();
   });
+
+  const filterBuyable = document.querySelector("#filter-buyable");
+  if (filterBuyable) {
+    filterBuyable.addEventListener("change", (e) => {
+      state.buyableOnly = e.target.checked;
+      render();
+    });
+  }
+
+  const filterExclusive = document.querySelector("#filter-exclusive");
+  if (filterExclusive) {
+    filterExclusive.addEventListener("change", (e) => {
+      state.exclusiveOnly = e.target.checked;
+      render();
+    });
+  }
 
   modeAnyBtn.addEventListener("click", () => {
     state.filterMode = "any";

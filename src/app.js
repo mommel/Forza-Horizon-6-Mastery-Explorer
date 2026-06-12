@@ -77,7 +77,9 @@ const state = {
   filterMode: "any", // "any" or "all"
   lang: "en",
   i18n: {},
-  hiddenCars: new Set(JSON.parse(localStorage.getItem('hiddenCars') || '[]'))
+  hiddenCars: new Set(JSON.parse(localStorage.getItem('hiddenCars') || '[]')),
+  buyableOnly: false,
+  exclusiveOnly: false
 };
 
 function saveHiddenCars() {
@@ -310,8 +312,24 @@ function renderActiveFilters() {
 
 function buildCard(entry) {
   const fragment = cardTemplate.content.cloneNode(true);
-  fragment.querySelector(".car-name").textContent = entry.Carname;
-  
+  fragment.querySelector(".name-text").textContent = entry.Carname;
+
+  if (entry.Exclusive && entry.Exclusive !== "null") {
+    const badge = fragment.querySelector(".exclusive-badge");
+    badge.style.display = "inline-block";
+    badge.title = entry.Exclusive;
+  }
+
+  const priceContainer = fragment.querySelector(".car-price-container");
+  priceContainer.style.display = "flex";
+
+  if (entry.Price && entry.Price !== "null") {
+    fragment.querySelector(".car-price-value").textContent = entry.Price;
+    fragment.querySelector(".car-price-currency").style.display = "inline";
+  } else {
+    fragment.querySelector(".car-price-value").textContent = t('ui.notBuyable') || "Not buyable";
+    fragment.querySelector(".car-price-currency").style.display = "none";
+  }
   const yearContainer = fragment.querySelector(".car-year");
   yearContainer.style.display = "flex";
   yearContainer.style.justifyContent = "space-between";
@@ -420,7 +438,7 @@ function buildMasteryCounts(data) {
 function render() {
   renderActiveFilters();
 
-  if (!state.selected.size && !state.searchQuery) {
+  if (!state.selected.size && !state.searchQuery && !state.buyableOnly && !state.exclusiveOnly) {
     renderEmptyState();
     return;
   }
@@ -436,6 +454,14 @@ function render() {
         entry.Carname.toLowerCase().includes(query) ||
         entry.Manufacturer.toLowerCase().includes(query)
     );
+  }
+
+  if (state.buyableOnly) {
+    filtered = filtered.filter((entry) => entry.Price && entry.Price !== "null");
+  }
+
+  if (state.exclusiveOnly) {
+    filtered = filtered.filter((entry) => entry.Exclusive && entry.Exclusive !== "null");
   }
 
   // 2. Filter by mastery perks
@@ -647,6 +673,22 @@ async function init() {
     state.searchQuery = e.target.value;
     render();
   });
+
+  const filterBuyable = document.querySelector("#filter-buyable");
+  if (filterBuyable) {
+    filterBuyable.addEventListener("change", (e) => {
+      state.buyableOnly = e.target.checked;
+      render();
+    });
+  }
+
+  const filterExclusive = document.querySelector("#filter-exclusive");
+  if (filterExclusive) {
+    filterExclusive.addEventListener("change", (e) => {
+      state.exclusiveOnly = e.target.checked;
+      render();
+    });
+  }
 
   modeAnyBtn.addEventListener("click", () => {
     state.filterMode = "any";
