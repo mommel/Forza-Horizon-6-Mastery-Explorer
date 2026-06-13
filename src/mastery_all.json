@@ -3227,6 +3227,31 @@
   {
     "Manufacturer": "DODGE",
     "Year": "1970",
+    "Carname": "CHALLENGER",
+    "Mastery": [
+      null,
+      "faster_multiplier",
+      null,
+      "street_racing_events",
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "DODGE",
+    "Year": "1970",
     "Carname": "CORONET SUPER BEE",
     "Mastery": [
       null,
