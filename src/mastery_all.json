@@ -5626,6 +5626,31 @@
   },
   {
     "Manufacturer": "FORMULA DRIFT",
+    "Year": "2015",
+    "Carname": "FORD MUSTANG",
+    "Mastery": [
+      "link_skill_skills",
+      "skillchain_ends_later",
+      null,
+      null,
+      "lucky_escape_skills",
+      "sideswipes_skills",
+      "combo_skills",
+      null,
+      "near_miss",
+      "drift_tap_skills",
+      "freeroam",
+      "skillsong",
+      "XP",
+      "drift_edrift_skills",
+      "convoy_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "FORMULA DRIFT",
     "Year": "2016",
     "Carname": "#530 HSV MALOO GEN-F",
     "Mastery": [
