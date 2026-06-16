@@ -9552,6 +9552,31 @@
   {
     "Manufacturer": "MERCEDES-BENZ",
     "Year": "2014",
+    "Carname": "G 63 AMG 6X6",
+    "Mastery": [
+      null,
+      null,
+      "event_finish_score",
+      "freeroam",
+      "cross_country_events",
+      "combo_skills",
+      "ultimate_skillchain_scores",
+      null,
+      "crash_landing_skills",
+      "wreckage_skills",
+      "wrecking_ball_skills",
+      "multiplier_goes_up_to",
+      null,
+      "air_skills",
+      "kangaroo_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "MERCEDES-BENZ",
+    "Year": "2014",
     "Carname": "UNIMOG IJ5023",
     "Mastery": [
       "cross_country_events",
