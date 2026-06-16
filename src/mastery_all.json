@@ -751,6 +751,31 @@
   },
   {
     "Manufacturer": "AUDI",
+    "Year": "1983",
+    "Carname": "SPORT QUATTRO",
+    "Mastery": [
+      null,
+      "dirtracing_events",
+      null,
+      "multiplier_goes_up_to",
+      null,
+      "faster_multiplier",
+      "combo_skills",
+      "link_skill_skills",
+      "drift_edrift_skills",
+      "sideswipes_skills",
+      "airborne_pass_skills",
+      "crash_landing_skills",
+      null,
+      "wreckage_skills",
+      "air_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "AUDI",
     "Year": "1986",
     "Carname": "#2 AUDI SPORT QUATTRO S1",
     "Mastery": [
