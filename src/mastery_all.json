@@ -801,6 +801,31 @@
   },
   {
     "Manufacturer": "AUDI",
+    "Year": "1986",
+    "Carname": "AUDI SPORT QUATTRO SI",
+    "Mastery": [
+      "skillchain_ends_later",
+      "head-to-head_races",
+      "event_finish_score",
+      null,
+      "dirtracing_events",
+      "combo_skills",
+      null,
+      "ultimate_skillchain_scores",
+      "air_skills",
+      "speed_skills",
+      "multiplier_goes_up_to",
+      "instant_wheel_spins",
+      "XP",
+      "drift_edrift_skills",
+      "sideswipes_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "AUDI",
     "Year": "2001",
     "Carname": "RS 4 AVANT",
     "Mastery": [
@@ -1297,6 +1322,31 @@
       "break_skillchains_twice"
     ],
     "Price": "90.250",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "AUDI",
+    "Year": "2023",
+    "Carname": "R8 COUPE GT RIND",
+    "Mastery": [
+      "cross_country_events",
+      "skillsong",
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
     "Exclusive": null
   },
   {
@@ -5327,6 +5377,31 @@
   {
     "Manufacturer": "FORD",
     "Year": "2022",
+    "Carname": "F-150 LIGHTNING",
+    "Mastery": [
+      null,
+      null,
+      "event_finish_score",
+      "freeroam",
+      "cross_country_events",
+      "combo_skills",
+      "ultimate_skillchain_scores",
+      null,
+      "crash_landing_skills",
+      "wreckage_skills",
+      "wrecking_ball_skills",
+      "multiplier_goes_up_to",
+      "XP",
+      "air_skills",
+      "kangaroo_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "FORD",
+    "Year": "2022",
     "Carname": "FOCUS ST",
     "Mastery": [
       null,
@@ -5572,6 +5647,31 @@
       "break_skillchains_twice"
     ],
     "Price": "1.425.686",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "FORMULA DRIFT",
+    "Year": "2006",
+    "Carname": "DODGE VIPER SRT-IO ACR",
+    "Mastery": [
+      "link_skill_skills",
+      "skillchain_ends_later",
+      null,
+      null,
+      "lucky_escape_skills",
+      "sideswipes_skills",
+      "combo_skills",
+      null,
+      "near_miss",
+      "drift_tap_skills",
+      "freeroam",
+      "skillsong",
+      "XP",
+      "drift_edrift_skills",
+      "convoy_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
     "Exclusive": null
   },
   {
@@ -14397,6 +14497,31 @@
       "break_skillchains_twice"
     ],
     "Price": "17.100",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "VOLKSWAGEN",
+    "Year": "1989",
+    "Carname": "RALLYE GOLF",
+    "Mastery": [
+      null,
+      "dirtracing_events",
+      null,
+      null,
+      null,
+      "faster_multiplier",
+      "combo_skills",
+      "link_skill_skills",
+      "drift_edrift_skills",
+      "sideswipes_skills",
+      "airborne_pass_skills",
+      "crash_landing_skills",
+      "XP",
+      "wreckage_skills",
+      "air_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
     "Exclusive": null
   },
   {
