@@ -3976,6 +3976,31 @@
   },
   {
     "Manufacturer": "FERRARI",
+    "Year": "2012",
+    "Carname": "599XX EVOLUTION",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      "instant_super_wheel_spin",
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "FERRARI",
     "Year": "2013",
     "Carname": "458 SPECIALE",
     "Mastery": [
