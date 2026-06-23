@@ -530,7 +530,7 @@ function render() {
 
   let currentManufacturer = null;
   let index = 0;
-  const CHUNK_SIZE = 25;
+  const CHUNK_SIZE = 10;
   
   // Keep track of render passes to abort stale ones
   if (!state.currentRenderId) state.currentRenderId = 0;
@@ -590,7 +590,7 @@ function render() {
         window.__scrollObserver = new IntersectionObserver((entries) => {
           if (entries[0].isIntersecting) {
             window.__scrollObserver.disconnect();
-            renderChunk();
+            requestAnimationFrame(() => setTimeout(renderChunk, 0));
           }
         }, { rootMargin: "400px" });
         window.__scrollObserver.observe(newSentinel);

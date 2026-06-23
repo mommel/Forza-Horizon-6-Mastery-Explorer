@@ -1337,13 +1337,16 @@ h2 {
     min-height: 0;
   }
   .selection-panel.mobile-collapsed .selection-stats,
+  .selection-panel.mobile-collapsed .property-filters,
+  .selection-panel.mobile-collapsed .price-range-container,
   .selection-panel.mobile-collapsed #icon-grid {
-    display: none;
+    display: none !important;
   }
   .selection-panel.mobile-collapsed .mastery-selection-header {
     margin-bottom: 0;
     padding-bottom: 1.5rem;
   }
+  
   
   /* Expanded panel state */
   .panel.mobile-expanded {
