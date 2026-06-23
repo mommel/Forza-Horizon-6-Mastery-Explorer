@@ -537,9 +537,16 @@ function render() {
   state.currentRenderId++;
   const renderId = state.currentRenderId;
 
+  if (window.__scrollObserver) {
+    window.__scrollObserver.disconnect();
+  }
+
   function renderChunk() {
     if (renderId !== state.currentRenderId) return;
     if (index >= matchingEntries.length) return;
+    
+    const oldSentinel = document.getElementById("scroll-sentinel");
+    if (oldSentinel) oldSentinel.remove();
     
     const fragment = document.createDocumentFragment();
     const end = Math.min(index + CHUNK_SIZE, matchingEntries.length);
@@ -565,11 +572,29 @@ function render() {
       fragment.append(buildCard(entry));
     }
     
-    results.append(fragment);
     index = end;
     
     if (index < matchingEntries.length) {
-      setTimeout(() => requestAnimationFrame(renderChunk), 0);
+      const sentinel = document.createElement("div");
+      sentinel.id = "scroll-sentinel";
+      sentinel.style.height = "1px";
+      sentinel.style.width = "100%";
+      fragment.append(sentinel);
+    }
+    
+    results.append(fragment);
+    
+    if (index < matchingEntries.length) {
+      const newSentinel = document.getElementById("scroll-sentinel");
+      if (newSentinel) {
+        window.__scrollObserver = new IntersectionObserver((entries) => {
+          if (entries[0].isIntersecting) {
+            window.__scrollObserver.disconnect();
+            renderChunk();
+          }
+        }, { rootMargin: "400px" });
+        window.__scrollObserver.observe(newSentinel);
+      }
     }
   }
   
