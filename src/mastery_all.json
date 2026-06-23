@@ -11926,31 +11926,6 @@
   },
   {
     "Manufacturer": "PORSCHE",
-    "Year": "1970",
-    "Carname": "917 LH FORZA EDITION",
-    "Mastery": [
-      "touge_events",
-      "convoy_skills",
-      "instant_credits",
-      "instant_super_wheel_spin",
-      "link_skill_skills",
-      "faster_multiplier",
-      "slingshot_skills",
-      "time_attack_events",
-      "speed_skills",
-      "pass_skills",
-      "drafting_skills",
-      "instant_wheel_spins",
-      "XP",
-      "road_racing_events",
-      "clean_racing_skills",
-      "break_skillchains_twice"
-    ],
-    "Price": null,
-    "Exclusive": null
-  },
-  {
-    "Manufacturer": "PORSCHE",
     "Year": "1973",
     "Carname": "911 CARRERA RS",
     "Mastery": [
@@ -12402,6 +12377,31 @@
   {
     "Manufacturer": "PORSCHE",
     "Year": "2019",
+    "Carname": "#70 PORSCHE MOTORSPORT 935",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      "instant_super_wheel_spin",
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "PORSCHE",
+    "Year": "2019",
     "Carname": "911 CARRERA S",
     "Mastery": [
       null,
@@ -12433,31 +12433,6 @@
       "convoy_skills",
       null,
       null,
-      "link_skill_skills",
-      null,
-      "slingshot_skills",
-      "time_attack_events",
-      "speed_skills",
-      "pass_skills",
-      "drafting_skills",
-      "faster_multiplier",
-      "XP",
-      "road_racing_events",
-      "clean_racing_skills",
-      "break_skillchains_twice"
-    ],
-    "Price": null,
-    "Exclusive": null
-  },
-  {
-    "Manufacturer": "PORSCHE",
-    "Year": "2019",
-    "Carname": "PORSCHE MOTORSPORT 935",
-    "Mastery": [
-      "touge_events",
-      "convoy_skills",
-      null,
-      "instant_super_wheel_spin",
       "link_skill_skills",
       null,
       "slingshot_skills",
@@ -13877,7 +13852,7 @@
   {
     "Manufacturer": "TOYOTA",
     "Year": "1992",
-    "Carname": "SUPRA GT",
+    "Carname": "SUPRA 2.0 GT",
     "Mastery": [
       null,
       null,
@@ -13902,7 +13877,7 @@
   {
     "Manufacturer": "TOYOTA",
     "Year": "1993",
-    "Carname": "BAJA TRUCK",
+    "Carname": "#1 BAJA TRUCK",
     "Mastery": [
       "cross_country_events",
       "combo_skills",
