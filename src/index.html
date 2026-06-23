@@ -5,6 +5,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title data-i18n="ui.appTitle">Forza Horizon 6 Mastery Explorer</title>
+  <script>
+    (function() {
+      var isMobileUA = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+      var isMobilePage = window.location.pathname.indexOf('index_mobile.html') !== -1;
+      
+      var searchParams = new URLSearchParams(window.location.search);
+      if (searchParams.has('forceDesktop')) {
+        sessionStorage.setItem('forceMode', 'desktop');
+      } else if (searchParams.has('forceMobile')) {
+        sessionStorage.setItem('forceMode', 'mobile');
+      }
+      var forceMode = sessionStorage.getItem('forceMode');
+
+      if (isMobileUA && !isMobilePage && forceMode !== 'desktop') {
+        var newUrl = window.location.pathname;
+        if (newUrl.indexOf('index.html') !== -1) {
+          newUrl = newUrl.replace('index.html', 'index_mobile.html');
+        } else {
+          newUrl = newUrl + (newUrl.endsWith('/') ? '' : '/') + 'index_mobile.html';
+        }
+        window.location.replace(newUrl + window.location.search);
+      } else if (!isMobileUA && isMobilePage && forceMode !== 'mobile') {
+        var newUrl = window.location.pathname.replace('index_mobile.html', 'index.html');
+        window.location.replace(newUrl + window.location.search);
+      }
+    })();
+  </script>
   <link rel="stylesheet" href="./styles.css">
 </head>
 
@@ -25,6 +52,9 @@
     <div class="drawer-header">
       <h2 data-i18n="ui.menuTitle" style="font-size: 1.5rem; margin: 0;">Menu</h2>
       <button id="close-drawer" class="close-drawer-btn" aria-label="Close menu">&times;</button>
+    </div>
+    <div style="padding: 1rem 1.5rem 0; margin-bottom: -0.5rem;">
+      <a id="drawer-version-btn" href="#" class="toolbar-button-secondary" style="display: flex; width: 100%; justify-content: center; text-decoration: none; padding: 0.8rem; font-family: 'Outfit', sans-serif;">Switch Version</a>
     </div>
     <div id="drawer-content" class="drawer-content"></div>
   </aside>

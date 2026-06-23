@@ -5,6 +5,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title data-i18n="ui.appTitle">Forza Horizon 6 Mastery Explorer</title>
+  <script>
+    (function() {
+      var isMobileUA = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+      var isMobilePage = window.location.pathname.indexOf('index_mobile.html') !== -1;
+      
+      var searchParams = new URLSearchParams(window.location.search);
+      if (searchParams.has('forceDesktop')) {
+        sessionStorage.setItem('forceMode', 'desktop');
+      } else if (searchParams.has('forceMobile')) {
+        sessionStorage.setItem('forceMode', 'mobile');
+      }
+      var forceMode = sessionStorage.getItem('forceMode');
+
+      if (isMobileUA && !isMobilePage && forceMode !== 'desktop') {
+        var newUrl = window.location.pathname;
+        if (newUrl.indexOf('index.html') !== -1) {
+          newUrl = newUrl.replace('index.html', 'index_mobile.html');
+        } else {
+          newUrl = newUrl + (newUrl.endsWith('/') ? '' : '/') + 'index_mobile.html';
+        }
+        window.location.replace(newUrl + window.location.search);
+      } else if (!isMobileUA && isMobilePage && forceMode !== 'mobile') {
+        var newUrl = window.location.pathname.replace('index_mobile.html', 'index.html');
+        window.location.replace(newUrl + window.location.search);
+      }
+    })();
+  </script>
   <style>
 :root {
   color-scheme: dark;
@@ -1674,6 +1701,9 @@ input:checked + .custom-slider:before {
       <h2 data-i18n="ui.menuTitle" style="font-size: 1.5rem; margin: 0;">Menu</h2>
       <button id="close-drawer" class="close-drawer-btn" aria-label="Close menu">&times;</button>
     </div>
+    <div style="padding: 1rem 1.5rem 0; margin-bottom: -0.5rem;">
+      <a id="drawer-version-btn" href="#" class="toolbar-button-secondary" style="display: flex; width: 100%; justify-content: center; text-decoration: none; padding: 0.8rem; font-family: 'Outfit', sans-serif;">Switch Version</a>
+    </div>
     <div id="drawer-content" class="drawer-content"></div>
   </aside>
 
@@ -1834,7 +1864,7 @@ input:checked + .custom-slider:before {
       </a>
     </div>
     <div class="footer-right">
-      <span><span data-i18n="ui.lastUpdate">Last Update:</span> <strong>2026-06-23 07:41:55</strong></span>
+      <span><span data-i18n="ui.lastUpdate">Last Update:</span> <strong>2026-06-23 08:00:31</strong></span>
       <span class="footer-separator">|</span>
       <span><span data-i18n="ui.carsConsidered">Cars considered:</span> <strong id="footer-car-count">0</strong></span>
     </div>
@@ -18277,29 +18307,52 @@ function render() {
     return;
   }
 
-  const fragment = document.createDocumentFragment();
   let currentManufacturer = null;
+  let index = 0;
+  const CHUNK_SIZE = 25;
+  
+  // Keep track of render passes to abort stale ones
+  if (!state.currentRenderId) state.currentRenderId = 0;
+  state.currentRenderId++;
+  const renderId = state.currentRenderId;
 
-  matchingEntries.forEach(({ entry }) => {
-    if (entry.Manufacturer !== currentManufacturer) {
-      currentManufacturer = entry.Manufacturer;
+  function renderChunk() {
+    if (renderId !== state.currentRenderId) return;
+    if (index >= matchingEntries.length) return;
+    
+    const fragment = document.createDocumentFragment();
+    const end = Math.min(index + CHUNK_SIZE, matchingEntries.length);
+    
+    for (let i = index; i < end; i++) {
+      const { entry } = matchingEntries[i];
+      if (entry.Manufacturer !== currentManufacturer) {
+        currentManufacturer = entry.Manufacturer;
 
-      const headerDiv = document.createElement("div");
-      headerDiv.className = "manufacturer-header";
+        const headerDiv = document.createElement("div");
+        headerDiv.className = "manufacturer-header";
 
-      const title = document.createElement("h3");
-      title.className = "manufacturer-title";
-      title.textContent = currentManufacturer;
+        const title = document.createElement("h3");
+        title.className = "manufacturer-title";
+        title.textContent = currentManufacturer;
 
-      const underline = document.createElement("div");
-      underline.className = "manufacturer-underline";
+        const underline = document.createElement("div");
+        underline.className = "manufacturer-underline";
 
-      headerDiv.append(title, underline);
-      fragment.append(headerDiv);
+        headerDiv.append(title, underline);
+        fragment.append(headerDiv);
+      }
+      fragment.append(buildCard(entry));
     }
-    fragment.append(buildCard(entry));
-  });
-  results.append(fragment);
+    
+    results.append(fragment);
+    index = end;
+    
+    if (index < matchingEntries.length) {
+      setTimeout(() => requestAnimationFrame(renderChunk), 0);
+    }
+  }
+  
+  renderChunk();
 }
 
 function parsePrice(priceStr) {
@@ -18747,6 +18800,26 @@ function initMobileInteractions() {
       drawer.classList.remove("open");
     });
   }
+
+  const versionBtn = document.getElementById("drawer-version-btn");
+  if (versionBtn) {
+    const isMobilePage = window.location.pathname.indexOf('index_mobile.html') !== -1;
+    if (isMobilePage) {
+      versionBtn.textContent = "Desktop Version";
+      versionBtn.href = window.location.pathname.replace('index_mobile.html', 'index.html') + "?forceDesktop=1";
+    } else {
+      versionBtn.textContent = "Mobile Version";
+      let newUrl = window.location.pathname;
+      if (newUrl.indexOf('index.html') !== -1) {
+        newUrl = newUrl.replace('index.html', 'index_mobile.html');
+      } else {
+        newUrl = newUrl + (newUrl.endsWith('/') ? '' : '/') + 'index_mobile.html';
+      }
+      versionBtn.href = newUrl + "?forceMobile=1";
+    }
+  }
+
+
   
   // Accordion Logic
   const selectionPanel = document.querySelector(".selection-panel");

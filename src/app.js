@@ -528,29 +528,52 @@ function render() {
     return;
   }
 
-  const fragment = document.createDocumentFragment();
   let currentManufacturer = null;
+  let index = 0;
+  const CHUNK_SIZE = 25;
+  
+  // Keep track of render passes to abort stale ones
+  if (!state.currentRenderId) state.currentRenderId = 0;
+  state.currentRenderId++;
+  const renderId = state.currentRenderId;
 
-  matchingEntries.forEach(({ entry }) => {
-    if (entry.Manufacturer !== currentManufacturer) {
-      currentManufacturer = entry.Manufacturer;
+  function renderChunk() {
+    if (renderId !== state.currentRenderId) return;
+    if (index >= matchingEntries.length) return;
+    
+    const fragment = document.createDocumentFragment();
+    const end = Math.min(index + CHUNK_SIZE, matchingEntries.length);
+    
+    for (let i = index; i < end; i++) {
+      const { entry } = matchingEntries[i];
+      if (entry.Manufacturer !== currentManufacturer) {
+        currentManufacturer = entry.Manufacturer;
 
-      const headerDiv = document.createElement("div");
-      headerDiv.className = "manufacturer-header";
+        const headerDiv = document.createElement("div");
+        headerDiv.className = "manufacturer-header";
 
-      const title = document.createElement("h3");
-      title.className = "manufacturer-title";
-      title.textContent = currentManufacturer;
+        const title = document.createElement("h3");
+        title.className = "manufacturer-title";
+        title.textContent = currentManufacturer;
 
-      const underline = document.createElement("div");
-      underline.className = "manufacturer-underline";
+        const underline = document.createElement("div");
+        underline.className = "manufacturer-underline";
 
-      headerDiv.append(title, underline);
-      fragment.append(headerDiv);
+        headerDiv.append(title, underline);
+        fragment.append(headerDiv);
+      }
+      fragment.append(buildCard(entry));
     }
-    fragment.append(buildCard(entry));
-  });
-  results.append(fragment);
+    
+    results.append(fragment);
+    index = end;
+    
+    if (index < matchingEntries.length) {
+      setTimeout(() => requestAnimationFrame(renderChunk), 0);
+    }
+  }
+  
+  renderChunk();
 }
 
 function parsePrice(priceStr) {
@@ -998,6 +1021,26 @@ function initMobileInteractions() {
       drawer.classList.remove("open");
     });
   }
+
+  const versionBtn = document.getElementById("drawer-version-btn");
+  if (versionBtn) {
+    const isMobilePage = window.location.pathname.indexOf('index_mobile.html') !== -1;
+    if (isMobilePage) {
+      versionBtn.textContent = "Desktop Version";
+      versionBtn.href = window.location.pathname.replace('index_mobile.html', 'index.html') + "?forceDesktop=1";
+    } else {
+      versionBtn.textContent = "Mobile Version";
+      let newUrl = window.location.pathname;
+      if (newUrl.indexOf('index.html') !== -1) {
+        newUrl = newUrl.replace('index.html', 'index_mobile.html');
+      } else {
+        newUrl = newUrl + (newUrl.endsWith('/') ? '' : '/') + 'index_mobile.html';
+      }
+      versionBtn.href = newUrl + "?forceMobile=1";
+    }
+  }
+
+
   
   // Accordion Logic
   const selectionPanel = document.querySelector(".selection-panel");
