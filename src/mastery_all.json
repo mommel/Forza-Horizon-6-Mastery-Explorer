@@ -652,6 +652,31 @@
   {
     "Manufacturer": "ASTON MARTIN",
     "Year": "2019",
+    "Carname": "VALHALLA CONCEPT CAR",
+    "Mastery": [
+      "instant_wheel_spins",
+      "freeroam",
+      "instant_super_wheel_spin",
+      null,
+      "road_racing_events",
+      "tripple_pass_skills",
+      null,
+      "hard_charger_skills",
+      "clean_racing_skills",
+      "pass_skills",
+      "multiplier_goes_up_to",
+      "burnout_skills",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ],
+    "Price": "237.500",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "ASTON MARTIN",
+    "Year": "2019",
     "Carname": "VANTAGE",
     "Mastery": [
       null,
@@ -801,31 +826,6 @@
   },
   {
     "Manufacturer": "AUDI",
-    "Year": "1986",
-    "Carname": "AUDI SPORT QUATTRO SI",
-    "Mastery": [
-      "skillchain_ends_later",
-      "head-to-head_races",
-      "event_finish_score",
-      null,
-      "dirtracing_events",
-      "combo_skills",
-      null,
-      "ultimate_skillchain_scores",
-      "air_skills",
-      "speed_skills",
-      "multiplier_goes_up_to",
-      "instant_wheel_spins",
-      "XP",
-      "drift_edrift_skills",
-      "sideswipes_skills",
-      "break_skillchains_twice"
-    ],
-    "Price": null,
-    "Exclusive": null
-  },
-  {
-    "Manufacturer": "AUDI",
     "Year": "2001",
     "Carname": "RS 4 AVANT",
     "Mastery": [
@@ -952,7 +952,7 @@
   {
     "Manufacturer": "AUDI",
     "Year": "2010",
-    "Carname": "TT COUPE",
+    "Carname": "TT RS COUPE",
     "Mastery": [
       null,
       null,
@@ -1027,7 +1027,7 @@
   {
     "Manufacturer": "AUDI",
     "Year": "2013",
-    "Carname": "R8 COUPE VIO PLUS 5.2 QUATTRO",
+    "Carname": "R8 COUPE V1O PLUS 5.2 FSI QUATTRO",
     "Mastery": [
       "road_racing_events",
       "skillsong",
@@ -1152,7 +1152,7 @@
   {
     "Manufacturer": "AUDI",
     "Year": "2016",
-    "Carname": "R8 VIO PLUS",
+    "Carname": "R8 V1O PLUS",
     "Mastery": [
       "road_racing_events",
       "skillsong",
@@ -1327,7 +1327,7 @@
   {
     "Manufacturer": "AUDI",
     "Year": "2023",
-    "Carname": "R8 COUPE GT RIND",
+    "Carname": "R8 COUPE V10 GT RWD",
     "Mastery": [
       "cross_country_events",
       "skillsong",
