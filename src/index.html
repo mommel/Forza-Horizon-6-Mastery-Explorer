@@ -88,7 +88,7 @@
       </div>
 
       <div class="toolbar-section">
-        <div class="filter-mode-container">
+        <div class="filter-mode-container" id="perk-match-container">
           <span class="mode-label" data-i18n="ui.perkMatch">Perk Match:</span>
           <div class="toggle-group" role="radiogroup" aria-label="Filter match mode">
             <button id="mode-any" class="toggle-button active" type="button" role="radio" aria-checked="true"
@@ -97,10 +97,19 @@
               data-i18n="ui.modeAll">ALL</button>
           </div>
         </div>
-        <div class="selection-toolbar">
+        <div class="selection-toolbar" style="margin-top: 0.85rem;">
           <button id="select-all" class="toolbar-button" type="button" data-i18n="ui.selectAll">Select All</button>
           <button id="clear-all" class="toolbar-button toolbar-button-secondary" type="button"
             data-i18n="ui.clearAll">Clear</button>
+        </div>
+        <div class="filter-mode-container" style="margin-top: 0.85rem;">
+          <span class="mode-label" data-i18n="ui.showAllCars">Show All Cars:</span>
+          <div class="toggle-group" role="radiogroup" aria-label="Show all cars mode">
+            <button id="show-all-cars-off" class="toggle-button active" type="button" role="radio" aria-checked="true"
+              data-i18n="ui.modeOff">OFF</button>
+            <button id="show-all-cars-on" class="toggle-button" type="button" role="radio" aria-checked="false"
+              data-i18n="ui.modeOn">ON</button>
+          </div>
         </div>
       </div>
 

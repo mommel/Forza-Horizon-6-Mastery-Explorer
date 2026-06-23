@@ -38,7 +38,10 @@
     "notBuyable": "購入不可",
     "buyableOnly": "購入可能のみ",
     "exclusiveOnly": "限定のみ",
-    "priceRange": "価格帯:"
+    "priceRange": "価格帯:",
+    "showAllCars": "すべての車を表示",
+    "modeOff": "オフ",
+    "modeOn": "オン"
   },
   "perks": {
     "near_miss": "ニアミススキルから追加の %",

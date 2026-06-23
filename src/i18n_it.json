@@ -38,7 +38,10 @@
     "notBuyable": "Non acquistabile",
     "buyableOnly": "Solo Acquistabile",
     "exclusiveOnly": "Solo Esclusivo",
-    "priceRange": "Fascia di prezzo:"
+    "priceRange": "Fascia di prezzo:",
+    "showAllCars": "Mostra tutte le auto",
+    "modeOff": "OFF",
+    "modeOn": "ON"
   },
   "perks": {
     "near_miss": "% extra per abilità Mancato di Poco",

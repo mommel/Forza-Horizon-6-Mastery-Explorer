@@ -38,7 +38,10 @@
     "notBuyable": "不可购买",
     "buyableOnly": "仅可购买",
     "exclusiveOnly": "仅限独占",
-    "priceRange": "价格范围:"
+    "priceRange": "价格范围:",
+    "showAllCars": "显示所有车辆",
+    "modeOff": "关",
+    "modeOn": "开"
   },
   "perks": {
     "near_miss": "险些错过技能的额外 %",

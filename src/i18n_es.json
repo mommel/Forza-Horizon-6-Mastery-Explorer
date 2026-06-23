@@ -38,7 +38,10 @@
     "notBuyable": "No se puede comprar",
     "buyableOnly": "Solo Comprable",
     "exclusiveOnly": "Solo Exclusivo",
-    "priceRange": "Rango de precios:"
+    "priceRange": "Rango de precios:",
+    "showAllCars": "Mostrar todos los coches",
+    "modeOff": "NO",
+    "modeOn": "SÍ"
   },
   "perks": {
     "near_miss": "% extra por habilidades de Casi Accidente",

@@ -1592,6 +1592,67 @@ h2 {
 .dual-slider input[type='range']::-moz-range-thumb:hover {
   transform: scale(1.2);
 }
+
+
+/* Custom eyecandy toggle switch */
+.custom-switch {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 22px;
+}
+
+.custom-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.custom-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: .4s;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.custom-slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: var(--muted);
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .custom-slider {
+  background: linear-gradient(135deg, var(--neon-cyan), var(--neon-pink));
+  border-color: transparent;
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.4);
+}
+
+input:checked + .custom-slider:before {
+  transform: translateX(22px);
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+/* Disabled Controls State */
+.controls-disabled {
+  opacity: 0.3 !important;
+  filter: grayscale(100%) !important;
+  pointer-events: none !important;
+  cursor: not-allowed !important;
+}
+
+.controls-disabled * {
+  pointer-events: none !important;
+}
 </style>
 </head>
 
@@ -1675,7 +1736,7 @@ h2 {
       </div>
 
       <div class="toolbar-section">
-        <div class="filter-mode-container">
+        <div class="filter-mode-container" id="perk-match-container">
           <span class="mode-label" data-i18n="ui.perkMatch">Perk Match:</span>
           <div class="toggle-group" role="radiogroup" aria-label="Filter match mode">
             <button id="mode-any" class="toggle-button active" type="button" role="radio" aria-checked="true"
@@ -1684,10 +1745,19 @@ h2 {
               data-i18n="ui.modeAll">ALL</button>
           </div>
         </div>
-        <div class="selection-toolbar">
+        <div class="selection-toolbar" style="margin-top: 0.85rem;">
           <button id="select-all" class="toolbar-button" type="button" data-i18n="ui.selectAll">Select All</button>
           <button id="clear-all" class="toolbar-button toolbar-button-secondary" type="button"
             data-i18n="ui.clearAll">Clear</button>
+        </div>
+        <div class="filter-mode-container" style="margin-top: 0.85rem;">
+          <span class="mode-label" data-i18n="ui.showAllCars">Show All Cars:</span>
+          <div class="toggle-group" role="radiogroup" aria-label="Show all cars mode">
+            <button id="show-all-cars-off" class="toggle-button active" type="button" role="radio" aria-checked="true"
+              data-i18n="ui.modeOff">OFF</button>
+            <button id="show-all-cars-on" class="toggle-button" type="button" role="radio" aria-checked="false"
+              data-i18n="ui.modeOn">ON</button>
+          </div>
         </div>
       </div>
 
@@ -1764,7 +1834,7 @@ h2 {
       </a>
     </div>
     <div class="footer-right">
-      <span><span data-i18n="ui.lastUpdate">Last Update:</span> <strong>2026-06-23 07:21:59</strong></span>
+      <span><span data-i18n="ui.lastUpdate">Last Update:</span> <strong>2026-06-23 07:41:55</strong></span>
       <span class="footer-separator">|</span>
       <span><span data-i18n="ui.carsConsidered">Cars considered:</span> <strong id="footer-car-count">0</strong></span>
     </div>
@@ -16820,7 +16890,10 @@ window.__I18N_DATA__ = {
       "notBuyable": "\u4e0d\u53ef\u8d2d\u4e70",
       "buyableOnly": "\u4ec5\u53ef\u8d2d\u4e70",
       "exclusiveOnly": "\u4ec5\u9650\u72ec\u5360",
-      "priceRange": "\u4ef7\u683c\u8303\u56f4:"
+      "priceRange": "\u4ef7\u683c\u8303\u56f4:",
+      "showAllCars": "\u663e\u793a\u6240\u6709\u8f66\u8f86",
+      "modeOff": "\u5173",
+      "modeOn": "\u5f00"
     },
     "perks": {
       "near_miss": "\u9669\u4e9b\u9519\u8fc7\u6280\u80fd\u7684\u989d\u5916 %",
@@ -16966,7 +17039,10 @@ window.__I18N_DATA__ = {
       "notBuyable": "Nicht k\u00e4uflich",
       "buyableOnly": "Nur K\u00e4uflich",
       "exclusiveOnly": "Nur Exklusiv",
-      "priceRange": "Preisklasse:"
+      "priceRange": "Preisklasse:",
+      "showAllCars": "Alle Autos anzeigen",
+      "modeOff": "AUS",
+      "modeOn": "EIN"
     },
     "perks": {
       "near_miss": "zus\u00e4tzliche % f\u00fcr Beinahe-Treffer-F\u00e4higkeiten",
@@ -17112,7 +17188,10 @@ window.__I18N_DATA__ = {
       "notBuyable": "Not buyable",
       "buyableOnly": "Buyable Only",
       "exclusiveOnly": "Exclusive Only",
-      "priceRange": "Price Range:"
+      "priceRange": "Price Range:",
+      "showAllCars": "Show All Cars",
+      "modeOff": "OFF",
+      "modeOn": "ON"
     },
     "perks": {
       "near_miss": "extra % from Near Miss Skills",
@@ -17258,7 +17337,10 @@ window.__I18N_DATA__ = {
       "notBuyable": "No se puede comprar",
       "buyableOnly": "Solo Comprable",
       "exclusiveOnly": "Solo Exclusivo",
-      "priceRange": "Rango de precios:"
+      "priceRange": "Rango de precios:",
+      "showAllCars": "Mostrar todos los coches",
+      "modeOff": "NO",
+      "modeOn": "S\u00cd"
     },
     "perks": {
       "near_miss": "% extra por habilidades de Casi Accidente",
@@ -17404,7 +17486,10 @@ window.__I18N_DATA__ = {
       "notBuyable": "Non acquistabile",
       "buyableOnly": "Solo Acquistabile",
       "exclusiveOnly": "Solo Esclusivo",
-      "priceRange": "Fascia di prezzo:"
+      "priceRange": "Fascia di prezzo:",
+      "showAllCars": "Mostra tutte le auto",
+      "modeOff": "OFF",
+      "modeOn": "ON"
     },
     "perks": {
       "near_miss": "% extra per abilit\u00e0 Mancato di Poco",
@@ -17550,7 +17635,10 @@ window.__I18N_DATA__ = {
       "notBuyable": "\u8cfc\u5165\u4e0d\u53ef",
       "buyableOnly": "\u8cfc\u5165\u53ef\u80fd\u306e\u307f",
       "exclusiveOnly": "\u9650\u5b9a\u306e\u307f",
-      "priceRange": "\u4fa1\u683c\u5e2f:"
+      "priceRange": "\u4fa1\u683c\u5e2f:",
+      "showAllCars": "\u3059\u3079\u3066\u306e\u8eca\u3092\u8868\u793a",
+      "modeOff": "\u30aa\u30d5",
+      "modeOn": "\u30aa\u30f3"
     },
     "perks": {
       "near_miss": "\u30cb\u30a2\u30df\u30b9\u30b9\u30ad\u30eb\u304b\u3089\u8ffd\u52a0\u306e %",
@@ -17741,6 +17829,7 @@ const state = {
   hiddenCars: new Set(JSON.parse(localStorage.getItem('hiddenCars') || '[]')),
   buyableOnly: false,
   exclusiveOnly: false,
+  showAllCars: false,
   minPrice: null,
   maxPrice: null,
   globalMinPrice: 0,
@@ -18103,50 +18192,54 @@ function buildMasteryCounts(data) {
 function render() {
   renderActiveFilters();
 
-  if (!state.selected.size && !state.searchQuery && !state.buyableOnly && !state.exclusiveOnly) {
+  if (!state.selected.size && !state.searchQuery && !state.buyableOnly && !state.exclusiveOnly && !state.showAllCars) {
     renderEmptyState();
     return;
   }
 
-  // Filter cars based on search input and selected perks, and exclude hidden cars
-  let filtered = state.data.filter(entry => !state.hiddenCars.has(getCarKey(entry)));
+  let filtered = state.data;
 
-  // 1. Filter by text search query
-  if (state.searchQuery) {
-    const query = state.searchQuery.toLowerCase().trim();
-    filtered = filtered.filter(
-      (entry) =>
-        entry.Carname.toLowerCase().includes(query) ||
-        entry.Manufacturer.toLowerCase().includes(query)
-    );
-  }
+  if (!state.showAllCars) {
+    // Exclude hidden cars
+    filtered = filtered.filter(entry => !state.hiddenCars.has(getCarKey(entry)));
 
-  if (state.buyableOnly) {
-    filtered = filtered.filter((entry) => entry.Price && entry.Price !== "null");
-  }
+    // 1. Filter by text search query
+    if (state.searchQuery) {
+      const query = state.searchQuery.toLowerCase().trim();
+      filtered = filtered.filter(
+        (entry) =>
+          entry.Carname.toLowerCase().includes(query) ||
+          entry.Manufacturer.toLowerCase().includes(query)
+      );
+    }
 
-  if (state.exclusiveOnly) {
-    filtered = filtered.filter((entry) => entry.Exclusive && entry.Exclusive !== "null");
-  }
+    if (state.buyableOnly) {
+      filtered = filtered.filter((entry) => entry.Price && entry.Price !== "null");
+    }
 
-  if (state.minPrice > state.globalMinPrice || state.maxPrice < state.globalMaxPrice) {
-    filtered = filtered.filter(entry => {
-      const p = parsePrice(entry.Price);
-      if (p === null) return false;
-      return p >= state.minPrice && p <= state.maxPrice;
-    });
-  }
+    if (state.exclusiveOnly) {
+      filtered = filtered.filter((entry) => entry.Exclusive && entry.Exclusive !== "null");
+    }
 
-  // 2. Filter by mastery perks
-  if (state.selected.size > 0) {
-    filtered = filtered.filter((entry) => {
-      const carPerks = entry.Mastery || [];
-      if (state.filterMode === "all") {
-        return [...state.selected].every((selectedPerk) => carPerks.includes(selectedPerk));
-      } else {
-        return [...state.selected].some((selectedPerk) => carPerks.includes(selectedPerk));
-      }
-    });
+    if (state.minPrice > state.globalMinPrice || state.maxPrice < state.globalMaxPrice) {
+      filtered = filtered.filter(entry => {
+        const p = parsePrice(entry.Price);
+        if (p === null) return false;
+        return p >= state.minPrice && p <= state.maxPrice;
+      });
+    }
+
+    // 2. Filter by mastery perks
+    if (state.selected.size > 0) {
+      filtered = filtered.filter((entry) => {
+        const carPerks = entry.Mastery || [];
+        if (state.filterMode === "all") {
+          return [...state.selected].every((selectedPerk) => carPerks.includes(selectedPerk));
+        } else {
+          return [...state.selected].some((selectedPerk) => carPerks.includes(selectedPerk));
+        }
+      });
+    }
   }
 
   // Map and sort matching entries
@@ -18317,9 +18410,86 @@ function initPriceSlider() {
   updatePriceSliderUI();
 }
 
+function syncControlsState() {
+  const disable = state.showAllCars;
+  searchInput.disabled = disable;
+  
+  const filterBuyable = document.querySelector("#filter-buyable");
+  if (filterBuyable) filterBuyable.disabled = disable;
+  
+  const filterExclusive = document.querySelector("#filter-exclusive");
+  if (filterExclusive) filterExclusive.disabled = disable;
+  
+  const priceMin = document.querySelector("#price-min");
+  if (priceMin) priceMin.disabled = disable;
+  
+  const priceMax = document.querySelector("#price-max");
+  if (priceMax) priceMax.disabled = disable;
+  
+  modeAnyBtn.disabled = disable;
+  modeAllBtn.disabled = disable;
+  selectAllButton.disabled = disable;
+  clearAllButton.disabled = disable;
+
+  document.querySelectorAll(".icon-button").forEach(btn => btn.disabled = disable);
+
+  const showDisabledListBtn = document.querySelector("#show-disabled-list");
+  if (showDisabledListBtn) {
+    showDisabledListBtn.disabled = disable;
+    if (disable) showDisabledListBtn.classList.add("controls-disabled");
+    else showDisabledListBtn.classList.remove("controls-disabled");
+  }
+
+  // Apply visual disabled classes
+  const elsToDisable = [
+    document.querySelector(".search-container"),
+    document.querySelector(".property-filters"),
+    document.querySelector(".price-range-container"),
+    document.querySelector("#perk-match-container"),
+    document.querySelector(".selection-toolbar"),
+    document.querySelector("#icon-grid")
+  ];
+  
+  elsToDisable.forEach(el => {
+    if (el) {
+      if (disable) el.classList.add("controls-disabled");
+      else el.classList.remove("controls-disabled");
+    }
+  });
+
+  document.querySelectorAll(".filter-chip").forEach(chip => {
+    if (chip.style) chip.style.pointerEvents = disable ? "none" : "auto";
+  });
+}
+
 async function init() {
   await loadI18n();
   translateDOM();
+  
+  const showAllCarsOnBtn = document.querySelector("#show-all-cars-on");
+  const showAllCarsOffBtn = document.querySelector("#show-all-cars-off");
+  
+  if (showAllCarsOnBtn && showAllCarsOffBtn) {
+    showAllCarsOnBtn.addEventListener("click", () => {
+      state.showAllCars = true;
+      showAllCarsOnBtn.classList.add("active");
+      showAllCarsOnBtn.setAttribute("aria-checked", "true");
+      showAllCarsOffBtn.classList.remove("active");
+      showAllCarsOffBtn.setAttribute("aria-checked", "false");
+      syncControlsState();
+      render();
+    });
+
+    showAllCarsOffBtn.addEventListener("click", () => {
+      state.showAllCars = false;
+      showAllCarsOffBtn.classList.add("active");
+      showAllCarsOffBtn.setAttribute("aria-checked", "true");
+      showAllCarsOnBtn.classList.remove("active");
+      showAllCarsOnBtn.setAttribute("aria-checked", "false");
+      syncControlsState();
+      render();
+    });
+  }
   
   const languageSelect = document.querySelector("#language-select");
   if (languageSelect) {

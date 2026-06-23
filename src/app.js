@@ -80,6 +80,7 @@ const state = {
   hiddenCars: new Set(JSON.parse(localStorage.getItem('hiddenCars') || '[]')),
   buyableOnly: false,
   exclusiveOnly: false,
+  showAllCars: false,
   minPrice: null,
   maxPrice: null,
   globalMinPrice: 0,
@@ -442,50 +443,54 @@ function buildMasteryCounts(data) {
 function render() {
   renderActiveFilters();
 
-  if (!state.selected.size && !state.searchQuery && !state.buyableOnly && !state.exclusiveOnly) {
+  if (!state.selected.size && !state.searchQuery && !state.buyableOnly && !state.exclusiveOnly && !state.showAllCars) {
     renderEmptyState();
     return;
   }
 
-  // Filter cars based on search input and selected perks, and exclude hidden cars
-  let filtered = state.data.filter(entry => !state.hiddenCars.has(getCarKey(entry)));
+  let filtered = state.data;
 
-  // 1. Filter by text search query
-  if (state.searchQuery) {
-    const query = state.searchQuery.toLowerCase().trim();
-    filtered = filtered.filter(
-      (entry) =>
-        entry.Carname.toLowerCase().includes(query) ||
-        entry.Manufacturer.toLowerCase().includes(query)
-    );
-  }
+  if (!state.showAllCars) {
+    // Exclude hidden cars
+    filtered = filtered.filter(entry => !state.hiddenCars.has(getCarKey(entry)));
 
-  if (state.buyableOnly) {
-    filtered = filtered.filter((entry) => entry.Price && entry.Price !== "null");
-  }
+    // 1. Filter by text search query
+    if (state.searchQuery) {
+      const query = state.searchQuery.toLowerCase().trim();
+      filtered = filtered.filter(
+        (entry) =>
+          entry.Carname.toLowerCase().includes(query) ||
+          entry.Manufacturer.toLowerCase().includes(query)
+      );
+    }
 
-  if (state.exclusiveOnly) {
-    filtered = filtered.filter((entry) => entry.Exclusive && entry.Exclusive !== "null");
-  }
+    if (state.buyableOnly) {
+      filtered = filtered.filter((entry) => entry.Price && entry.Price !== "null");
+    }
 
-  if (state.minPrice > state.globalMinPrice || state.maxPrice < state.globalMaxPrice) {
-    filtered = filtered.filter(entry => {
-      const p = parsePrice(entry.Price);
-      if (p === null) return false;
-      return p >= state.minPrice && p <= state.maxPrice;
-    });
-  }
+    if (state.exclusiveOnly) {
+      filtered = filtered.filter((entry) => entry.Exclusive && entry.Exclusive !== "null");
+    }
 
-  // 2. Filter by mastery perks
-  if (state.selected.size > 0) {
-    filtered = filtered.filter((entry) => {
-      const carPerks = entry.Mastery || [];
-      if (state.filterMode === "all") {
-        return [...state.selected].every((selectedPerk) => carPerks.includes(selectedPerk));
-      } else {
-        return [...state.selected].some((selectedPerk) => carPerks.includes(selectedPerk));
-      }
-    });
+    if (state.minPrice > state.globalMinPrice || state.maxPrice < state.globalMaxPrice) {
+      filtered = filtered.filter(entry => {
+        const p = parsePrice(entry.Price);
+        if (p === null) return false;
+        return p >= state.minPrice && p <= state.maxPrice;
+      });
+    }
+
+    // 2. Filter by mastery perks
+    if (state.selected.size > 0) {
+      filtered = filtered.filter((entry) => {
+        const carPerks = entry.Mastery || [];
+        if (state.filterMode === "all") {
+          return [...state.selected].every((selectedPerk) => carPerks.includes(selectedPerk));
+        } else {
+          return [...state.selected].some((selectedPerk) => carPerks.includes(selectedPerk));
+        }
+      });
+    }
   }
 
   // Map and sort matching entries
@@ -656,9 +661,86 @@ function initPriceSlider() {
   updatePriceSliderUI();
 }
 
+function syncControlsState() {
+  const disable = state.showAllCars;
+  searchInput.disabled = disable;
+  
+  const filterBuyable = document.querySelector("#filter-buyable");
+  if (filterBuyable) filterBuyable.disabled = disable;
+  
+  const filterExclusive = document.querySelector("#filter-exclusive");
+  if (filterExclusive) filterExclusive.disabled = disable;
+  
+  const priceMin = document.querySelector("#price-min");
+  if (priceMin) priceMin.disabled = disable;
+  
+  const priceMax = document.querySelector("#price-max");
+  if (priceMax) priceMax.disabled = disable;
+  
+  modeAnyBtn.disabled = disable;
+  modeAllBtn.disabled = disable;
+  selectAllButton.disabled = disable;
+  clearAllButton.disabled = disable;
+
+  document.querySelectorAll(".icon-button").forEach(btn => btn.disabled = disable);
+
+  const showDisabledListBtn = document.querySelector("#show-disabled-list");
+  if (showDisabledListBtn) {
+    showDisabledListBtn.disabled = disable;
+    if (disable) showDisabledListBtn.classList.add("controls-disabled");
+    else showDisabledListBtn.classList.remove("controls-disabled");
+  }
+
+  // Apply visual disabled classes
+  const elsToDisable = [
+    document.querySelector(".search-container"),
+    document.querySelector(".property-filters"),
+    document.querySelector(".price-range-container"),
+    document.querySelector("#perk-match-container"),
+    document.querySelector(".selection-toolbar"),
+    document.querySelector("#icon-grid")
+  ];
+  
+  elsToDisable.forEach(el => {
+    if (el) {
+      if (disable) el.classList.add("controls-disabled");
+      else el.classList.remove("controls-disabled");
+    }
+  });
+
+  document.querySelectorAll(".filter-chip").forEach(chip => {
+    if (chip.style) chip.style.pointerEvents = disable ? "none" : "auto";
+  });
+}
+
 async function init() {
   await loadI18n();
   translateDOM();
+  
+  const showAllCarsOnBtn = document.querySelector("#show-all-cars-on");
+  const showAllCarsOffBtn = document.querySelector("#show-all-cars-off");
+  
+  if (showAllCarsOnBtn && showAllCarsOffBtn) {
+    showAllCarsOnBtn.addEventListener("click", () => {
+      state.showAllCars = true;
+      showAllCarsOnBtn.classList.add("active");
+      showAllCarsOnBtn.setAttribute("aria-checked", "true");
+      showAllCarsOffBtn.classList.remove("active");
+      showAllCarsOffBtn.setAttribute("aria-checked", "false");
+      syncControlsState();
+      render();
+    });
+
+    showAllCarsOffBtn.addEventListener("click", () => {
+      state.showAllCars = false;
+      showAllCarsOffBtn.classList.add("active");
+      showAllCarsOffBtn.setAttribute("aria-checked", "true");
+      showAllCarsOnBtn.classList.remove("active");
+      showAllCarsOnBtn.setAttribute("aria-checked", "false");
+      syncControlsState();
+      render();
+    });
+  }
   
   const languageSelect = document.querySelector("#language-select");
   if (languageSelect) {

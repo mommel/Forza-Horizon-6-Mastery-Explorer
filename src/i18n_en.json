@@ -38,7 +38,10 @@
     "notBuyable": "Not buyable",
     "buyableOnly": "Buyable Only",
     "exclusiveOnly": "Exclusive Only",
-    "priceRange": "Price Range:"
+    "priceRange": "Price Range:",
+    "showAllCars": "Show All Cars",
+    "modeOff": "OFF",
+    "modeOn": "ON"
   },
   "perks": {
     "near_miss": "extra % from Near Miss Skills",

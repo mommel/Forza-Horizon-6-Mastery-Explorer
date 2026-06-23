@@ -38,7 +38,10 @@
     "notBuyable": "Nicht käuflich",
     "buyableOnly": "Nur Käuflich",
     "exclusiveOnly": "Nur Exklusiv",
-    "priceRange": "Preisklasse:"
+    "priceRange": "Preisklasse:",
+    "showAllCars": "Alle Autos anzeigen",
+    "modeOff": "AUS",
+    "modeOn": "EIN"
   },
   "perks": {
     "near_miss": "zusätzliche % für Beinahe-Treffer-Fähigkeiten",
