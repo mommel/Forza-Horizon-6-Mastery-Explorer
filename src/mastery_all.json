@@ -8826,6 +8826,31 @@
   },
   {
     "Manufacturer": "MAZDA",
+    "Year": "1974",
+    "Carname": "#123 MAD MIKE 808 WAGON FURSTY",
+    "Mastery": [
+      "link_skill_skills",
+      "skillchain_ends_later",
+      "instant_super_wheel_spin",
+      null,
+      "lucky_escape_skills",
+      "sideswipes_skills",
+      "combo_skills",
+      null,
+      "near_miss",
+      "drift_tap_skills",
+      "freeroam",
+      "skillsong",
+      null,
+      "drift_edrift_skills",
+      "convoy_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "MAZDA",
     "Year": "1985",
     "Carname": "RX-7 GSL-SE",
     "Mastery": [
