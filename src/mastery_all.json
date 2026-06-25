@@ -3301,6 +3301,31 @@
   },
   {
     "Manufacturer": "DODGE",
+    "Year": "1968",
+    "Carname": "DART HEMI SUPER STOCK",
+    "Mastery": [
+      null,
+      "faster_multiplier",
+      "instant_credits",
+      null,
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      null,
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "DODGE",
     "Year": "1969",
     "Carname": "CHARGER DAYTONA HEMI",
     "Mastery": [
