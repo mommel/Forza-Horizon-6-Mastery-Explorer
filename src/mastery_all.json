@@ -9801,6 +9801,31 @@
   },
   {
     "Manufacturer": "MERCEDES-BENZ",
+    "Year": "1998",
+    "Carname": "AMG CLK GTR",
+    "Mastery": [
+      "road_racing_events",
+      "faster_multiplier",
+      "instant_credits",
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      null,
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "MERCEDES-BENZ",
     "Year": "2009",
     "Carname": "SL 65 AMG BLACK SERIES",
     "Mastery": [
