@@ -12152,6 +12152,31 @@
   {
     "Manufacturer": "PORSCHE",
     "Year": "1993",
+    "Carname": "911 TURBO S LEICHTBAU",
+    "Mastery": [
+      null,
+      "event_finish_score",
+      "ultimate_skillchain_scores",
+      null,
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      null,
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": "494.000",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "PORSCHE",
+    "Year": "1993",
     "Carname": "928 GTS",
     "Mastery": [
       null,
@@ -14572,6 +14597,31 @@
       "break_skillchains_twice"
     ],
     "Price": "66.500",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "TVR",
+    "Year": "1998",
+    "Carname": "CERBERA SPEED 12",
+    "Mastery": [
+      "road_racing_events",
+      "skillsong",
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      null,
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
     "Exclusive": null
   },
   {
