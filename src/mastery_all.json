@@ -11725,6 +11725,31 @@
     "Exclusive": null
   },
   {
+    "Manufacturer": "PEEL",
+    "Year": "1962",
+    "Carname": "P50 TROLLI EDITION",
+    "Mastery": [
+      "street_racing_events",
+      "combo_skills",
+      "freeroam",
+      null,
+      "threading_the_needle_skills",
+      null,
+      "skillchain_ends_later",
+      "multiplier_goes_up_to",
+      "near_miss",
+      "stuntman_skills",
+      "air_skills",
+      "convoy_skills",
+      null,
+      "pass_skills",
+      "event_finish_score",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
     "Manufacturer": "PENHALL",
     "Year": "2011",
     "Carname": "THE CHOLLA",
