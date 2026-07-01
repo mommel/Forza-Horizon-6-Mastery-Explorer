@@ -4402,6 +4402,31 @@
   {
     "Manufacturer": "FERRARI",
     "Year": "2019",
+    "Carname": "F8 TRIBUTO",
+    "Mastery": [
+      "road_racing_events",
+      null,
+      "instant_credits",
+      null,
+      null,
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      null,
+      "speed_skills",
+      "XP",
+      null,
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": "680.200",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "FERRARI",
+    "Year": "2019",
     "Carname": "MONZA SP2",
     "Mastery": [
       null,
