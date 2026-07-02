@@ -11251,6 +11251,31 @@
   },
   {
     "Manufacturer": "NISSAN",
+    "Year": "1998",
+    "Carname": "SKYLINE GT-R 40TH ANNIVERSARY",
+    "Mastery": [
+      null,
+      "event_finish_score",
+      "ultimate_skillchain_scores",
+      null,
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      null,
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "NISSAN",
     "Year": "2000",
     "Carname": "#36 DREAM PROJECT S15 SILVIA WTAC",
     "Mastery": [
