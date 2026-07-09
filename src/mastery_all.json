@@ -14676,6 +14676,31 @@
   },
   {
     "Manufacturer": "TOYOTA",
+    "Year": "2023",
+    "Carname": "GR COROLLA",
+    "Mastery": [
+      null,
+      "touge_events",
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      null,
+      "near_miss",
+      "street_racing_events",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "TOYOTA",
     "Year": "2025",
     "Carname": "LAND CRUISER",
     "Mastery": [
