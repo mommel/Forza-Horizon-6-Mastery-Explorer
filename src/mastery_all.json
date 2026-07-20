@@ -3250,6 +3250,31 @@
     "Exclusive": null
   },
   {
+    "Manufacturer": "DE TOMASO",
+    "Year": "1984",
+    "Carname": "PANTERA GT5",
+    "Mastery": [
+      "road_racing_events",
+      "faster_multiplier",
+      "instant_credits",
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
     "Manufacturer": "DEBERTI",
     "Year": "2018",
     "Carname": "CHEVROLET SILVERADO 1500 DRIFT TRUCK",
