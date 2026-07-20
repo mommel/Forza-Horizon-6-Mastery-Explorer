@@ -601,6 +601,31 @@
   },
   {
     "Manufacturer": "ASTON MARTIN",
+    "Year": "2003",
+    "Carname": "DB7 GT",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "ASTON MARTIN",
     "Year": "2016",
     "Carname": "VULCAN",
     "Mastery": [
