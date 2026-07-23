@@ -75,6 +75,31 @@
     "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Herbst"
   },
   {
+    "Manufacturer": "ABARTH",
+    "Year": "2017",
+    "Carname": "124 SPIDER",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
     "Manufacturer": "ACURA",
     "Year": "2001",
     "Carname": "INTEGRA TYPE R",
@@ -10794,6 +10819,31 @@
       "XP",
       "drift_edrift_skills",
       "pass_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "NISSAN",
+    "Year": "1972",
+    "Carname": "PATROL",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "wrecking_ball_skills",
+      null,
+      "tripple_pass_skills",
+      "event_finish_score",
+      "wreckage_skills",
+      "crash_landing_skills",
+      "pass_skills",
+      "airborne_pass_skills",
+      "XP",
+      "link_skill_skills",
+      "air_skills",
       "break_skillchains_twice"
     ],
     "Price": null,
