@@ -8425,6 +8425,31 @@
     "Exclusive": null
   },
   {
+    "Manufacturer": "LAMBORGHINI",
+    "Year": "2024",
+    "Carname": "TEMERARIO",
+    "Mastery": [
+      "instant_wheel_spins",
+      "freeroam",
+      "instant_super_wheel_spin",
+      null,
+      "road_racing_events",
+      "tripple_pass_skills",
+      null,
+      "hard_charger_skills",
+      "clean_racing_skills",
+      "pass_skills",
+      "multiplier_goes_up_to",
+      "burnout_skills",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
     "Manufacturer": "LANCIA",
     "Year": "1974",
     "Carname": "STRATOS HF STRADALE",
