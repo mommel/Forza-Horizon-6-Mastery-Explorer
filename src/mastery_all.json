@@ -8476,6 +8476,31 @@
   },
   {
     "Manufacturer": "LANCIA",
+    "Year": "1982",
+    "Carname": "037 STRADALE",
+    "Mastery": [
+      null,
+      "dirtracing_events",
+      null,
+      null,
+      null,
+      "faster_multiplier",
+      "combo_skills",
+      "link_skill_skills",
+      "drift_edrift_skills",
+      "sideswipes_skills",
+      "airborne_pass_skills",
+      "crash_landing_skills",
+      "XP",
+      "wreckage_skills",
+      "air_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "LANCIA",
     "Year": "1986",
     "Carname": "DELTA S4",
     "Mastery": [
