@@ -6551,6 +6551,31 @@
   },
   {
     "Manufacturer": "HONDA",
+    "Year": "1972",
+    "Carname": "--Z-GT",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "HONDA",
     "Year": "1974",
     "Carname": "CIVIC RS",
     "Mastery": [
@@ -8376,6 +8401,31 @@
   },
   {
     "Manufacturer": "LAMBORGHINI",
+    "Year": "2022",
+    "Carname": "--HURACAN-EVO-SPYDER",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "Price": "3.467.586",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "LAMBORGHINI",
     "Year": "2023",
     "Carname": "HURACAN STERRATO",
     "Mastery": [
@@ -9022,6 +9072,31 @@
       "break_skillchains_twice"
     ],
     "Price": "209.000",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "MAZDA",
+    "Year": "1972",
+    "Carname": "--COSMO-110S-Seies-II",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "Price": null,
     "Exclusive": null
   },
   {
@@ -9797,6 +9872,31 @@
       "break_skillchains_twice"
     ],
     "Price": "32.300",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "MERCEDES-AMG",
+    "Year": "2017",
+    "Carname": "--GT-R",
+    "Mastery": [
+      null,
+      null,
+      "event_finish_score",
+      null,
+      "convoy_skills",
+      null,
+      "showoff_skills",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "Price": null,
     "Exclusive": null
   },
   {
