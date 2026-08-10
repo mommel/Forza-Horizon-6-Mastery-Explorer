@@ -3601,6 +3601,31 @@
   },
   {
     "Manufacturer": "DODGE",
+    "Year": "2006",
+    "Carname": "RAM SRT-IO",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      null,
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "DODGE",
     "Year": "2008",
     "Carname": "VIPER SRT-1O ACR",
     "Mastery": [
@@ -6552,24 +6577,24 @@
   {
     "Manufacturer": "HONDA",
     "Year": "1972",
-    "Carname": "--Z-GT",
+    "Carname": "Z GT",
     "Mastery": [
       null,
       null,
       null,
       null,
+      "lucky_escape_skills",
+      "daredevil_skills",
       null,
+      "freeroam",
+      "near_miss",
+      "speed_skills",
+      "threading_the_needle_skills",
+      "faster_multiplier",
       null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "drafting_skills",
+      "touge_events",
+      "break_skillchains_twice"
     ],
     "Price": null,
     "Exclusive": null
@@ -8377,6 +8402,56 @@
   {
     "Manufacturer": "LAMBORGHINI",
     "Year": "2022",
+    "Carname": "HURACAN EVO SPYDER",
+    "Mastery": [
+      "dirtracing_events",
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      null,
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": "3.467.586",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "LAMBORGHINI",
+    "Year": "2022",
+    "Carname": "HURACAN SPYDER",
+    "Mastery": [
+      "dirtracing_events",
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      null,
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": "3.467.586",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "LAMBORGHINI",
+    "Year": "2022",
     "Carname": "HURACAN TECNICA",
     "Mastery": [
       "road_racing_events",
@@ -8395,31 +8470,6 @@
       "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
-    ],
-    "Price": "3.467.586",
-    "Exclusive": null
-  },
-  {
-    "Manufacturer": "LAMBORGHINI",
-    "Year": "2022",
-    "Carname": "--HURACAN-EVO-SPYDER",
-    "Mastery": [
-      null,
-      null,
-      null,
-      null,
-      "slingshot_skills",
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
     ],
     "Price": "3.467.586",
     "Exclusive": null
@@ -9077,7 +9127,7 @@
   {
     "Manufacturer": "MAZDA",
     "Year": "1972",
-    "Carname": "--COSMO-110S-Seies-II",
+    "Carname": "COSMO 110S Seies II",
     "Mastery": [
       null,
       null,
@@ -9095,6 +9145,31 @@
       null,
       null,
       null
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "MAZDA",
+    "Year": "1972",
+    "Carname": "COSMO 110S SERIES II",
+    "Mastery": [
+      null,
+      null,
+      "ultimate_skillchain_scores",
+      "dirtracing_events",
+      "touge_events",
+      null,
+      "skillsong",
+      null,
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      null,
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
     ],
     "Price": null,
     "Exclusive": null
@@ -9877,24 +9952,24 @@
   {
     "Manufacturer": "MERCEDES-AMG",
     "Year": "2017",
-    "Carname": "--GT-R",
+    "Carname": "GT R",
     "Mastery": [
       null,
       null,
       "event_finish_score",
-      null,
+      "faster_multiplier",
       "convoy_skills",
       null,
       "showoff_skills",
+      "cross_country_events",
+      "clean_racing_skills",
+      "head-to-head_races",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
       null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      "speed_skills",
+      "pass_skills",
+      "break_skillchains_twice"
     ],
     "Price": null,
     "Exclusive": null
