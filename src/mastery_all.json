@@ -277,7 +277,7 @@
   {
     "Manufacturer": "ALFA ROMEO",
     "Year": "1968",
-    "Carname": "AUTODELTA TIPO 332 DAYTONA",
+    "Carname": "AUTODELTA TIPO 33/2 DAYTONA",
     "Mastery": [
       "head-to-head_races",
       "dirtracing_events",
@@ -3202,7 +3202,7 @@
   {
     "Manufacturer": "CHEVROLET",
     "Year": "2024",
-    "Carname": "CAMARO ZLI",
+    "Carname": "CAMARO ZL1",
     "Mastery": [
       null,
       null,
@@ -3352,7 +3352,7 @@
   {
     "Manufacturer": "DATSUN",
     "Year": "1972",
-    "Carname": "MOZ RALLYE",
+    "Carname": "240Z #5 RALLYE",
     "Mastery": [
       "instant_super_wheel_spin",
       "dirtracing_events",
@@ -10202,7 +10202,7 @@
   {
     "Manufacturer": "MCLAREN",
     "Year": "2025",
-    "Carname": "WI",
+    "Carname": "W1",
     "Mastery": [
       null,
       null,
