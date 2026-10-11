@@ -4900,31 +4900,6 @@
     "Exclusive": null
   },
   {
-    "Manufacturer": "FERRARI",
-    "Year": "2025",
-    "Carname": "F80",
-    "Mastery": [
-      "instant_wheel_spins",
-      "freeroam",
-      "instant_super_wheel_spin",
-      null,
-      "road_racing_events",
-      "tripple_pass_skills",
-      null,
-      "hard_charger_skills",
-      "clean_racing_skills",
-      "pass_skills",
-      "multiplier_goes_up_to",
-      "burnout_skills",
-      "XP",
-      "speed_skills",
-      "drag_meet_events",
-      "break_skillchains_twice"
-    ],
-    "Price": null,
-    "Exclusive": null
-  },
-  {
     "Manufacturer": "FORD",
     "Year": "1932",
     "Carname": "DE LUXE FIVE-WINDOW COUPE",
@@ -7777,31 +7752,6 @@
   {
     "Manufacturer": "JAGUAR",
     "Year": "1990",
-    "Carname": "BMW M2 FORZA EDITION",
-    "Mastery": [
-      null,
-      "skillchain_ends_later",
-      "instant_super_wheel_spin",
-      "burnout_skills",
-      "lucky_escape_skills",
-      "sideswipes_skills",
-      "combo_skills",
-      "instant_credits",
-      "near_miss",
-      "drift_tap_skills",
-      "freeroam",
-      "skillsong",
-      "XP",
-      "drift_edrift_skills",
-      "convoy_skills",
-      "break_skillchains_twice"
-    ],
-    "Price": null,
-    "Exclusive": null
-  },
-  {
-    "Manufacturer": "JAGUAR",
-    "Year": "1990",
     "Carname": "XJ-S",
     "Mastery": [
       null,
@@ -7819,6 +7769,31 @@
       "XP",
       "pass_skills",
       "event_finish_score",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "JAGUAR",
+    "Year": "1990",
+    "Carname": "XJ-S FORZA EDITION",
+    "Mastery": [
+      null,
+      "skillchain_ends_later",
+      "instant_super_wheel_spin",
+      "burnout_skills",
+      "lucky_escape_skills",
+      "sideswipes_skills",
+      "combo_skills",
+      "instant_credits",
+      "near_miss",
+      "drift_tap_skills",
+      "freeroam",
+      "skillsong",
+      "XP",
+      "drift_edrift_skills",
+      "convoy_skills",
       "break_skillchains_twice"
     ],
     "Price": null,
