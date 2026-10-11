@@ -1738,6 +1738,47 @@ input:checked+.custom-slider:before {
   pointer-events: none !important;
 }
 </style>
+  <style id="mobile-performance-overrides">
+  /* Keep GPU and paint costs predictable on resource-constrained mobile browsers. */
+  @media (max-width: 980px) {
+    body::before,
+    .background-glow {
+      display: none !important;
+    }
+
+    .panel,
+    .burger-menu-toggle,
+    .drawer-overlay,
+    .mobile-drawer {
+      -webkit-backdrop-filter: none !important;
+      backdrop-filter: none !important;
+    }
+
+    .icon-button,
+    .car-card,
+    .manufacturer-header,
+    .filter-chip {
+      animation: none !important;
+    }
+
+    .car-card {
+      contain: layout style paint;
+      content-visibility: auto;
+      contain-intrinsic-size: auto 430px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      scroll-behavior: auto !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+</style>
 </head>
 
 <body>
@@ -1933,13 +1974,13 @@ input:checked+.custom-slider:before {
       </a>
     </div>
     <div class="footer-right">
-      <span><span data-i18n="ui.lastUpdate">Last Update:</span> <strong>2026-06-23 08:53:57</strong></span>
+      <span><span data-i18n="ui.lastUpdate">Last Update:</span> <strong>2026-10-11 21:49:25</strong></span>
       <span class="footer-separator">|</span>
       <span><span data-i18n="ui.carsConsidered">Cars considered:</span> <strong id="footer-car-count">0</strong></span>
     </div>
   </footer>
 
-  <script src="./mobile_svgs.js"></script>
+  <script src="./mobile_svgs.js?v=7e7a9448178e"></script>
   <script>
 window.__MASTERY_DATA__ = [
   {
@@ -2016,6 +2057,31 @@ window.__MASTERY_DATA__ = [
     ],
     "Price": null,
     "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Herbst"
+  },
+  {
+    "Manufacturer": "ABARTH",
+    "Year": "2017",
+    "Carname": "124 SPIDER",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
   },
   {
     "Manufacturer": "ACURA",
@@ -2194,6 +2260,56 @@ window.__MASTERY_DATA__ = [
   },
   {
     "Manufacturer": "ALFA ROMEO",
+    "Year": "1968",
+    "Carname": "AUTODELTA TIPO 33/2 DAYTONA",
+    "Mastery": [
+      "head-to-head_races",
+      "dirtracing_events",
+      null,
+      null,
+      null,
+      "showoff_skills",
+      null,
+      "skillchain_ends_later",
+      "speed_skills",
+      "pass_skills",
+      "slingshot_skills",
+      "time_attack_events",
+      "XP",
+      "event_finish_score",
+      "drafting_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "ALFA ROMEO",
+    "Year": "1990",
+    "Carname": "SE 048SP",
+    "Mastery": [
+      "head-to-head_races",
+      "road_racing_events",
+      null,
+      "instant_super_wheel_spin",
+      "clean_racing_skills",
+      "showoff_skills",
+      null,
+      "skillchain_ends_later",
+      "speed_skills",
+      "pass_skills",
+      "slingshot_skills",
+      "time_attack_events",
+      "XP",
+      "event_finish_score",
+      "drafting_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "ALFA ROMEO",
     "Year": "1992",
     "Carname": "155 Q4",
     "Mastery": [
@@ -2290,6 +2406,31 @@ window.__MASTERY_DATA__ = [
       "break_skillchains_twice"
     ],
     "Price": "42.750",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "ALFA ROMEO",
+    "Year": "2021",
+    "Carname": "GIULIA GTAM",
+    "Mastery": [
+      null,
+      "threading_the_needle_skills",
+      null,
+      null,
+      null,
+      "trading_paint_skill",
+      "lucky_escape_skills",
+      "drift_tap_skills",
+      "street_racing_events",
+      "near_miss",
+      "showoff_skills",
+      "drift_edrift_skills",
+      "XP",
+      "skillsong",
+      "pass_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
     "Exclusive": null
   },
   {
@@ -2494,6 +2635,31 @@ window.__MASTERY_DATA__ = [
   },
   {
     "Manufacturer": "ASTON MARTIN",
+    "Year": "2003",
+    "Carname": "DB7 GT",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "ASTON MARTIN",
     "Year": "2016",
     "Carname": "VULCAN",
     "Mastery": [
@@ -2590,6 +2756,31 @@ window.__MASTERY_DATA__ = [
       "break_skillchains_twice"
     ],
     "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "ASTON MARTIN",
+    "Year": "2019",
+    "Carname": "VALHALLA CONCEPT CAR",
+    "Mastery": [
+      "instant_wheel_spins",
+      "freeroam",
+      "instant_super_wheel_spin",
+      null,
+      "road_racing_events",
+      "tripple_pass_skills",
+      null,
+      "hard_charger_skills",
+      "clean_racing_skills",
+      "pass_skills",
+      "multiplier_goes_up_to",
+      "burnout_skills",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ],
+    "Price": "237.500",
     "Exclusive": null
   },
   {
@@ -2744,31 +2935,6 @@ window.__MASTERY_DATA__ = [
   },
   {
     "Manufacturer": "AUDI",
-    "Year": "1986",
-    "Carname": "AUDI SPORT QUATTRO SI",
-    "Mastery": [
-      "skillchain_ends_later",
-      "head-to-head_races",
-      "event_finish_score",
-      null,
-      "dirtracing_events",
-      "combo_skills",
-      null,
-      "ultimate_skillchain_scores",
-      "air_skills",
-      "speed_skills",
-      "multiplier_goes_up_to",
-      "instant_wheel_spins",
-      "XP",
-      "drift_edrift_skills",
-      "sideswipes_skills",
-      "break_skillchains_twice"
-    ],
-    "Price": null,
-    "Exclusive": null
-  },
-  {
-    "Manufacturer": "AUDI",
     "Year": "2001",
     "Carname": "RS 4 AVANT",
     "Mastery": [
@@ -2895,7 +3061,7 @@ window.__MASTERY_DATA__ = [
   {
     "Manufacturer": "AUDI",
     "Year": "2010",
-    "Carname": "TT COUPE",
+    "Carname": "TT RS COUPE",
     "Mastery": [
       null,
       null,
@@ -2970,7 +3136,7 @@ window.__MASTERY_DATA__ = [
   {
     "Manufacturer": "AUDI",
     "Year": "2013",
-    "Carname": "R8 COUPE VIO PLUS 5.2 QUATTRO",
+    "Carname": "R8 COUPE V1O PLUS 5.2 FSI QUATTRO",
     "Mastery": [
       "road_racing_events",
       "skillsong",
@@ -3095,7 +3261,7 @@ window.__MASTERY_DATA__ = [
   {
     "Manufacturer": "AUDI",
     "Year": "2016",
-    "Carname": "R8 VIO PLUS",
+    "Carname": "R8 V1O PLUS",
     "Mastery": [
       "road_racing_events",
       "skillsong",
@@ -3270,7 +3436,7 @@ window.__MASTERY_DATA__ = [
   {
     "Manufacturer": "AUDI",
     "Year": "2023",
-    "Carname": "R8 COUPE GT RIND",
+    "Carname": "R8 COUPE V10 GT RWD",
     "Mastery": [
       "cross_country_events",
       "skillsong",
@@ -3405,6 +3571,31 @@ window.__MASTERY_DATA__ = [
       null,
       "showoff_skills",
       "road_racing_events",
+      "clean_racing_skills",
+      "head-to-head_races",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "XP",
+      "speed_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "BENTLEY",
+    "Year": "2025",
+    "Carname": "CONTINENTAL GT SPEED",
+    "Mastery": [
+      null,
+      null,
+      "event_finish_score",
+      null,
+      "convoy_skills",
+      null,
+      "showoff_skills",
+      "dirtracing_events",
       "clean_racing_skills",
       "head-to-head_races",
       "drift_edrift_skills",
@@ -4919,6 +5110,31 @@ window.__MASTERY_DATA__ = [
   },
   {
     "Manufacturer": "CHEVROLET",
+    "Year": "2019",
+    "Carname": "CORVETTE ZRI",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      null,
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      null,
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "CHEVROLET",
     "Year": "2020",
     "Carname": "CORVETTE STINGRAY COUPE",
     "Mastery": [
@@ -4995,6 +5211,31 @@ window.__MASTERY_DATA__ = [
   {
     "Manufacturer": "CHEVROLET",
     "Year": "2024",
+    "Carname": "CAMARO ZL1",
+    "Mastery": [
+      null,
+      null,
+      null,
+      "street_racing_events",
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      null,
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "CHEVROLET",
+    "Year": "2024",
     "Carname": "CORVETTE E-RAY",
     "Mastery": [
       "dirtracing_events",
@@ -5015,6 +5256,31 @@ window.__MASTERY_DATA__ = [
       "break_skillchains_twice"
     ],
     "Price": "108.300",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "CITROEN",
+    "Year": "1970",
+    "Carname": "2CV",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "threading_the_needle_skills",
+      null,
+      "skillchain_ends_later",
+      "multiplier_goes_up_to",
+      "near_miss",
+      "stuntman_skills",
+      "air_skills",
+      "convoy_skills",
+      "XP",
+      "pass_skills",
+      "event_finish_score",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
     "Exclusive": null
   },
   {
@@ -5086,6 +5352,56 @@ window.__MASTERY_DATA__ = [
       "faster_multiplier",
       "XP",
       "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "DATSUN",
+    "Year": "1972",
+    "Carname": "240Z #5 RALLYE",
+    "Mastery": [
+      "instant_super_wheel_spin",
+      "dirtracing_events",
+      null,
+      "multiplier_goes_up_to",
+      null,
+      "faster_multiplier",
+      "combo_skills",
+      null,
+      "drift_edrift_skills",
+      "sideswipes_skills",
+      "airborne_pass_skills",
+      "crash_landing_skills",
+      "XP",
+      "wreckage_skills",
+      "air_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "DE TOMASO",
+    "Year": "1984",
+    "Carname": "PANTERA GT5",
+    "Mastery": [
+      "road_racing_events",
+      "faster_multiplier",
+      "instant_credits",
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
       "clean_racing_skills",
       "break_skillchains_twice"
     ],
@@ -5219,6 +5535,31 @@ window.__MASTERY_DATA__ = [
   },
   {
     "Manufacturer": "DODGE",
+    "Year": "1968",
+    "Carname": "DART HEMI SUPER STOCK",
+    "Mastery": [
+      null,
+      "faster_multiplier",
+      "instant_credits",
+      null,
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      null,
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "DODGE",
     "Year": "1969",
     "Carname": "CHARGER DAYTONA HEMI",
     "Mastery": [
@@ -5270,7 +5611,7 @@ window.__MASTERY_DATA__ = [
   {
     "Manufacturer": "DODGE",
     "Year": "1970",
-    "Carname": "CHALLENGER",
+    "Carname": "CHALLENGER R T",
     "Mastery": [
       null,
       "faster_multiplier",
@@ -5289,7 +5630,7 @@ window.__MASTERY_DATA__ = [
       "drag_meet_events",
       "break_skillchains_twice"
     ],
-    "Price": null,
+    "Price": "1.662.580",
     "Exclusive": null
   },
   {
@@ -5369,8 +5710,33 @@ window.__MASTERY_DATA__ = [
   },
   {
     "Manufacturer": "DODGE",
+    "Year": "2006",
+    "Carname": "RAM SRT-IO",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      null,
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "DODGE",
     "Year": "2008",
-    "Carname": "VIPER SRT-IO ACR",
+    "Carname": "VIPER SRT-1O ACR",
     "Mastery": [
       "touge_events",
       null,
@@ -5543,6 +5909,56 @@ window.__MASTERY_DATA__ = [
     "Exclusive": null
   },
   {
+    "Manufacturer": "DODGE",
+    "Year": "2023",
+    "Carname": "CHALLENGER SRT DEMON 170",
+    "Mastery": [
+      null,
+      "faster_multiplier",
+      null,
+      "street_racing_events",
+      "hard_charger_skills",
+      "sideswipes_skills",
+      null,
+      "daredevil_skills",
+      "burnout_skills",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      "near_miss",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "EXOMOTIVE",
+    "Year": "2018",
+    "Carname": "EXOCET SPORT XP-5",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
     "Manufacturer": "FERRARI",
     "Year": "1962",
     "Carname": "250 GT BERLINETTA LUSSO",
@@ -5619,6 +6035,31 @@ window.__MASTERY_DATA__ = [
   },
   {
     "Manufacturer": "FERRARI",
+    "Year": "1967",
+    "Carname": "275 GTB4 SPIDER",
+    "Mastery": [
+      null,
+      "road_racing_events",
+      "instant_super_wheel_spin",
+      null,
+      "skillchain_ends_later",
+      "daredevil_skills",
+      null,
+      "skillsong",
+      "event_finish_score",
+      "near_miss",
+      "showoff_skills",
+      "instant_wheel_spins",
+      "XP",
+      "clean_racing_skills",
+      "drift_edrift_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "FERRARI",
     "Year": "1969",
     "Carname": "DINO 246 GT",
     "Mastery": [
@@ -5665,6 +6106,31 @@ window.__MASTERY_DATA__ = [
       "break_skillchains_twice"
     ],
     "Price": "3.420.000",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "FERRARI",
+    "Year": "1984",
+    "Carname": "288 GTO",
+    "Mastery": [
+      "road_racing_events",
+      "faster_multiplier",
+      "instant_credits",
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
     "Exclusive": null
   },
   {
@@ -6270,6 +6736,31 @@ window.__MASTERY_DATA__ = [
   {
     "Manufacturer": "FERRARI",
     "Year": "2019",
+    "Carname": "F8 TRIBUTO",
+    "Mastery": [
+      "road_racing_events",
+      null,
+      "instant_credits",
+      null,
+      null,
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      null,
+      "speed_skills",
+      "XP",
+      null,
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": "680.200",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "FERRARI",
+    "Year": "2019",
     "Carname": "MONZA SP2",
     "Mastery": [
       null,
@@ -6368,9 +6859,59 @@ window.__MASTERY_DATA__ = [
     "Exclusive": "FESTIVALPLAYLIST Welcome to Japan Sommer"
   },
   {
+    "Manufacturer": "FERRARI",
+    "Year": "2024",
+    "Carname": "F80",
+    "Mastery": [
+      "instant_wheel_spins",
+      "freeroam",
+      "instant_super_wheel_spin",
+      null,
+      null,
+      "tripple_pass_skills",
+      null,
+      "hard_charger_skills",
+      "clean_racing_skills",
+      "pass_skills",
+      "multiplier_goes_up_to",
+      "burnout_skills",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
     "Manufacturer": "FORD",
     "Year": "1932",
     "Carname": "DE LUXE FIVE-WINDOW COUPE",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "tripple_pass_skills",
+      "drag_meet_events",
+      null,
+      "convoy_skills",
+      "pass_skills",
+      "burnout_skills",
+      "hard_charger_skills",
+      "link_skill_skills",
+      "XP",
+      "speed_skills",
+      "event_finish_score",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "FORD",
+    "Year": "1957",
+    "Carname": "THUNDERBIRD",
     "Mastery": [
       null,
       null,
@@ -6420,7 +6961,7 @@ window.__MASTERY_DATA__ = [
   {
     "Manufacturer": "FORD",
     "Year": "1966",
-    "Carname": "GT40 MK II",
+    "Carname": "#2 GT40 MK II",
     "Mastery": [
       "head-to-head_races",
       "road_racing_events",
@@ -6820,7 +7361,7 @@ window.__MASTERY_DATA__ = [
   {
     "Manufacturer": "FORD",
     "Year": "2001",
-    "Carname": "FORD FOCUS RS",
+    "Carname": "#4 FORD FOCUS RS",
     "Mastery": [
       null,
       "head-to-head_races",
@@ -7020,6 +7561,31 @@ window.__MASTERY_DATA__ = [
   {
     "Manufacturer": "FORD",
     "Year": "2014",
+    "Carname": "#11 ROCKSTAR F-150 TROPHY TRUCK",
+    "Mastery": [
+      "cross_country_events",
+      "combo_skills",
+      null,
+      null,
+      "wrecking_ball_skills",
+      null,
+      "tripple_pass_skills",
+      "event_finish_score",
+      "wreckage_skills",
+      "crash_landing_skills",
+      "pass_skills",
+      "airborne_pass_skills",
+      "XP",
+      "link_skill_skills",
+      "air_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "FORD",
+    "Year": "2014",
     "Carname": "FPV LIMITED EDITION PURSUIT UTE",
     "Mastery": [
       null,
@@ -7046,31 +7612,6 @@ window.__MASTERY_DATA__ = [
     "Manufacturer": "FORD",
     "Year": "2014",
     "Carname": "RANGER T6 RALLY RAID",
-    "Mastery": [
-      "cross_country_events",
-      "combo_skills",
-      null,
-      null,
-      "wrecking_ball_skills",
-      null,
-      "tripple_pass_skills",
-      "event_finish_score",
-      "wreckage_skills",
-      "crash_landing_skills",
-      "pass_skills",
-      "airborne_pass_skills",
-      "XP",
-      "link_skill_skills",
-      "air_skills",
-      "break_skillchains_twice"
-    ],
-    "Price": null,
-    "Exclusive": null
-  },
-  {
-    "Manufacturer": "FORD",
-    "Year": "2014",
-    "Carname": "ROCKSTAR F-150 TROPHY TRUCK",
     "Mastery": [
       "cross_country_events",
       "combo_skills",
@@ -7943,6 +8484,31 @@ window.__MASTERY_DATA__ = [
     "Exclusive": null
   },
   {
+    "Manufacturer": "GINETTA",
+    "Year": "2019",
+    "Carname": "G40 JUNIOR",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
     "Manufacturer": "GMC",
     "Year": "1970",
     "Carname": "JIMMY",
@@ -8195,6 +8761,31 @@ window.__MASTERY_DATA__ = [
   {
     "Manufacturer": "HONDA",
     "Year": "1970",
+    "Carname": "N600",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "lucky_escape_skills",
+      "daredevil_skills",
+      null,
+      "freeroam",
+      "near_miss",
+      "speed_skills",
+      "threading_the_needle_skills",
+      "faster_multiplier",
+      null,
+      "drafting_skills",
+      "touge_events",
+      "break_skillchains_twice"
+    ],
+    "Price": "38.000",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "HONDA",
+    "Year": "1970",
     "Carname": "S800",
     "Mastery": [
       null,
@@ -8215,6 +8806,31 @@ window.__MASTERY_DATA__ = [
       "break_skillchains_twice"
     ],
     "Price": "38.000",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "HONDA",
+    "Year": "1972",
+    "Carname": "Z GT",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "lucky_escape_skills",
+      "daredevil_skills",
+      null,
+      "freeroam",
+      "near_miss",
+      "speed_skills",
+      "threading_the_needle_skills",
+      "faster_multiplier",
+      null,
+      "drafting_skills",
+      "touge_events",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
     "Exclusive": null
   },
   {
@@ -8515,6 +9131,31 @@ window.__MASTERY_DATA__ = [
       "break_skillchains_twice"
     ],
     "Price": "238.586",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "HONDA",
+    "Year": "2000",
+    "Carname": "PRELUDE TYPE SH",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "touge_events",
+      null,
+      "skillsong",
+      null,
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
     "Exclusive": null
   },
   {
@@ -9069,6 +9710,81 @@ window.__MASTERY_DATA__ = [
   },
   {
     "Manufacturer": "JAGUAR",
+    "Year": "1964",
+    "Carname": "LIGHTWEIGHT E-TYPE",
+    "Mastery": [
+      "head-to-head_races",
+      "road_racing_events",
+      null,
+      "instant_super_wheel_spin",
+      "clean_racing_skills",
+      "showoff_skills",
+      null,
+      "skillchain_ends_later",
+      "speed_skills",
+      "pass_skills",
+      "slingshot_skills",
+      "time_attack_events",
+      "XP",
+      "event_finish_score",
+      "drafting_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "JAGUAR",
+    "Year": "1990",
+    "Carname": "XJ-S",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "threading_the_needle_skills",
+      null,
+      "skillchain_ends_later",
+      "multiplier_goes_up_to",
+      "near_miss",
+      "stuntman_skills",
+      "air_skills",
+      "convoy_skills",
+      "XP",
+      "pass_skills",
+      "event_finish_score",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "JAGUAR",
+    "Year": "1990",
+    "Carname": "XJ-S FORZA EDITION",
+    "Mastery": [
+      null,
+      "skillchain_ends_later",
+      "instant_super_wheel_spin",
+      "burnout_skills",
+      "lucky_escape_skills",
+      "sideswipes_skills",
+      "combo_skills",
+      "instant_credits",
+      "near_miss",
+      "drift_tap_skills",
+      "freeroam",
+      "skillsong",
+      "XP",
+      "drift_edrift_skills",
+      "convoy_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "JAGUAR",
     "Year": "1991",
     "Carname": "SPORT XJR-15",
     "Mastery": [
@@ -9119,6 +9835,31 @@ window.__MASTERY_DATA__ = [
   },
   {
     "Manufacturer": "JAGUAR",
+    "Year": "1993",
+    "Carname": "XJ220S TWR",
+    "Mastery": [
+      "road_racing_events",
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": "541.500",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "JAGUAR",
     "Year": "2010",
     "Carname": "C-X75",
     "Mastery": [
@@ -9140,6 +9881,31 @@ window.__MASTERY_DATA__ = [
       "break_skillchains_twice"
     ],
     "Price": "3.040.000",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "JAGUAR",
+    "Year": "2015",
+    "Carname": "XKR-S GT",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
     "Exclusive": null
   },
   {
@@ -9970,6 +10736,56 @@ window.__MASTERY_DATA__ = [
   {
     "Manufacturer": "LAMBORGHINI",
     "Year": "2022",
+    "Carname": "HURACAN EVO SPYDER",
+    "Mastery": [
+      "dirtracing_events",
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      null,
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": "3.467.586",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "LAMBORGHINI",
+    "Year": "2022",
+    "Carname": "HURACAN SPYDER",
+    "Mastery": [
+      "dirtracing_events",
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      null,
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": "3.467.586",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "LAMBORGHINI",
+    "Year": "2022",
     "Carname": "HURACAN TECNICA",
     "Mastery": [
       "road_racing_events",
@@ -10043,6 +10859,31 @@ window.__MASTERY_DATA__ = [
     "Exclusive": null
   },
   {
+    "Manufacturer": "LAMBORGHINI",
+    "Year": "2024",
+    "Carname": "TEMERARIO",
+    "Mastery": [
+      "instant_wheel_spins",
+      "freeroam",
+      "instant_super_wheel_spin",
+      null,
+      "road_racing_events",
+      "tripple_pass_skills",
+      null,
+      "hard_charger_skills",
+      "clean_racing_skills",
+      "pass_skills",
+      "multiplier_goes_up_to",
+      "burnout_skills",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
     "Manufacturer": "LANCIA",
     "Year": "1974",
     "Carname": "STRATOS HF STRADALE",
@@ -10052,6 +10893,31 @@ window.__MASTERY_DATA__ = [
       "event_finish_score",
       "multiplier_goes_up_to",
       "drift_tap_skills",
+      "faster_multiplier",
+      "combo_skills",
+      "link_skill_skills",
+      "drift_edrift_skills",
+      "sideswipes_skills",
+      "airborne_pass_skills",
+      "crash_landing_skills",
+      "XP",
+      "wreckage_skills",
+      "air_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "LANCIA",
+    "Year": "1982",
+    "Carname": "037 STRADALE",
+    "Mastery": [
+      null,
+      "dirtracing_events",
+      null,
+      null,
+      null,
       "faster_multiplier",
       "combo_skills",
       "link_skill_skills",
@@ -10344,6 +11210,31 @@ window.__MASTERY_DATA__ = [
   },
   {
     "Manufacturer": "LOTUS",
+    "Year": "2002",
+    "Carname": "ESPRIT V8",
+    "Mastery": [
+      "dirtracing_events",
+      "skillsong",
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      "XP",
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "LOTUS",
     "Year": "2018",
     "Carname": "EXIGE CUP 430",
     "Mastery": [
@@ -10594,6 +11485,31 @@ window.__MASTERY_DATA__ = [
   },
   {
     "Manufacturer": "MAZDA",
+    "Year": "1972",
+    "Carname": "COSMO 110S SERIES II",
+    "Mastery": [
+      null,
+      null,
+      "ultimate_skillchain_scores",
+      "dirtracing_events",
+      "touge_events",
+      null,
+      "skillsong",
+      null,
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      null,
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "MAZDA",
     "Year": "1973",
     "Carname": "RX-3",
     "Mastery": [
@@ -10637,6 +11553,31 @@ window.__MASTERY_DATA__ = [
       "XP",
       "drift_edrift_skills",
       "pass_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "MAZDA",
+    "Year": "1974",
+    "Carname": "#123 MAD MIKE 808 WAGON FURSTY",
+    "Mastery": [
+      "link_skill_skills",
+      "skillchain_ends_later",
+      "instant_super_wheel_spin",
+      null,
+      "lucky_escape_skills",
+      "sideswipes_skills",
+      "combo_skills",
+      null,
+      "near_miss",
+      "drift_tap_skills",
+      "freeroam",
+      "skillsong",
+      null,
+      "drift_edrift_skills",
+      "convoy_skills",
       "break_skillchains_twice"
     ],
     "Price": null,
@@ -11293,6 +12234,31 @@ window.__MASTERY_DATA__ = [
     "Exclusive": null
   },
   {
+    "Manufacturer": "MCLAREN",
+    "Year": "2025",
+    "Carname": "W1",
+    "Mastery": [
+      null,
+      null,
+      "instant_super_wheel_spin",
+      null,
+      "road_racing_events",
+      "tripple_pass_skills",
+      null,
+      "hard_charger_skills",
+      "clean_racing_skills",
+      "pass_skills",
+      "multiplier_goes_up_to",
+      "burnout_skills",
+      "XP",
+      "speed_skills",
+      "drag_meet_events",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
     "Manufacturer": "MERCEDES-AMG",
     "Year": "2015",
     "Carname": "GT S",
@@ -11340,6 +12306,31 @@ window.__MASTERY_DATA__ = [
       "break_skillchains_twice"
     ],
     "Price": "32.300",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "MERCEDES-AMG",
+    "Year": "2017",
+    "Carname": "GT R",
+    "Mastery": [
+      null,
+      null,
+      "event_finish_score",
+      "faster_multiplier",
+      "convoy_skills",
+      null,
+      "showoff_skills",
+      "cross_country_events",
+      "clean_racing_skills",
+      "head-to-head_races",
+      "drift_edrift_skills",
+      "lucky_escape_skills",
+      null,
+      "speed_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
     "Exclusive": null
   },
   {
@@ -11640,6 +12631,31 @@ window.__MASTERY_DATA__ = [
       "break_skillchains_twice"
     ],
     "Price": "190.000",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "MERCEDES-BENZ",
+    "Year": "1998",
+    "Carname": "AMG CLK GTR",
+    "Mastery": [
+      "road_racing_events",
+      "faster_multiplier",
+      "instant_credits",
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      null,
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
     "Exclusive": null
   },
   {
@@ -12019,6 +13035,31 @@ window.__MASTERY_DATA__ = [
   },
   {
     "Manufacturer": "MITSUBISHI",
+    "Year": "1988",
+    "Carname": "STARION ESI-R",
+    "Mastery": [
+      null,
+      null,
+      null,
+      "dirtracing_events",
+      "touge_events",
+      null,
+      "skillsong",
+      null,
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "MITSUBISHI",
     "Year": "1990",
     "Carname": "#269 ATTACKING THE CLOCK RACING MINICAB TIME ATTACK",
     "Mastery": [
@@ -12394,6 +13435,31 @@ window.__MASTERY_DATA__ = [
   },
   {
     "Manufacturer": "NISSAN",
+    "Year": "1972",
+    "Carname": "PATROL",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "wrecking_ball_skills",
+      null,
+      "tripple_pass_skills",
+      "event_finish_score",
+      "wreckage_skills",
+      "crash_landing_skills",
+      "pass_skills",
+      "airborne_pass_skills",
+      "XP",
+      "link_skill_skills",
+      "air_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "NISSAN",
     "Year": "1973",
     "Carname": "SKYLINE H-T 2000GT-R",
     "Mastery": [
@@ -12437,6 +13503,31 @@ window.__MASTERY_DATA__ = [
       "XP",
       "event_finish_score",
       "drafting_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "NISSAN",
+    "Year": "1983",
+    "Carname": "SKYLINE 2000 TURBO RS",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "touge_events",
+      null,
+      "skillsong",
+      null,
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
       "break_skillchains_twice"
     ],
     "Price": null,
@@ -12769,31 +13860,6 @@ window.__MASTERY_DATA__ = [
   },
   {
     "Manufacturer": "NISSAN",
-    "Year": "1993",
-    "Carname": "MOSX",
-    "Mastery": [
-      null,
-      null,
-      "ultimate_skillchain_scores",
-      "road_racing_events",
-      "touge_events",
-      null,
-      "skillsong",
-      "link_skill_skills",
-      "drafting_skills",
-      "drift_tap_skills",
-      "showoff_skills",
-      "convoy_skills",
-      "XP",
-      "drift_edrift_skills",
-      "pass_skills",
-      "break_skillchains_twice"
-    ],
-    "Price": null,
-    "Exclusive": null
-  },
-  {
-    "Manufacturer": "NISSAN",
     "Year": "1994",
     "Carname": "FAIRLADY Z VERSION S TWIN TURBO",
     "Mastery": [
@@ -13015,6 +14081,31 @@ window.__MASTERY_DATA__ = [
       "break_skillchains_twice"
     ],
     "Price": "20.900",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "NISSAN",
+    "Year": "1998",
+    "Carname": "SKYLINE GT-R 40TH ANNIVERSARY",
+    "Mastery": [
+      null,
+      "event_finish_score",
+      "ultimate_skillchain_scores",
+      null,
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      null,
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
     "Exclusive": null
   },
   {
@@ -13244,6 +14335,31 @@ window.__MASTERY_DATA__ = [
   },
   {
     "Manufacturer": "NISSAN",
+    "Year": "2020",
+    "Carname": "GT-R NISMO 835",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      null,
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "NISSAN",
     "Year": "2024",
     "Carname": "GT-R NISMO",
     "Mastery": [
@@ -13465,6 +14581,31 @@ window.__MASTERY_DATA__ = [
       "break_skillchains_twice"
     ],
     "Price": "19.950",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "PEEL",
+    "Year": "1962",
+    "Carname": "P50 TROLLI EDITION",
+    "Mastery": [
+      "street_racing_events",
+      "combo_skills",
+      "freeroam",
+      null,
+      "threading_the_needle_skills",
+      null,
+      "skillchain_ends_later",
+      "multiplier_goes_up_to",
+      "near_miss",
+      "stuntman_skills",
+      "air_skills",
+      "convoy_skills",
+      null,
+      "pass_skills",
+      "event_finish_score",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
     "Exclusive": null
   },
   {
@@ -13870,6 +15011,56 @@ window.__MASTERY_DATA__ = [
   {
     "Manufacturer": "PORSCHE",
     "Year": "1987",
+    "Carname": "#203 PORSCHE AG 961",
+    "Mastery": [
+      "head-to-head_races",
+      "dirtracing_events",
+      null,
+      "instant_super_wheel_spin",
+      null,
+      "showoff_skills",
+      null,
+      "skillchain_ends_later",
+      "speed_skills",
+      "pass_skills",
+      "slingshot_skills",
+      "time_attack_events",
+      "XP",
+      "event_finish_score",
+      "drafting_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "PORSCHE",
+    "Year": "1987",
+    "Carname": "911 CARRERA COUPE LUFTAUTO 002",
+    "Mastery": [
+      "skillchain_ends_later",
+      "head-to-head_races",
+      null,
+      null,
+      "dirtracing_events",
+      "combo_skills",
+      null,
+      "ultimate_skillchain_scores",
+      "air_skills",
+      "speed_skills",
+      "multiplier_goes_up_to",
+      "instant_wheel_spins",
+      "XP",
+      "drift_edrift_skills",
+      "sideswipes_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "PORSCHE",
+    "Year": "1987",
     "Carname": "959",
     "Mastery": [
       "road_racing_events",
@@ -13915,6 +15106,31 @@ window.__MASTERY_DATA__ = [
       "break_skillchains_twice"
     ],
     "Price": "238.586",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "PORSCHE",
+    "Year": "1993",
+    "Carname": "911 TURBO S LEICHTBAU",
+    "Mastery": [
+      null,
+      "event_finish_score",
+      "ultimate_skillchain_scores",
+      null,
+      "touge_events",
+      null,
+      "skillsong",
+      "link_skill_skills",
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      null,
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": "494.000",
     "Exclusive": null
   },
   {
@@ -14245,6 +15461,31 @@ window.__MASTERY_DATA__ = [
   {
     "Manufacturer": "PORSCHE",
     "Year": "2019",
+    "Carname": "#70 PORSCHE MOTORSPORT 935",
+    "Mastery": [
+      "touge_events",
+      "convoy_skills",
+      null,
+      "instant_super_wheel_spin",
+      "link_skill_skills",
+      null,
+      "slingshot_skills",
+      "time_attack_events",
+      "speed_skills",
+      "pass_skills",
+      "drafting_skills",
+      "faster_multiplier",
+      "XP",
+      "road_racing_events",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "PORSCHE",
+    "Year": "2019",
     "Carname": "911 CARRERA S",
     "Mastery": [
       null,
@@ -14276,31 +15517,6 @@ window.__MASTERY_DATA__ = [
       "convoy_skills",
       null,
       null,
-      "link_skill_skills",
-      null,
-      "slingshot_skills",
-      "time_attack_events",
-      "speed_skills",
-      "pass_skills",
-      "drafting_skills",
-      "faster_multiplier",
-      "XP",
-      "road_racing_events",
-      "clean_racing_skills",
-      "break_skillchains_twice"
-    ],
-    "Price": null,
-    "Exclusive": null
-  },
-  {
-    "Manufacturer": "PORSCHE",
-    "Year": "2019",
-    "Carname": "PORSCHE MOTORSPORT 935",
-    "Mastery": [
-      "touge_events",
-      "convoy_skills",
-      null,
-      "instant_super_wheel_spin",
       "link_skill_skills",
       null,
       "slingshot_skills",
@@ -14644,6 +15860,31 @@ window.__MASTERY_DATA__ = [
   },
   {
     "Manufacturer": "RENAULT",
+    "Year": "1998",
+    "Carname": "SPORT SPIDER",
+    "Mastery": [
+      null,
+      null,
+      null,
+      "dirtracing_events",
+      "touge_events",
+      null,
+      "skillsong",
+      null,
+      "drafting_skills",
+      "drift_tap_skills",
+      "showoff_skills",
+      "convoy_skills",
+      "XP",
+      "drift_edrift_skills",
+      "pass_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "RENAULT",
     "Year": "2008",
     "Carname": "MEGANE R26 R",
     "Mastery": [
@@ -14660,6 +15901,31 @@ window.__MASTERY_DATA__ = [
       "trading_paint_skill",
       "time_attack_events",
       "XP",
+      "near_miss",
+      "street_racing_events",
+      "break_skillchains_twice"
+    ],
+    "Price": "55.100",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "RENAULT",
+    "Year": "2008",
+    "Carname": "MEGANE R26R",
+    "Mastery": [
+      null,
+      "touge_events",
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      null,
       "near_miss",
       "street_racing_events",
       "break_skillchains_twice"
@@ -15720,7 +16986,7 @@ window.__MASTERY_DATA__ = [
   {
     "Manufacturer": "TOYOTA",
     "Year": "1992",
-    "Carname": "SUPRA GT",
+    "Carname": "SUPRA 2.0 GT",
     "Mastery": [
       null,
       null,
@@ -15745,7 +17011,7 @@ window.__MASTERY_DATA__ = [
   {
     "Manufacturer": "TOYOTA",
     "Year": "1993",
-    "Carname": "BAJA TRUCK",
+    "Carname": "#1 BAJA TRUCK",
     "Mastery": [
       "cross_country_events",
       "combo_skills",
@@ -16319,6 +17585,56 @@ window.__MASTERY_DATA__ = [
   },
   {
     "Manufacturer": "TOYOTA",
+    "Year": "2023",
+    "Carname": "GR COROLLA",
+    "Mastery": [
+      null,
+      "touge_events",
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      null,
+      "near_miss",
+      "street_racing_events",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "TOYOTA",
+    "Year": "2024",
+    "Carname": "PRIUS PRIME XSE PREMIUM",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      "XP",
+      "near_miss",
+      "street_racing_events",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "TOYOTA",
     "Year": "2025",
     "Carname": "LAND CRUISER",
     "Mastery": [
@@ -16340,6 +17656,31 @@ window.__MASTERY_DATA__ = [
       "break_skillchains_twice"
     ],
     "Price": "66.500",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "TVR",
+    "Year": "1998",
+    "Carname": "CERBERA SPEED 12",
+    "Mastery": [
+      "road_racing_events",
+      "skillsong",
+      null,
+      null,
+      "slingshot_skills",
+      "tripple_pass_skills",
+      null,
+      "drag_meet_events",
+      "drafting_skills",
+      "pass_skills",
+      "freeroam",
+      "speed_skills",
+      null,
+      "head-to-head_races",
+      "clean_racing_skills",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
     "Exclusive": null
   },
   {
@@ -16415,6 +17756,31 @@ window.__MASTERY_DATA__ = [
       "break_skillchains_twice"
     ],
     "Price": "1.425.686",
+    "Exclusive": null
+  },
+  {
+    "Manufacturer": "VAUXHALL",
+    "Year": "2006",
+    "Carname": "ASTRA VXR",
+    "Mastery": [
+      null,
+      null,
+      null,
+      null,
+      "slingshot_skills",
+      "threading_the_needle_skills",
+      null,
+      "convoy_skills",
+      "drafting_skills",
+      "daredevil_skills",
+      "trading_paint_skill",
+      "time_attack_events",
+      "XP",
+      "near_miss",
+      "street_racing_events",
+      "break_skillchains_twice"
+    ],
+    "Price": null,
     "Exclusive": null
   },
   {
@@ -18325,7 +19691,7 @@ function render() {
 
   let currentManufacturer = null;
   let index = 0;
-  const CHUNK_SIZE = 10;
+  const CHUNK_SIZE = 4;
   
   // Keep track of render passes to abort stale ones
   if (!state.currentRenderId) state.currentRenderId = 0;
@@ -18387,7 +19753,7 @@ function render() {
             window.__scrollObserver.disconnect();
             requestAnimationFrame(() => setTimeout(renderChunk, 0));
           }
-        }, { rootMargin: "400px" });
+        }, { rootMargin: "160px" });
         window.__scrollObserver.observe(newSentinel);
       }
     }
